@@ -1,7 +1,18 @@
-Once upon a time...
+==start==
+//scene establishing paragraph
+…almost there. Just need to tweak the audio levels…
+*...!
+-…okay!
 
- * This was the main file.
- * My favorite animal is sea bunnies. 
+->soundcloud
 
-- They lived happily ever after. and never had any conflict erros. 
-    -> END
+
+==soundcloud==
+Perfect! Now to upload this onto Soundcloud.
+
+*...
+    I’ve spent so much time on this newest song…
+
+
+
+
