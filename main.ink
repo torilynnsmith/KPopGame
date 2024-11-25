@@ -6,13 +6,13 @@ I've been hunched over my desk for the past four hours. The sun has begun to sli
 Painstakingly I adjust the audio of the drums and correct the pitch of my vocals. Almost there. Just need to tweak the audio levels one more time.
     *...! 
     Done!
--I breathe a victorious sigh as I lay back in my chair, the hours and hours of recording the vocals and instrumentals, the even more hours of stitching them altogether.
+-I breathe a victorious sigh as I lay back in my chair, the hours and hours of recording the vocals and instrumentals, the even more hours of stitching them altogether finally amounting to something big.
 
 ->soundcloud
 
 
 ==soundcloud==
-Now all that's left is to upload this onto Soundcloud. I’ve spent so much time on this newest song…I hope it receives some recognition.
+Now all that's left is to upload this onto Soundcloud. With all the time spent  on this newest song…I can hope it receives some recognition.
 
 -A sudden buzzing from my phone catches my attention.
     *[Check Phone] A notification pops up on my phone.
@@ -40,7 +40,7 @@ Now all that's left is to upload this onto Soundcloud. I’ve spent so much time
 ==music_purist==
 *"uh huh."
 *"who are you calling a music purist????"
-    I have to without any mean comments that bubble up as I wait for the response.
+    I have to withold any mean comments that bubble up as I wait for the response.
     "you laughed at me bc i didn't know what a diet tonic scale was."
     I chuckle. They're still wrong.
         **["diatonic."]
@@ -64,7 +64,39 @@ immediately Friend shoots back. "idk...is this really necessary?"
 -I sigh. "anyways, i'm uploading a new song. go listen when you have the chance."
 My friend texts back. "ugh, fine! i'll listen later, i have to go."
 I bid them goodbye and lean back in my chair once more, my eyes drifting over to the Soundcloud tab that's open on my other monitor. My monthly listeners number has grown in painstakingly long increments...I wonder, is my work really that bad? 
-I scroll through my messages to find the music video friend sent. 
+I scroll through my messages to find the music video friend sent. The girls in the thumbnail are wearing sparkly outfits and heavy makeup. I can't help but let out a laugh.
+These idols... if only I had their luck...or their beauty...maybe I can become someone big...
+->upload
+
+==upload==
+Ugh! What am I thinking? I'd never be a slave to a corporation like that. It's complete creative freedom or bust. I lean forward to see that the audio is done compiling, ready to upload.
+*[Upload song]
+    I hit upload, nervousness and pride flooding through my system. I watch the wheel spin...and spin... and spin...
+    "What the hell?" I mumble. "Why's it...stuck?"
+    **[Cancel upload]
+    ->isekai
+    **[Reboot computer]
+    ->isekai
+
+==isekai==
+The computer flashes red, green, blue, black, pink... it didn't do the trick at all!
+"What is happening?" I cry.
+
+[insert isekai bullshit here]
+
+...
+When I come to, the first thing I feel is the cold.  My head is pounding, but I force my eyes open. 
+"Did my computer explode?" I murmur aloud. "W..What?"
+I'm surrounded on all sides by (describe bathroom stall walls). I look down to see that I'm sitting on a toilet of sorts. 
+This...isn't my bathroom. How did I get here?
+*[Open the door]
+    Swimming through the brain fog, I reach out a hand to unlock the door. As soon as I step out, someone catches me off guard.
+    "Hiding in the bathroom again, really?" A voice, sharp and exasperated, cuts through my haze. I look up to see (description).
+    She crosses her arms over her chest. 
+    
+
+
+    
 
 ->END
 
