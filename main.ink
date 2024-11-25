@@ -2,7 +2,7 @@ INCLUDE Day1.ink
 
 //scene establishing paragraph
 
-I've been hunched over my desk for the past four hours. The sun has begun to slip past the city line entirely, but the only thing I can see in front of me is the little blips and beats of the music software pulled up on my desktop.
+...I've been hunched over my desk for the past four hours. The sun has begun to slip past the city line entirely, but the only thing I can see in front of me is the little blips and beats of the music software pulled up on my desktop.
 Painstakingly I adjust the audio of the drums and correct the pitch of my vocals. Almost there. Just need to tweak the audio levels one more time.
     *...! 
     Done!
