@@ -92,8 +92,14 @@ This...isn't my bathroom. How did I get here?
 *[Open the door]
     Swimming through the brain fog, I reach out a hand to unlock the door. As soon as I step out, someone catches me off guard.
     "Hiding in the bathroom again, really?" A voice, sharp and exasperated, cuts through my haze. I look up to see (description).
-    She crosses her arms over her chest. 
-    
+    "If you're going to slack off, do it AFTER your promotions are over!"
+    This girl...she doesn't look familiar...
+    **"Who are you?"
+        "You dare disrespect your senior?" she yells. "First you skip rehearsals 3 days before your debut, and now you're just pretending to forget who I am?" She huffs. "You should have been let go from this company a long time ago, Cherie. We don't have time for this."
+    **"What are you talking about?"
+    "Don't tell me you've forgotten, Cherie!" she cries. "Seriously, this girl! Your debut is 3 days away! Did you hit your head and suddenly forget everything?"
+- I open my mouth to say something, but she cuts me off.
+
 
 
     
