@@ -51,9 +51,9 @@ Now all that's left is to upload this onto Soundcloud. With all the time spent  
 
 ==hardwork==
 I squint at the blurry thumbnail of the video Friend just sent. It looks...plastic. Completely manufactured. 
-"they're hot i guess..." i type. "but is that all there is to them?"
-immediately Friend shoots back. "idk...is this really necessary?"
-"Wdym?"
+"they're hot i guess...but is that all there is to them?"
+Immediately Friend shoots back. "idk...is this really necessary?"
+"wdym?"
 "i'm just saying...they work hard to be where they're at."
 *["work hard?"]
     I can't help but scoff. "kpop is a fucking factory," i type out, glancing up at my computer to see my audio setup. "they pluck the prettiest faces and force them into greatness. looks are more important than actual talent.
@@ -74,8 +74,10 @@ Ugh! What am I thinking? I'd never be a slave to a corporation like that. It's c
     I hit upload, nervousness and pride flooding through my system. I watch the wheel spin...and spin... and spin...
     "What the hell?" I mumble. "Why's it...stuck?"
     **[Cancel upload]
+        The upload bar freezes. 
     ->isekai
     **[Reboot computer]
+        My computer freezes and suddenly goes dark. 
     ->isekai
 
 

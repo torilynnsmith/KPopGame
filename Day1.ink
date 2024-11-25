@@ -38,9 +38,33 @@ Nova...is that...
 
 ==debutFolder==
 *[Stage Name/ID]
+    (...hmm...)
+    (..."legal name: Kwon Miyoung"...)
+    (..."stage name: Cherie"...)
+    (...“DOB: February 13….2309”????)
+    (What in the world???)(I’m…in the future?)
+    (And also…)
+    (REALLY PRETTY!!!!)
+    
 *[Debut Song]
-
-
+    (...let’s see…)
+    (debut song… “Cherie Love”...?)
+    (“Cherie’s debut song ‘Cherie Love’ is a cute and bubbly pop song about the innocence of first love.”)
+    (...)
+    (That’s sickening.)
+    (Cute? Bubbly? That’s…so…not my style…)
+   Nova looks at me. "You want to listen to your debut song again?"
+   
+*[Debut Choreography]
+    (...uh oh...choreography?? I can't dance for shit!)
+    "Um...do I have to do this? I'm more comfortable with singing..."
+    The director nods. "Great that you asked, actually! Your enhancement apparel will be ready by tomorrow."
+    **"Enhancement apparel?" //cherie
+        "Yes! Yes! We have calculated the best dance-enhancing boots, tights, and tops to ensure you look fabulous on stage! Very impressive technology. It’s why (entertainment company) is on top of the industry, isn’t that right, Nova?" //director
+        "...yes, that's right." //nova
+    **"Awesome!" //cherie
+        "I'm glad you think so." //nova
+-
 
 
 
