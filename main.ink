@@ -54,8 +54,17 @@ I squint at the blurry thumbnail of the video Friend just sent. It looks...plast
 "they're hot i guess..." i type. "but is that all there is to them?"
 immediately Friend shoots back. "idk...is this really necessary?"
 "Wdym?"
-
-
+"i'm just saying...they work hard to be where they're at."
+*["work hard?"]
+    I can't help but scoff. "kpop is a fucking factory," i type out, glancing up at my computer to see my audio setup. "they pluck the prettiest faces and force them into greatness. looks are more important than actual talent.
+    My phone pings again after a minute. "...respectfully, get off of Twitter" friend says. 
+    "I'm not on twitter." I roll my eyes.
+*["i'm sure they do, but..."]
+    "you gotta admit their vocals sound corporate," i type out. "and you can always fix bad vocals with autotune...so how hard are they working, really? do they write their own music??"
+-I sigh. "anyways, i'm uploading a new song. go listen when you have the chance."
+My friend texts back. "ugh, fine! i'll listen later, i have to go."
+I bid them goodbye and lean back in my chair once more, my eyes drifting over to the Soundcloud tab that's open on my other monitor. My monthly listeners number has grown in painstakingly long increments...I wonder, is my work really that bad? 
+I scroll through my messages to find the music video friend sent. 
 
 ->END
 
