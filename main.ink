@@ -1,4 +1,6 @@
 INCLUDE Day1.ink
+INCLUDE Day2.ink
+
 
 //scene establishing paragraph
 
@@ -21,12 +23,12 @@ Now all that's left is to upload this onto Soundcloud. With all the time spent  
 ==text==
 ...it's a text from Insert Friend Name Here.
 
-<i>"omg did you see INSERT KPOP GROUP’s newest comeback?"</i>
+<i>"omg did you see INSERT KPOP GROUP’s newest comeback?"</i> //friend
 
-*<i>"uh...no."</i>
-    I quickly throw in <i>"i’m abt to upload a new song rn."</i>
-    I see Friend furiously typing in the chat. <i>"you should check them out !!"</i>
-    **<i>"no thanks."</i>
+*<i>["uh...no."]</i> //MC
+     <i>"i’m abt to upload a new song rn."</i> 
+    I see Friend furiously typing in the chat. <i>"you should check them out !!"</i> //friend
+    **<i>"no thanks."</i> //mc
        And before Friend has any time to rebut, I text again: <i>"not my kind of music."</i>
         "ok i know you have some sorta hate boner against kpop but you gotta admit... the songs are catchy (/0-0)/"
         ***"it's all poison"
