@@ -200,6 +200,7 @@
         (Nova's looking at me intently...why does this feel like an interrogation?) # CLASS: innerThoughts
         "Maybe you <i>did</i> hit your head yesterday...I could have sworn you never cared about any of it."
     (The expression on Nova's face...
+    ~ authenticity = authenticity + 1
 - 
 # CLEAR
 ->NovaChat2
@@ -262,10 +263,28 @@
 //they get the guitar. riize reference?
 
 (I've got the guitar in my hands. The weight feels different. I'm not holding wood and string-- my fingers are ghosting over light projections.)
-(It's unfamiliar...aLL of this is unfamiliar.)
+(It's unfamiliar...ALL of this is unfamiliar.)
 (But my hands...the way my fingers curl around the neck of this hologram...)
 (It's as natural as breathing.)
-
+    **Play
+    (~strummmmmmmm~) 
+    (The notes ring out clear! I've still got it, even in this new body...)
+    (I don't even know what I was set out on playing...)
+    (But...the music flows out of me regardless.)
+        ***All of my worries are melting away...
+            (Yes...this is what I do, this is what I love...)
+            //write more here
+            (Nova's watching my every move...)
+            "Cherie...I didn't know you could play lke that."
+            ****Woah...is she...impressed?
+                ->musicTalk
+                
+                
+==musicTalk==
+"
+            
+    
+        
 
 
 
