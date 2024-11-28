@@ -1,5 +1,7 @@
 INCLUDE Day1.ink
 INCLUDE Day2.ink
+INCLUDE Day3.ink
+
 
 VAR compliance = 0
 VAR authenticity = 0

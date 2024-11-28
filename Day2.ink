@@ -166,12 +166,14 @@
 -"I see. I'm glad you're being honest with me."
 (There's no sense of anger in her voice. What's going on?)
 "I'm a little surprised, though, Cherie. I thought you liked your debut song, but it seems like (it's not vibing with you/you don't like it/idk) 
-(...she's right.)
-(Ever since I learned yesterday that my debut was a bubbly pop song...)
-(I've been in a weird mood.)
-(If this is what'll get the public to pay attention to me, I guess that's one thing...)
-(But it isn't me.)
-(What do I tell her?)
+*(...she's right.)
+    (Ever since I learned yesterday that my debut was a bubbly pop song...)
+    (I've been in a weird mood.)
+    (If this is what'll get the public to pay attention to me, I guess that's one thing...)
+    (But it isn't me.)
+    ->honesty
+    
+==honesty==
 *["I like it."]
     "I'm sure the director knows what's best, so I like it." //cherie
     "Even with a concept you don't like?" //nova
@@ -223,7 +225,7 @@
             "I was training to be in a group, but the director felt that it wasn't working out. The group debuted without me and I debuted as a solo artist."
             (It's hard to read her expression...)
             ****"Which group?"
-                
+                "Ad Astra, of course. Their director said I just didn't fit the group. I can't say I disagree, but seeing how successful they are...I can't help but wonder where I'd be."
             ****"Are you close with them?"
                 "Not like we once were, since they spend more time with each other than they do with me. But I'm still close with some of them."
                 (...being a soloist must be lonely.) # CLASS: innerThoughts
@@ -234,7 +236,9 @@
     "Do you like the music you make?"
     "...'make' is a stretch. If you're talking about the music I perform, and that has my name and face on it, then I find it unique."
     
-    "The public seems to enjoy my sound and my persona. The music itself is not in line with my personal artistic practice."
+    "The public seems to enjoy my sound and my persona. The music itself is not in line with my personal artistic practice, but personal opinions are not something that are much value."
+    (This tone of hers...it sounds so...rehearsed?)
+    
     **"What kind of music <i>do</i> you like?"
         
     **"What do you mean by ''make' is a stretch'?"
@@ -242,13 +246,35 @@
         (She's...laughing?)
         "I didn't know you were so old-fashioned!"
         
+- 
+->guitar1
+
+==guitar1==
+"So, Cherie...if bubbly bright pop isn't your style, what is?"
+(I could <i>tell</i> her, but I can also show her...)
+*"Nova, can I ask you something?"
+"Sure."
+(She looks just a tad apprehensive.)
+"I saw a guitar mounted on the side of the wall. Do you know any way I can grab it?"
+"Do you want to play a guitar or that guitar in particular?"
+(What's she talking about?)
+//insert hologram guitar a la alien stage
+//they get the guitar. riize reference?
+
+(I've got the guitar in my hands. The weight feels different. I'm not holding wood and string-- my fingers are ghosting over light projections.)
+(It's unfamiliar...aLL of this is unfamiliar.)
+(But my hands...the way my fingers curl around the neck of this hologram...)
+(It's as natural as breathing.)
+
+
+
+
     
 - <help??>
 
 
-    
+->Day3Start
 
--
 
 
 
