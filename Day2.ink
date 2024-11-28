@@ -20,8 +20,12 @@
 
 ==socMed==
     **[Nova's performances]
+    (Let's look at Nova's performances...!)
+(Hm...which one should I watch?)
     ->novaPerformances
     **[Altair Entertainment]
+    (Let's look up the entertainment company. I'm bound to find some more information there.)
+    (Looks like they're managing multiple talents...)
     ->altair
     **[Cherie]
     (...I wonder if anyone is saying anything about me...)
@@ -35,36 +39,65 @@
     (...what the hell?)
     (...why would they say that...?)
     
+-All this scrolling is making my head spin...I'd better get ready for rehearsal.    
 ->danceTraining
 ==novaPerformances==
-(Let's look at Nova's performances...!)
-(Hm...which one should I watch?)
-*
-->danceTraining
-==altair==
- (Let's look up the entertainment company. I'm bound to find some more information there.)
-(Looks like they're managing multiple talents...)
-    *[Groups]
-    (There's a few groups here.)
-        **[Ad Astra]
-            (Let's see...)
-            "Ad Astra is a five-member girl group under Altair Entertainment. They won multiple 'Rookie of the Year' awards, 'Girl Group of the Year' awards, and have smashed charts since debut. They are currently touring Southeast Asia."
-            (Wow...they're so famous!!!)
-            (
-         **[La Victoire]
-             "La Victoire is a six-member girl group under Altair Entertainment. They have had three sold out Asia tours and won the 'Best Girl Group' award in 2301. They are currently on hiatus.
-             (...interesting.)
-        **[TimeL00p]
-             TimeL00p is a seven-member boy group under Altair Entertainment. 
-    *[Soloists]
-        
-        **[Nova]
-        **[Korviid]
-        **[name]    
-        
+*["Borealis"]
+    (This looks like her debut song.)
+    (...)
+    (WOW!)
+    (She's hitting every move with so much energy!)
+    (She's electric on stage!)
+    (Hm...)
+    (This song is...not the most musically interesting...)
+    (...but it <i>is</i> kind of catchy...)
+    (Dammit, Ivy, you got me.)
     
+    
+    
+    
+*["]
 -
-->danceTraining
+->novaPerformances
+==altair==
+    *[Groups]
+    ->groups
+   
+    *[Soloists]
+    ->soloists
+        
+     *[back to social media]
+     ->socMed
+ 
+ ==groups==
+ 
+ *[Ad Astra]
+    (Let's see...)
+    "Ad Astra is a five-member girl group under Altair Entertainment. They won multiple 'Rookie of the Year' awards, 'Girl Group of the Year' awards, and have smashed charts since debut. They are currently touring Southeast Asia."
+    (Wow...they're so famous!!!)
+    ->groups
+*[La Victoire]
+    "La Victoire is a six-member girl group under Altair Entertainment. They have had three sold out Asia tours and won the 'Best Girl Group' award in 2301. They are currently on hiatus.
+    (...interesting.)
+             ->groups
+*[TimeL00p]
+    "TimeL00p is a seven-member boy group under Altair Entertainment. 
+    ->groups
+*[back to altair]
+    ->altair
+
+ ==soloists==
+*[Nova]
+    "Nova is a female soloist under Altair entertainment. Her debut song 'Borealis' trended on the charts for 3 months after her debut. 
+        ->soloists
+*[Korviid]
+    "Korviid is a male soloist under Altair entertainment.
+        ->soloists
+*[name]
+->soloists
+
+*[back to social media]
+    ->socMed
 
 ==danceTraining==
 "You're here."
