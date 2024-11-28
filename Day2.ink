@@ -1,4 +1,5 @@
 ==Day2Start==
+# CLEAR
 (...)
 (...)
 (...it's so early...)
@@ -6,8 +7,9 @@
 *[Check phone]
     (Let's see... a message from the director and a text from Nova...)
     **[Check director's message]
+        "Cherie!! 
     **[Check Nova's text]
-        (
+        "
     
 -"Whew..."
 (Yesterday was such a whirlwind...)
@@ -16,47 +18,61 @@
 (Maybe I should do a little digging...)
 *[Open social media]
 (...what should I look up...?)
-->socMed
+    ->socMed
 
 ==socMed==
-    **[Nova's performances]
+*[Nova's performances]
     (Let's look at Nova's performances...!)
-(Hm...which one should I watch?)
+    (Hm...which one should I watch?)
     ->novaPerformances
-    **[Altair Entertainment]
+*[Altair Entertainment]
     (Let's look up the entertainment company. I'm bound to find some more information there.)
     (Looks like they're managing multiple talents...)
     ->altair
-    **[Cherie]
+*[Cherie]
     (...I wonder if anyone is saying anything about me...)
     (...)
     "She's so cute! Stanning right away!"
     "Her song sounds adorable!!"
     "Altair you haven't disappointed us yet..."
-    "She's alright...doesn't have same star power as Nova or Korviid..."
-    "Am I the only one who thinks she looks bored..."
-    "She looks like a robot! Another trainee should have the chance to debut over her!"
-    (...what the hell?)
-    (...why would they say that...?)
-    
+    (so far so good...)
+    **[Keep looking]
+        "She's alright...doesn't have same star power as Nova or Korviid..."
+        "Am I the only one who thinks she looks bored..."
+        "She looks like a robot! Another trainee should have the chance to debut over her!"
+        (...what the hell?)
+        (...why would they say that...?)
 -All this scrolling is making my head spin...I'd better get ready for rehearsal.    
-->danceTraining
+    ->danceTraining
+    
 ==novaPerformances==
 *["Borealis"]
     (This looks like her debut song.)
     (...)
-    (WOW!)
+    (WOAH!)
+    (Her vocals are so powerful!)
     (She's hitting every move with so much energy!)
     (She's electric on stage!)
-    (Hm...)
-    (This song is...not the most musically interesting...)
-    (...but it <i>is</i> kind of catchy...)
-    (Dammit, Ivy, you got me.)
+    **She's...incredible!
+        (Hm...)
+        (This song is...not the most musically interesting...)
+        (...but it <i>is</i> kind of catchy...)
+        (Dammit, Ivy, you got me.)
+        (What else does she have?)
+            ->novaPerformances
     
+*["Penumbra"]
+    (...I'm sensing an astronomy theme here...)
+    (I guess that's her concept?)
+    (...while "Borealis" is a bright and energetic song...)
+    ("Penumbra" is different...)
+    (It's dark, almost sultry...)
+    **Her performances are stunning!
+        (
+        ->novaPerformances
     
-    
-    
-*["]
+*[back to social media]
+    ->socMed
 -
 ->novaPerformances
 ==altair==
@@ -77,23 +93,27 @@
     (Wow...they're so famous!!!)
     ->groups
 *[La Victoire]
-    "La Victoire is a six-member girl group under Altair Entertainment. They have had three sold out Asia tours and won the 'Best Girl Group' award in 2301. They are currently on hiatus.
+    "La Victoire is a six-member girl group under Altair Entertainment. They have had three sold out Asia tours and won the 'Best Girl Group' award in 2301. They are currently on hiatus."
     (...interesting.)
              ->groups
 *[TimeL00p]
-    "TimeL00p is a seven-member boy group under Altair Entertainment. 
+    "TimeL00p is a seven-member boy group under Altair Entertainment. They were created from the survival show 'Turn Back Time.' TimeL00p 
     ->groups
 *[back to altair]
     ->altair
 
  ==soloists==
 *[Nova]
-    "Nova is a female soloist under Altair entertainment. Her debut song 'Borealis' trended on the charts for 3 months after her debut. 
+    "Nova (birth name: Kang Yuna) is a female soloist under Altair Entertainment. Her debut song 'Borealis' trended on the charts for 3 months after her debut."
+    
         ->soloists
 *[Korviid]
-    "Korviid is a male soloist under Altair entertainment.
+    "Korviid (birth name: Jeong Sujin) is a male soloist under Altair Entertainment. He won the singing show 'Beneath the Mask' in 2305 and is a trained opera singer."
+    (Trained opera singer??? Incredible!)
         ->soloists
-*[name]
+*[Verit4s]
+    "Verit4s (birth name: Choi Yongsun) is a male soloist under Altair Entertainment. Along with his idol career, he produces music for film and TV."
+    (I guess idols can do more than just idol work, huh...)
 ->soloists
 
 *[back to social media]
@@ -121,7 +141,7 @@
     ->danceMemory1
 
 ==danceMemory1==
-"Alright. We're going to start with a 
+"Alright. We're going to start with 
 
 "Let's do a water break. I'll meet you back here in a little." //nova
 (I'm so relieved to hear her say that...even with the clothes that make me a dance goddess, my body still feels the burn...) # CLASS: innerThoughts
@@ -148,7 +168,10 @@
 "I'm a little surprised, though, Cherie. I thought you liked your debut song, but it seems like (it's not vibing with you/you don't like it/idk) 
 (...she's right.)
 (Ever since I learned yesterday that my debut was a bubbly pop song...)
-(
+(I've been in a weird mood.)
+(If this is what'll get the public to pay attention to me, I guess that's one thing...)
+(But it isn't me.)
+(What do I tell her?)
 *["I like it."]
     "I'm sure the director knows what's best, so I like it." //cherie
     "Even with a concept you don't like?" //nova
@@ -167,14 +190,14 @@
     "Really? How?" //cherie
     "When the best performers are on stage, and are really giving it their all...they sparkle. They shine. They draw you in with a presence so consuming you can't tear your eyes away." //nova
     "Wow...!" //cherie
-    (Is she telling me that I--) //cherie innerThoughts
+    (Is she telling me that I--) # CLASS: innerThoughts
     "Don't get me wrong, Cherie. You're nowhere near there." //nova
     (...oh...) //cherie innerThoughts
     "During your past rehearsals, you performed so...soullsessly. You were hitting the moves but there was no passion behind it. But today...I could tell there was something fueling you." //nova
     **"Something...fueling me...?"
-        (Nova's looking at me intently...why does this feel like an interrogation?)
-        "
-    (The expression on Nova's face...she see
+        (Nova's looking at me intently...why does this feel like an interrogation?) # CLASS: innerThoughts
+        "Maybe you <i>did</i> hit your head yesterday...I could have sworn you never cared about any of it."
+    (The expression on Nova's face...
 - 
 # CLEAR
 ->NovaChat2
@@ -185,7 +208,7 @@
     "Yes."
     "You didn't have any say in it?"
     "No...idols usually never do."
-    (Her face is clouding over...)
+    (Her face is clouding over...) # CLASS: innerThoughts
     **"Do you like your concept?"
     
 *[ask about career]
@@ -194,20 +217,35 @@
     **"Do you ever wish you were in a group?"
         "Hah...no. Not anymore. Being a soloist means you don't have to share the spotlight. When I'm on stage...I want all eyes on me."
         (Her gaze...it's fiery! If I were in the audience, I wouldn't be able to look away, either!) # CLASS: innerThoughts
-        ***"Not anymore?"
-            "Ah...well..."
-            (The look on her face is...wistful? But she seems a little bitter about it.) # CLASS: innerThoughts
+        ***"Not anymore?" //cherie
+            "Ah...well..." //nova
+            (She has a wistful look on her face, but I sense some bitterness underneath.) # CLASS: innerThoughts
             "I was training to be in a group, but the director felt that it wasn't working out. The group debuted without me and I debuted as a solo artist."
+            (It's hard to read her expression...)
+            ****"Which group?"
+                
+            ****"Are you close with them?"
+                "Not like we once were, since they spend more time with each other than they do with me. But I'm still close with some of them."
+                (...being a soloist must be lonely.) # CLASS: innerThoughts
             
             
             
 *[ask about music]
     "Do you like the music you make?"
-    "...'make' is a stretch. If you're talking about the music I perform, and that has my name and face on it, then I find it unique. The public seems to enjoy my sound and my persona. The music itself is not in line with my personal artistic practice."
+    "...'make' is a stretch. If you're talking about the music I perform, and that has my name and face on it, then I find it unique."
+    
+    "The public seems to enjoy my sound and my persona. The music itself is not in line with my personal artistic practice."
     **"What kind of music <i>do</i> you like?"
+        
     **"What do you mean by ''make' is a stretch'?"
+        "Cherie..."
+        (She's...laughing?)
+        "I didn't know you were so old-fashioned!"
+        
     
-    
+- <help??>
+
+
     
 
 -
