@@ -3,13 +3,12 @@
 (...)
 (...)
 (...it's so early...)
-(
 *[Check phone]
     (Let's see... a message from the director and a text from Nova...)
     **[Check director's message]
         "Cherie!! 
     **[Check Nova's text]
-        "
+        "Hi Cherie. 
     
 -"Whew..."
 (Yesterday was such a whirlwind...)
@@ -42,7 +41,8 @@
         "She looks like a robot! Another trainee should have the chance to debut over her!"
         (...what the hell?)
         (...why would they say that...?)
--All this scrolling is making my head spin...I'd better get ready for rehearsal.    
+-All this scrolling is making my head spin...I'd better get ready for rehearsal.
+*Go to rehearsal
     ->danceTraining
     
 ==novaPerformances==
@@ -62,13 +62,17 @@
             ->novaPerformances
     
 *["Penumbra"]
-    (...I'm sensing an astronomy theme here...)
-    (I guess that's her concept?)
+    (...I'm sensing an astronomy theme here...I guess that's her concept?)
     (...while "Borealis" is a bright and energetic song...)
     ("Penumbra" is different...)
     (It's dark, almost sultry...)
-    **Her performances are stunning!
-        (
+    (She's...captivating!)
+    (...but...)
+    **How much of her performance is truly her?
+        (The enhancement apparel...)
+        (The autotune...)
+        (...either way, Nova's a master at performance...)
+        (She knows how to be a star.)
         ->novaPerformances
     
 *[back to social media]
@@ -92,10 +96,7 @@
     "Ad Astra is a five-member girl group under Altair Entertainment. They won multiple 'Rookie of the Year' awards, 'Girl Group of the Year' awards, and have smashed charts since debut. They are currently touring Southeast Asia."
     (Wow...they're so famous!!!)
     ->groups
-*[La Victoire]
-    "La Victoire is a six-member girl group under Altair Entertainment. They have had three sold out Asia tours and won the 'Best Girl Group' award in 2301. They are currently on hiatus."
-    (...interesting.)
-             ->groups
+
 *[TimeL00p]
     "TimeL00p is a seven-member boy group under Altair Entertainment. They were created from the survival show 'Turn Back Time.' TimeL00p 
     ->groups
@@ -107,10 +108,6 @@
     "Nova (birth name: Kang Yuna) is a female soloist under Altair Entertainment. Her debut song 'Borealis' trended on the charts for 3 months after her debut."
     
         ->soloists
-*[Korviid]
-    "Korviid (birth name: Jeong Sujin) is a male soloist under Altair Entertainment. He won the singing show 'Beneath the Mask' in 2305 and is a trained opera singer."
-    (Trained opera singer??? Incredible!)
-        ->soloists
 *[Verit4s]
     "Verit4s (birth name: Choi Yongsun) is a male soloist under Altair Entertainment. Along with his idol career, he produces music for film and TV."
     (I guess idols can do more than just idol work, huh...)
@@ -121,7 +118,7 @@
 
 ==danceTraining==
 "You're here."
-(Why does she look so surprised...?)
+(Why does she look so surprised...?) # CLASS: innerThoughts
 "That's good. It's time to warm up now. Oh, and your enhancement apparel came in."
 (I think I see it...a shiny bag sitting on a chair in front of the mirror.)
 *[Grab bag]
@@ -264,24 +261,30 @@
 
 (I've got the guitar in my hands. The weight feels different. I'm not holding wood and string-- my fingers are ghosting over light projections.)
 (It's unfamiliar...ALL of this is unfamiliar.)
-(But my hands...the way my fingers curl around the neck of this hologram...)
+(But my hands...the way my fingers curl around the neck of this holographic guitar...)
 (It's as natural as breathing.)
-    **Play
+    **Play 
     (~strummmmmmmm~) 
     (The notes ring out clear! I've still got it, even in this new body...)
     (I don't even know what I was set out on playing...)
     (But...the music flows out of me regardless.)
         ***All of my worries are melting away...
-            (Yes...this is what I do, this is what I love...)
-            //write more here
+            (Yes...this is what I do, this is what I love.)
+            (The fire, the passion...)
+            (It's everything I ever hope to do and be.)
+            ****Finish
+            (Phew...that was fun.)
+            "...wow..." //nova
             (Nova's watching my every move...)
             "Cherie...I didn't know you could play lke that."
-            ****Woah...is she...impressed?
-                ->musicTalk
+                *****Woah...is she...impressed?
+                    ->musicTalk
                 
                 
 ==musicTalk==
-"
+"You never seemed to show interest in playing instruments. To know you had that talent in you this whole time...I'm very impressed."
+*"Thank you."
+    
             
     
         

@@ -1,5 +1,8 @@
 ==Day3Start==
-ink keeps yelling at me !! stop doing that !!
+# CLEAR
+(...urgh...)
+(...waking up early SUCKS!)
+(
 
 
 
