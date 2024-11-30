@@ -3,12 +3,19 @@
 (...)
 (...)
 (...it's so early...)
-*[Check phone]
-    (Let's see... a message from the director and a text from Nova...)
-    **[Check director's message]
-        "Cherie!! 
-    **[Check Nova's text]
-        "Hi Cherie. 
+(...I don't remember setting an alarm...?)
+(...where is that noise coming from?? It sounds like... my wrist?)
+(My wrist is glowing...? Hm.)
+*[Tap wrist]
+    (...it stopped! And a hologram popped out!)
+    (It looks like a phone interface.)
+    (...technology is wild...)
+        **[Check "phone"]
+            (Let's see... a message from the director and a text from Nova...)
+                ***[Check director's message]
+                    "Cherie!! 
+                ***[Check Nova's text]
+                    "Hi Cherie. 
     
 -"Whew..."
 (Yesterday was such a whirlwind...)
@@ -315,7 +322,7 @@
 (This is everything I told myself I'd never become but...)
 (If this is a dream...)
 (Do I even want to wake up?)
-*Sleep
+*[Sleep]
 ->Day3Start
 
 
