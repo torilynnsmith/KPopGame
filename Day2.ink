@@ -298,10 +298,15 @@
 ==musicTalk==
 "You never seemed to show interest in playing instruments. To know you had that talent in you this whole time...I'm very impressed."
 *"Thank you."
+    (To have a famous artist tell me that...man, that feels good.)
+    (If only I could harness that to get more Soundcloud monthly listeners...)
+    (sigh.)
+    //write more here
     
-            
-    
-        
+->endDay2
+
+==endDay2==
+
 
 
 
