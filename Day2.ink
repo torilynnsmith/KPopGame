@@ -317,8 +317,9 @@
 
 (I bid goodbye to Nova and head over to singing practice...)
 (Thankfully that goes a lot smoother than dancing...)
+(The singing coach says I sound much better than earlier...!)
 (Shit, is this really happening?)
-(Am I really about to become a kpop soloist?)
+(Am I really about to become a real singer...a kpop soloist?)
 (This is everything I told myself I'd never become but...)
 (If this is a dream...)
 (Do I even want to wake up?)

@@ -2,6 +2,8 @@
 # CLEAR
 (...urgh...)
 (...waking up early SUCKS!)
+(It's that fucking arm implant with a built-in alarm clock...)
+(How annoying. I guess I have go get up now...)
 (...what's that? I have a message.)
 *Check phone
     (It's from the director...)
