@@ -103,22 +103,64 @@
 (...what's going on...?) # CLASS: innerThoughts
 "...Cherie's debut tomorrow should drown out any controversy."
 
+-> guitar2
+
+==guitar2==
 
         
 ->novaChat2
 
 ==novaChat2==
+# CLEAR
 "Cherie...you're up late."
 (It's Nova...what is she doing here?) # CLASS: innerThoughts
 *"What are you doing here?"
     "I could ask you the same thing." //nova
     (Something seems different about her...) # CLASS: innerThoughts
     {compliance >=4: (She has a determined look on her face...she almost looks angry at me.)}
-    {compliance >=4:"I can tell you're not pulling any punches, Cherie. If you're determined to dethrone me, I won't let you do that so easily. If you're going to suck up to the director, you could do it more tastefully. I can see now why he's drastically switching concepts."}
-    {authenticity >=3: "I wanted to get some practice in. Seeing you work hard made me want to work hard, too."}
+    {compliance >=4:"I can tell you're not pulling any punches, Cherie. If you're determined to dethrone me, I won't let you do that so easily."}
+   
+    {authenticity >=3: (She has a determined look on her face...but she's smiling.)}
+    {authenticity >=3:"I wanted to get some practice in. Seeing you work hard made me want to work hard, too."}
     {authenticity >=3: (...but she's already a famous soloist...what is she talking about?)}
     **"What do you mean?"
-        "
+        {compliance >=4: "If you're going to suck up to the director, you could do it more tastefully. I can see now why he's drastically switching concepts.} //nova
+        {compliance >=4: (Suck up...?)} # CLASS: innerThoughts
+        {compliance >=4: "I don't blame you. Hell, I did the exact same thing when I was in your position."}
+        {compliance >=4: "But this is how it goes, Cherie."}
+        {compliance >=4: "Artistry and personal taste have no place in this industry."}
+        {compliance >=4: "You're just another cog in Altair's machine."}
+        {compliance >=4: (She's not looking at me anymore...)}
+     
+        
+        {authenticity >=3: "Let me tell you something, Cherie..."}
+        {authenticity >=3: "I haven't been a soloist for long...only about 2 or 3 years..."}
+        {authenticity >=3: "I wanted to eventually start making my own music instead of doing everything the director handed to me..."}
+        {authenticity >=3: "But I was too scared to share my true artistic interests."}
+        {authenticity >=3: "Hearing you play the guitar yesterday..."}
+        {authenticity >=3: "It reminded me of when I was a trainee."}
+        {authenticity >=3: (She's looking at me now...I see a glimmer in her eyes...!)}
+        "Cherie..."
+        ***"Yes?"
+            {compliance >=4: "You'd better put on a damn good debut stage, you hear me?"}
+            {compliance >=4: (...what?)}
+            {compliance >=4: "I'm not wishing on your downfall. I know }
+            
+            {authenticity >=3: "You go out there tomorrow and put on the best performance of your life, got that?"}
+            {authenticity >=3: (...she says that like it's simple...)}
+            {authenticity >=3: "And don't stop speaking up when things make you uncomfortable."}
+            {authenticity >=3: "Too many of us become numb to what Altair puts us through."}
+            {authenticity >=3: "And maybe one day..."}
+            {authenticity >=3: "...they'll let us do a duet together."}
+            {authenticity >=3: "You should write a song for us, then.}
+            {authenticity >=3: (Nova wants me to write a song?)}
+            {authenticity >=3: (not just for her, but for <i>us</i>...)}
+            ****"Okay."
+                (I hope she doesn't hear the way my voice shakes...)
+                
+        
+        
+        
     
     
     
