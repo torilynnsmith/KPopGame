@@ -144,6 +144,7 @@
 "Let's do a water break. I'll meet you back here in a little." //nova
 (I'm so relieved to hear her say that...even with the clothes that make me a dance goddess, my body still feels the burn...) # CLASS: innerThoughts
 (Urgh...water sounds nice. How the hell do people do this???)
+(I guess Ivy was right..)
 (*drinking water noises intensify*) //let's not keep this in. i'm just off my rocker rn
 (Phew...)
 ->NovaChat1
@@ -307,13 +308,14 @@
 
 ==endDay2==
 
-
-
-
-    
-- <help??>
-
-
+(I bid goodbye to Nova and head over to singing practice...)
+(Thankfully that goes a lot smoother than dancing...)
+(Shit, is this really happening?)
+(Am I really about to become a kpop soloist?)
+(This is everything I told myself I'd never become but...)
+(If this is a dream...)
+(Do I even want to wake up?)
+*Sleep
 ->Day3Start
 
 
