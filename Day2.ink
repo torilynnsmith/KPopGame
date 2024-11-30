@@ -105,11 +105,11 @@
 
  ==soloists==
 *[Nova]
-    "Nova (birth name: Kang Yuna) is a female soloist under Altair Entertainment. Her debut song 'Borealis' trended on the charts for 3 months after her debut."
+    "Nova is a female soloist under Altair Entertainment. Her debut song 'Borealis' trended on the charts for 3 months after her debut."
     
         ->soloists
 *[Verit4s]
-    "Verit4s (birth name: Choi Yongsun) is a male soloist under Altair Entertainment. Along with his idol career, he produces music for film and TV."
+    "Verit4s is a male soloist under Altair Entertainment. Along with his idol career, he produces music for film and TV."
     (I guess idols can do more than just idol work, huh...)
 ->soloists
 
@@ -117,6 +117,7 @@
     ->socMed
 
 ==danceTraining==
+# CLEAR
 "You're here."
 (Why does she look so surprised...?) # CLASS: innerThoughts
 "That's good. It's time to warm up now. Oh, and your enhancement apparel came in."
@@ -154,13 +155,16 @@
 *["I think I'm getting the hang of it."]
     "I think I'm getting the hang of it, mostly...the apparel really helps."
     "That's good. You're in better shape than you were a few days ago."
+    (She looks a little relieved.)
+    "I still have a ways to go..." //cherie
     
 *["I'm still having trouble..."]
     "I'm still having trouble...sorry."
     "It's to be expected. You got casted because of your singing skills, not your dancing."
     (That checks out, I guess.)
+    "I still have a long way to go..." //cherie
     
--"I see. I'm glad you're being honest with me."
+-"I'm glad you're being honest."
 (There's no sense of anger in her voice. What's going on?)
 "I'm a little surprised, though, Cherie. I thought you liked your debut song, but it seems like (it's not vibing with you/you don't like it/idk) 
 *(...she's right.)
@@ -210,7 +214,15 @@
     "No...idols usually never do."
     (Her face is clouding over...) # CLASS: innerThoughts
     **"Do you like your concept?"
-    
+        "Whether or not I like my concept doesn't matter."
+        ***"Oh...right."
+            (I guess it's not my place to say anything.)
+            "Let me tell you this, Cherie...you'll have a much easier time in the industry if you follow what Altair has in mind. Sometimes I feel like they know me better than I do myself..."
+            ~ compliance = compliance + 1
+        ***"But won't you be happier making music you enjoy?"
+            (There's a spark in her eyes...!)
+            "Hah...I suppose. But I got this far on Altair's wings. It's risky to change concepts now."
+            ~ authenticity = authenticity + 1
 *[ask about career]
     "You're a soloist, right? Like me?"
     "That's right."
@@ -224,6 +236,8 @@
             (It's hard to read her expression...)
             ****"Which group?"
                 "Ad Astra, of course. Their director said I just didn't fit the group. I can't say I disagree, but seeing how successful they are...I can't help but wonder where I'd be."
+                (That's right...Ad Astra is mega-famous right now.)
+                
             ****"Are you close with them?"
                 "Not like we once were, since they spend more time with each other than they do with me. But I'm still close with some of them."
                 (...being a soloist must be lonely.) # CLASS: innerThoughts
