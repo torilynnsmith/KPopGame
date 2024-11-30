@@ -35,15 +35,59 @@
 ->photoshoot
 
 ==photoshoot==
+# CLEAR
+
+(Wow...)
+(This set looks so professional!)
+"
+
+(Eek! Someone shoved something into my arms!)
+"Cherie, please put this on."
+*"I...okay..."
+   (It looks like a dress of some kind...)
+   (I'd better change fast...)
+    "Cherie, it's time to do your makeup."
+        **"Oh, o-okay..."  
+            (They're dragging me over to a mirror!)
+            (Ouch! Someone stabbed me in the eye!)
+            "Cherie, please hold still."
+                ***"Um..."
+                    (This is overwhelming...)
+                    (Why are there like five people hovering around me all at once?!)
+
+-"Alright! Cherie, please stand here and pose like this." //director
+
+(He's arching his back so unnaturally...this dress is gonna ride up like a motherfucker!)
+*[Do as he says]
+    "A-Alright..."
+    (I lean over...ouch...)
+    (I feel...exposed...)
+    "That's it, Cherie...please look this way and give us a smile."
+    
+    (...I guess he knows what's best...)
+    
+*(defiance)[Ask for a different pose]
+    "Um...sorry, can I try something else?"
+    "Cherie, if you please, I'm the creative director. Please follow my lead."
+    (He doesn't look too happy with that...)
+    (I guess I'll just do as he says.)
+    (How do people do this so willingly?)
+    (It bothers me...)
+-
+                    
 
 
 
+->eavesdrop
 
-
-
-
+==eavesdrop==
+"I 
 
         
+->novaChat2
+
+==novaChat2==
+
 
 
 
