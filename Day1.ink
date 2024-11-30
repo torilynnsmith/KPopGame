@@ -73,7 +73,6 @@ What's happening????
         "...I'm glad you think so." //nova
         (Custom apparel that somehow enhances body features and functions? Maybe the future isn't so bad after all!) //cherie innerThoughts 
         ~ compliance = compliance + 1
-        ->debutFolder
 - "How do you feel, Cherie? You've almost made it! Your debut stage will be nothing like anyone has ever seen!" //director
 (Debut stage...that means I'll be singing and dancing in front of a huge audience! I've never had more than 10 people listening to me play in live venues... this is huge!) //cherie innerThoughts
 ->endDay1
