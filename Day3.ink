@@ -1,3 +1,6 @@
+VAR rivalBool = false
+VAR affectionBool = true
+
 ==Day3Start==
 # CLEAR
 (...urgh...)
@@ -27,6 +30,7 @@
     (The director looks annoyed...)
     **"Sorry."
         (...oops.)
+        
         "...Cherie!"
         (What was that?)
         "Cherie!!!"
@@ -98,7 +102,7 @@
         ->photoOptions
         **"Implants?"
             "Look at our newest star, already so curious about the industry! We're set to take the music industry by storm with this latest technology!"
-            
+            (I had no idea Altair had ties to other industries...)
     
     
     
@@ -118,6 +122,7 @@
 (I'm exhausted.)
 (I didn't realize how much effor it would be to pose.)
 (The lights are hot...)
+(I need to step outside for a moment...)
 *[Step into the hallway]
                     
 ->eavesdrop
@@ -162,6 +167,7 @@
     "You should be resting. Tomorrow's a big day for you."
     (Ugh...right...) # CLASS: innerThoughts
     "What's wrong? Stage fright?"
+    (Shit, she saw through me!)
     (There's a certain looseness in her expression.)
     **[Tell her about the director]
         "Nova...I overheard the director on the phone today. He was...talking about me."
@@ -169,19 +175,44 @@
         (...should I tell her the truth?)
         ***"He mentioned Ad Astra..."
             "What about them?"
-            "...I think one of the members isn't able to perform, but he's making her do so anyways."
+            "...I think one of the members isn't able to perform, but he's making her do it anyways."
             "...of course he is."
             (Nova...)
             "He pulled shit like that all the time when I was training with them. Whenever we got injured or sick, he told us to keep going. It was never serious enough for him."
-            
-        ***"He said I'd drown out controversy..."
+            (I don't think I've ever seen her this angry...)
+            "I never understood it and I don't think I ever will. We're human. No matter what they're trying to make us think..."
+            "What does that have to do with you?" 
+                ****"He said I'd drown out controversy..."
+                    ->debutWorry
+        ***"Either outcome is optimal..."
+            "What?"
+            (I can't decipher what the director meant by that...)
+            "That's what he said on the phone. He was talking about my debut."
+            "What outcomes?"
+            "Whether I do well or not...it doesn't matter."
+            (Her expression falls...)
+            "That's...that's just like him. That's just like this damn company. We're just pawns to them..."
+                ****[...Pawns?]
+                    ->debutWorry
+                
         ***"Nothing, nevermind..."
             (Nova's expression tightens.)
-            
+            "Are you sure, Cherie? You can be honest..." 
+
     **[Tell her about debut]
-        "I'm...nervous."
+        ->debutWorry
+
         
-    **[Tell her about ]
+==debutWorry==
+"You must be feeling a lot of pressure, huh?" //Nova
+*"I am..."
+    "That's understandable. I was nervous about my debut too."
+    (Really? But she seemed so confident on her debut stage!)
+    
+        
+*["Not really."]
+    "...really?"
+    
 -
 ->split
 
@@ -190,14 +221,17 @@
     (Something seems different about her...) # CLASS: innerThoughts
     {compliance >=4: (She has a determined look on her face...she almost looks angry at me.)}
     {compliance >=4:"I can tell you're not pulling any punches, Cherie. If you're determined to dethrone me, I won't let you do that so easily."}
+    ~ rivalBool = true
    
     {authenticity >=3: (She has a determined look on her face...but she's smiling.)}
     {authenticity >=3:"I wanted to get some practice in. Seeing you work hard made me want to work hard, too."}
     {authenticity >=3: (...but she's already a famous soloist...what is she talking about?)}
+    ~ affectionBool = true
+    
     **"What do you mean?"
-        {compliance >=4: "If you're going to suck up to the director, you could do it more tastefully. I can see now why he's drastically switching concepts."} //nova
-        {compliance >=4: (Suck up...?)} # CLASS: innerThoughts
-        {compliance >=4: "I don't blame you. Hell, I did the exact same thing when I was in your position."}
+        {rivalBool: "If you're going to suck up to the director, you could do it more tastefully. I can see now why he's drastically switching concepts."} //nova
+        {rivalBool: (Suck up...?)} # CLASS: innerThoughts
+        {rivalBool: "I don't blame you. Hell, I did the exact same thing when I was in your position."}
         {compliance >=4: "But this is how it goes, Cherie."}
         {compliance >=4: "Artistry and personal taste have no place in this industry."}
         {compliance >=4: "You're just another cog in Altair's machine. And so am I."}
