@@ -1,6 +1,8 @@
 INCLUDE Day1.ink
 INCLUDE Day2.ink
 INCLUDE Day3.ink
+INCLUDE Day4.ink
+
 
 
 VAR compliance = 0

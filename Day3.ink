@@ -19,7 +19,7 @@
 (Shit! My hands are sweating...)
 (Calm down, it's just a rehearsal...)
 (Nevermind that I've never played music for more than ten people at one time...)
-*The lights go up...
+*The lights go up... # CLASS: action
     (ACK!!!!!) 
     (The lights are so bright! I can't see a damn thing!)
     (Shit, the music started!!!)
@@ -101,7 +101,18 @@
 "...tell her that Ad Astra cannot perform without every member."
 "Think of the fans. And think of their image."
 (...what's going on...?) # CLASS: innerThoughts
-"...Cherie's debut tomorrow should drown out any controversy."
+"...listen, we tried using a hologram last time one of the members got sick..."
+"The fans threatened to boycott Ad Astra's next comeback."
+"We can't afford that kind of financial loss."
+"And besides...Cherie's debut tomorrow should drown out any controversy."
+*(...? Me?)
+    " It'll be fine either way."
+    "Either she's successful and the praise from fans will overpower Ad Astra's news..."
+    "Or her performance is so abysmal that fans will turn on her instead."
+    "Either outcome is optimal."
+    (...what the hell?)
+    
+"
 
 -> guitar2
 
@@ -116,6 +127,12 @@
 (It's Nova...what is she doing here?) # CLASS: innerThoughts
 *"What are you doing here?"
     "I could ask you the same thing." //nova
+    "You should be resting. Tomorrow's a big day for you."
+    (Ugh...right...)
+    "What's wrong? Stage fright?"
+    
+    
+
     (Something seems different about her...) # CLASS: innerThoughts
     {compliance >=4: (She has a determined look on her face...she almost looks angry at me.)}
     {compliance >=4:"I can tell you're not pulling any punches, Cherie. If you're determined to dethrone me, I won't let you do that so easily."}
@@ -124,7 +141,7 @@
     {authenticity >=3:"I wanted to get some practice in. Seeing you work hard made me want to work hard, too."}
     {authenticity >=3: (...but she's already a famous soloist...what is she talking about?)}
     **"What do you mean?"
-        {compliance >=4: "If you're going to suck up to the director, you could do it more tastefully. I can see now why he's drastically switching concepts.} //nova
+        {compliance >=4: "If you're going to suck up to the director, you could do it more tastefully. I can see now why he's drastically switching concepts."} //nova
         {compliance >=4: (Suck up...?)} # CLASS: innerThoughts
         {compliance >=4: "I don't blame you. Hell, I did the exact same thing when I was in your position."}
         {compliance >=4: "But this is how it goes, Cherie."}
@@ -157,6 +174,11 @@
             {authenticity >=3: (not just for her, but for <i>us</i>...)}
             ****"Okay."
                 (I hope she doesn't hear the way my voice shakes...)
+- I'm just gonna put this here.
+
+
+
+->Day4Start
                 
         
         
