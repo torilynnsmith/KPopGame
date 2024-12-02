@@ -3,25 +3,25 @@ VAR affectionBool = true
 
 ==Day3Start==
 # CLEAR
-(...urgh...)
-(...waking up early SUCKS!)
-(It's that fucking arm implant with a built-in alarm clock...)
-(How annoying. I guess I have go get up now...)
-(...what's that? I have a message.)
+...urgh...
+...waking up early SUCKS!
+It's that fucking arm implant with a built-in alarm clock...
+How annoying. I guess I have go get up now...
+...what's that? I have a message.
 *Check phone
-    (It's from the director...)
+    It's from the director...
     "Cherie! Rehearsals for your debut start at 6 AM!"
-    (...it's only going to get harder from here, huh...)
+    ...it's only going to get harder from here, huh...
     **[go to rehearsal]
         ->debutRehearsal
 
 ==debutRehearsal==
 # CLEAR
 "Music...CUE!"
-(The stage is dim...)
-(Everyone is holding their breaths...)
-(Shit! My hands are sweating...)
-(Calm down, it's just a rehearsal...)
+The stage is dim...
+Everyone is holding their breaths...
+Shit! My hands are sweating...
+Calm down, it's just a rehearsal...
 (Nevermind that I've never played music for more than ten people at one time...)
 (The music starts...)
 *The lights go up... # CLASS: action
@@ -122,7 +122,7 @@ VAR affectionBool = true
 
 - The photoshoot goes on for another hour or so...
 (I'm exhausted.)
-(I didn't realize how much effor it would be to pose.)
+(I didn't realize how much effort it would be to pose.)
 (The lights are hot...)
 (I need to step outside for a moment...)
 *[Step into the hallway]
@@ -180,7 +180,7 @@ VAR affectionBool = true
             "What about them?"
             "...I think one of the members isn't able to perform, but he's making her do it anyways."
             "...of course he is."
-            (Nova...) # CLASS: innerThought
+            (Nova...) # CLASS: innerThoughts
             "He pulled shit like that all the time when I was training with them. Whenever we got injured or sick, he told us to keep going. It was never serious enough for him."
             (I don't think I've ever seen her this angry...)
             "I never understood it and I don't think I ever will. We're human. No matter what they're trying to make us think...but what does Ad Astra have to do with you?" 
@@ -269,23 +269,27 @@ VAR affectionBool = true
  ==regret==
  (There's something about Nova's expression...she has more to say...)
  *"Are you happy at Altair?"
-    (...!)
+    ...!
     "What an interesting question."
     "Hm..."
     "Happy..."
-    (She's really thinking about it...)
-    
+    She's really thinking about it...
+    "I am grateful for the many opportunities I have because of Altair..."
  *"Do you regret becoming an idol?"
-    (...)
+    ...
     "I don't. This is my passion. I want to sing and perform for the rest of my life. The stage is where I belong."
-    (There's a fire in her eyes...just like in her performance!)
-    "
+    There's a fire in her eyes...just like in her performance!
+    "Altair has many problems...
  *"Have you ever thought about leaving?"
     "...leaving?"
     (...)
     (I can't read her expression...)
     "...as in, breaking my contract with Altair?"
     "..."
+    "Only in passing thoughts. When I am under a severe amount of pressure, or I am forced to work when my body or mind cannot handle it..."
+    "I consider it."
+
+    
     
  
     
@@ -340,7 +344,7 @@ VAR affectionBool = true
         ***"Okay."
                 (I hope she doesn't hear the way my voice shakes...)
 
-- I'm just gonna put this here.
+- 
 
 
 (This is it...)

@@ -156,6 +156,8 @@
 "Okay, Cherie. You do it this time."
 (...okay, how did that go again?)
 
+# CLEAR
+
 ->danceMemory1
 
 ==danceMemory1==
@@ -195,6 +197,7 @@
     
 -"I'm glad you're being honest."
 (There's no sense of anger in her voice. What's going on?)
+
 "I'm a little surprised, though, Cherie. I thought you liked your debut song, but it seems like (it's not vibing with you/you don't like it/idk) 
 *(...she's right.)
     (Ever since I learned yesterday that my debut was a bubbly pop song...)
@@ -231,7 +234,7 @@
         "Maybe you <i>did</i> hit your head yesterday...I could have sworn you never cared about any of it."
         (The expression on Nova's face...)
         "I'm glad you're finding your voice, Cherie...maybe I was wrong about you."
-    ~ authenticity = authenticity + 1
+         ~ authenticity = authenticity + 1
 - 
 # CLEAR
 ->NovaChat2
@@ -277,7 +280,7 @@
 *[ask about music]
     "Do you like the music you make?"
     "...'make' is a stretch. If you're talking about the music I perform, and that has my name and face on it, then I find it unique."
-    
+    "I see..."
     "The public seems to enjoy my sound and my persona. The music itself is not in line with my personal artistic practice, but personal opinions are not something that are much value."
     (This tone of hers...it sounds so...rehearsed?)
     
@@ -335,11 +338,20 @@
     (Sigh.)
 
 *"Really?"
+    "Of course. For most of your trainee period you seemed to only care about looks."
+    ...right...
+    
 
 *"It's not all that impressive..."
+    I do ditties like this all the time back home...
+    I could probably write something more complicated in my sleep.
+    Still.
+    It's nice to hear someone enjoying my music.
+    
     
     //write more here
     
+-
 ->endDay2
 
 ==endDay2==
