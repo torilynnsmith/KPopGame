@@ -82,7 +82,7 @@
         (She knows how to be a star.)
         ->novaPerformances
     
-*[back to social media]
+*[back to social media] # CLASS: action
     ->socMed
 -
 ->novaPerformances
@@ -143,10 +143,31 @@
 "Alright. Something something . The enhancement apparel will do a lot of heavy lifting, but you still need to memorize your moves. The apparel will be useless if you can't tell it what to do. Are you ready, Cherie?"
 *"Yes."
     "Good. Let's start. You need to brush up on the choreography."
-    ->danceMemory1
+    ->danceMemory
+
+==danceMemory==
+"Alright. We're going to start with hands. Raise your arms up high, and hit this pose."
+(...okay...)
+"Good. Next, move your feet like this.)
+(aaaah)
+"Right. Now, swing your hips this way."
+(!)
+
+"Okay, Cherie. You do it this time."
+(...okay, how did that go again?)
+
+->danceMemory1
 
 ==danceMemory1==
-"Alright. We're going to start with 
++[hands, hips, feet]
+    "No, try again."
+    ->danceMemory1
++[feet, hands, hips]
+    "Not quite. Try again."
+    ->danceMemory1
++[hands, feet, hips]
+    "Good! You got it."
+    
 
 "Let's do a water break. I'll meet you back here in a little." //nova
 (I'm so relieved to hear her say that...even with the clothes that make me a dance goddess, my body still feels the burn...) # CLASS: innerThoughts
@@ -208,7 +229,8 @@
     **"Something...fueling me...?"
         (Nova's looking at me intently...why does this feel like an interrogation?) # CLASS: innerThoughts
         "Maybe you <i>did</i> hit your head yesterday...I could have sworn you never cared about any of it."
-    (The expression on Nova's face...
+        (The expression on Nova's face...)
+        "I'm glad you're finding your voice, Cherie...maybe I was wrong about you."
     ~ authenticity = authenticity + 1
 - 
 # CLEAR
@@ -260,11 +282,13 @@
     (This tone of hers...it sounds so...rehearsed?)
     
     **"What kind of music <i>do</i> you like?"
+        (...!)
         
     **"What do you mean by ''make' is a stretch'?"
         "Cherie..."
         (She's...laughing?)
         "I didn't know you were so old-fashioned!"
+        
         
 - 
 ->guitar1
@@ -285,7 +309,7 @@
 (It's unfamiliar...ALL of this is unfamiliar.)
 (But my hands...the way my fingers curl around the neck of this holographic guitar...)
 (It's as natural as breathing.)
-    **Play 
+    **[Play] # CLASS: action
     (~strummmmmmmm~) 
     (The notes ring out clear! I've still got it, even in this new body...)
     (I don't even know what I was set out on playing...)
@@ -308,7 +332,12 @@
 *"Thank you."
     (To have a famous artist tell me that...man, that feels good.)
     (If only I could harness that to get more Soundcloud monthly listeners...)
-    (sigh.)
+    (Sigh.)
+
+*"Really?"
+
+*"It's not all that impressive..."
+    
     //write more here
     
 ->endDay2

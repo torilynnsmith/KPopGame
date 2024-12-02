@@ -256,7 +256,7 @@ VAR affectionBool = true
         "What do you mean?"
         (Nova's tone is almost lighthearted...?)
         ***"I didn't think I was good enough."
-            
+            (
             ->regret
     **"It should be fine if I follow what they say, right?"
     ~ compliance = compliance + 1
@@ -315,28 +315,28 @@ VAR affectionBool = true
         {rivalBool: (She's not looking at me anymore...)}
      
         
-        {authenticity >=3: "Let me tell you something, Cherie..."}
-        {authenticity >=3: "I haven't been a soloist for long...only about 2 or 3 years..."}
-        {authenticity >=3: "I wanted to eventually start making my own music instead of doing everything the director handed to me..."}
-        {authenticity >=3: "But I was too scared to share my true artistic interests."}
-        {authenticity >=3: "Hearing you play the guitar yesterday..."}
-        {authenticity >=3: "It reminded me of when I was a trainee."}
-        {authenticity >=3: (She's looking at me now...I see a glimmer in her eyes...!)}
+        {affectionBool: "Let me tell you something, Cherie..."}
+        {affectionBool: "I haven't been a soloist for long...only about 2 or 3 years..."}
+        {affectionBool: "I wanted to eventually start making my own music instead of doing everything the director handed to me..."}
+        {affectionBool: "But I was too scared to share my true artistic interests."}
+        {affectionBool: "Hearing you play the guitar yesterday..."}
+        {affectionBool: "It reminded me of when I was a trainee."}
+        {affectionBool: (She's looking at me now...I see a glimmer in her eyes...!)}
         "Cherie..."
     **"Yes?"
-            {compliance >=4: "You'd better put on a damn good debut stage, you hear me?"}
-            {compliance >=4: (...what?)}
-            {compliance >=4: "I }
+            {rivalBool: "You'd better put on a damn good debut stage, you hear me?"}
+            {rivalBool: (...what?)}
+            {rivalBool: "I }
             
-            {authenticity >=3: "You go out there tomorrow and put on the best performance of your life, got that?"}
-            {authenticity >=3: (...she says that like it's simple...)}
-            {authenticity >=3: "And don't stop speaking up when things make you uncomfortable."}
-            {authenticity >=3: "Too many of us become numb to what Altair puts us through."}
-            {authenticity >=3: "And maybe one day..."}
-            {authenticity >=3: "...they'll let us do a duet together."}
-            {authenticity >=3: "You should write a song for us, then.}
-            {authenticity >=3: (Nova wants me to write a song?)}
-            {authenticity >=3: (not just for her, but for <i>us</i>...)}
+            {affectionBool: "You go out there tomorrow and put on the best performance of your life, got that?"}
+            {affectionBool: (...she says that like it's simple...)}
+            {affectionBool: "And don't stop speaking up when things make you uncomfortable."}
+            {affectionBool: "Too many of us become numb to what Altair puts us through."}
+            {affectionBool: "And maybe one day..."}
+            {affectionBool: "...they'll let us do a duet together."}
+            {affectionBool: "You should write a song for us, then.}
+            {affectionBool: (Nova wants me to write a song?)}
+            {affectionBool: (not just for her, but for <i>us</i>...)}
         ***"Okay."
                 (I hope she doesn't hear the way my voice shakes...)
 
