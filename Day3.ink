@@ -270,7 +270,11 @@ VAR affectionBool = true
  (There's something about Nova's expression...she has more to say...)
  *"Are you happy at Altair?"
     (...!)
-    "
+    "What an interesting question."
+    "Hm..."
+    "Happy..."
+    (She's really thinking about it...)
+    
  *"Do you regret becoming an idol?"
     (...)
     "I don't. This is my passion. I want to sing and perform for the rest of my life. The stage is where I belong."
