@@ -11,8 +11,9 @@ VAR affectionBool = true
 *Check phone
     (It's from the director...)
     "Cherie! Rehearsals for your debut start at 6 AM!"
-
-->debutRehearsal
+    (...it's only going to get harder from here, huh...)
+    **[go to rehearsal]
+        ->debutRehearsal
 
 ==debutRehearsal==
 # CLEAR
@@ -22,6 +23,7 @@ VAR affectionBool = true
 (Shit! My hands are sweating...)
 (Calm down, it's just a rehearsal...)
 (Nevermind that I've never played music for more than ten people at one time...)
+(The music starts...)
 *The lights go up... # CLASS: action
     (ACK!!!!!) 
     (The lights are so bright! I can't see a damn thing!)
@@ -30,7 +32,7 @@ VAR affectionBool = true
     (The director looks annoyed...)
     **"Sorry."
         (...oops.)
-        
+        (Focus! Your career's at stake!)
         "...Cherie!"
         (What was that?)
         "Cherie!!!"
@@ -232,8 +234,17 @@ VAR affectionBool = true
         (It still feels like it.)
         (I'm still waiting to wake up.)
         "Well, it won't feel like that when you're on stage!"
-        
-    **
+        (...I suppose not.)
+        "Ah...sometimes I wish I could go back to that time...things were simpler back then, when I was new..."
+            ->regret
+    **"It should be fine if I follow what they say, right?"
+    ~compliance = compliance + 1
+        "Oh...well, if you take on that perspective, I suppose your uncertainty is to be expected." //nova
+        (Yeah...this industry is complicated.)
+        "Just be careful, Cherie...they don't always have your best interest in mind."
+        ***What does she mean?
+            ->regret
+    
 
 *"I'm not sure."
     "Not sure? What do you mean?"
@@ -244,28 +255,34 @@ VAR affectionBool = true
         (I don't even know what to do with myself...)
         "What do you mean?"
         (Nova's tone is almost lighthearted...?)
-        ***"I thought 
+        ***"I didn't think I was good enough."
+            
+            ->regret
     **"It should be fine if I follow what they say, right?"
-    ~compliance = compliance + 1
+    ~ compliance = compliance + 1
         "Oh...well, if you take on that perspective, I suppose your uncertainty is to be expected." //nova
         (Yeah...this industry is complicated.)
         "Just be careful, Cherie...they don't always have your best interest in mind."
         ***What does she mean?
             ->regret
-    **"It's 
        
  ==regret==
  (There's something about Nova's expression...she has more to say...)
  *"Are you happy at Altair?"
     (...!)
-    
+    "
  *"Do you regret becoming an idol?"
     (...)
-    
+    "I don't. This is my passion. I want to sing and perform for the rest of my life. The stage is where I belong."
+    (There's a fire in her eyes...just like in her performance!)
+    "
  *"Have you ever thought about leaving?"
     "...leaving?"
     (...)
     (I can't read her expression...)
+    "...as in, breaking my contract with Altair?"
+    "..."
+    
  
     
     
