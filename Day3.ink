@@ -103,9 +103,9 @@ VAR affectionBool = true
         **"Implants?"
             "Look at our newest star, already so curious about the industry! We're set to take the music industry by storm with this latest technology!"
             (I had no idea Altair had ties to other industries...)
-    
-    
-    
+            "Go on, Cherie, we don't have all day."
+            ->photoOptions
+            
     
 +(defiance)[Ask for a different pose] # CLASS: action
     "Um...sorry, can I try something else?"
@@ -130,28 +130,29 @@ VAR affectionBool = true
 ==eavesdrop==
 # CLEAR
 "Hello? Yes. This is Altair Entertainment."
-"...What?"
-"...no, that's not an option." 
-"Give her some supplements. She will be fine tomorrow."
-"...tell her that Ad Astra cannot perform without every member."
-"Think of the fans. And think of their image."
-(...what's going on...?) # CLASS: innerThoughts
-"...listen, we tried using a hologram last time one of the members got sick..."
-"The fans threatened to boycott Ad Astra's next comeback."
-"We can't afford that kind of financial loss."
-"And besides...Cherie's debut tomorrow should drown out any controversy."
-*(...? Me?)
-    " It'll be fine either way."
-    "Either she's successful and the praise from fans will overpower Ad Astra's news..."
-    "Or her performance is so abysmal that fans will turn on her instead."
-    "Either outcome is optimal."
-    (...what the hell?)
-    "Alright. Thank you for informing me. Tell the members they will participate in their activities according to plan."
-    (...sounds like he hung up.)
-    (Shit...those footsteps are coming closer!)
-    (Gotta bounce!)
-    **[Walk away]
--> guitar2
+(That's the director!)
+*[I'd better hide...]
+    "...What?"
+    "...no, that's not an option." 
+    "Give her some supplements. She will be fine tomorrow."
+    "...tell her that Ad Astra cannot perform without every member."
+    "Think of the fans. And think of their image."
+    **(...what's going on...?) # CLASS: innerThoughts
+        "...listen, we tried using a hologram last time one of the members got sick..."
+        "The fans threatened to boycott Ad Astra's next comeback."
+        "We can't afford that kind of financial loss."
+        "And besides...Cherie's debut tomorrow should drown out any controversy."
+     ***[(...? Me?)]
+        " It'll be fine either way."
+        "Either she's successful and the praise from fans will overpower Ad Astra's news..."
+        "Or her performance is so abysmal that fans will turn on her instead."
+        "Either outcome is optimal."
+         (...what the hell?)
+        "Alright. Thank you for informing me. Tell the members they will participate in their activities according to plan."
+        (...sounds like he hung up.)
+        (Shit...those footsteps are coming closer!)
+        ****[Walk away]
+                -> guitar2
 
 ==guitar2==
 
@@ -173,18 +174,17 @@ VAR affectionBool = true
         "Nova...I overheard the director on the phone today. He was...talking about me."
         "What was he saying? Was it something serious?"
         (...should I tell her the truth?)
-        ***"He mentioned Ad Astra..."
+        ***(adAstra)"He mentioned Ad Astra..."
             "What about them?"
             "...I think one of the members isn't able to perform, but he's making her do it anyways."
             "...of course he is."
-            (Nova...)
+            (Nova...) # CLASS: innerThought
             "He pulled shit like that all the time when I was training with them. Whenever we got injured or sick, he told us to keep going. It was never serious enough for him."
             (I don't think I've ever seen her this angry...)
-            "I never understood it and I don't think I ever will. We're human. No matter what they're trying to make us think..."
-            "What does that have to do with you?" 
+            "I never understood it and I don't think I ever will. We're human. No matter what they're trying to make us think...but what does Ad Astra have to do with you?" 
                 ****"He said I'd drown out controversy..."
                     ->debutWorry
-        ***"Either outcome is optimal..."
+        ***(pawn)"Either outcome is optimal..."
             "What?"
             (I can't decipher what the director meant by that...)
             "That's what he said on the phone. He was talking about my debut."
@@ -198,6 +198,7 @@ VAR affectionBool = true
         ***"Nothing, nevermind..."
             (Nova's expression tightens.)
             "Are you sure, Cherie? You can be honest..." 
+            -
 
     **[Tell her about debut]
         ->debutWorry
@@ -206,12 +207,67 @@ VAR affectionBool = true
 ==debutWorry==
 "You must be feeling a lot of pressure, huh?" //Nova
 *"I am..."
+    ("A lot" is an understatement. I feel like my life's on the line!)
     "That's understandable. I was nervous about my debut too."
     (Really? But she seemed so confident on her debut stage!)
-    
-        
-*["Not really."]
+    {novaChat2.adAstra:"I'm sorry the director is pushing you like this. He should have let the Ad Astra member rest instead of using you to deflect the public's attention. You don't deserve this, and neither do they. I wonder who it is...maybe I should message them..." }
+    **"I think she would like that."
+        "...Yeah. It's been some time since I've talked with them."
+        ~novAffection = novAffection + 1
+        (She looks a little more relaxed now.)
+        "Cherie...just be careful. If Altair is treating their prized group this poorly, I worry what they might do to you..."
+        ****What they would do... to me?
+            ->regret
+    **"Do you think she's okay?"
+        "I'm not sure...I can only hope it's not too serious. If Altair is treating Ad Astra, of all people, like this...then..."
+            ->regret
+    {novaChat2.pawn: "I'm sorry you had to learn the truth so early on in your career...but maybe that's for the best."}
+        ->regret
+*"Not really."
     "...really?"
+    (Why does she look so surprised?)
+    "I envy you, Cherie...I wish I had your confidence when I made my debut."
+    (Is it confidence? Or is it disbelief? I can't tell.)
+    **"It all just seems like a dream..."
+        (It still feels like it.)
+        (I'm still waiting to wake up.)
+        "Well, it won't feel like that when you're on stage!"
+        
+    **
+
+*"I'm not sure."
+    "Not sure? What do you mean?"
+    **"I never thought I'd get this far..."
+    ~ authenticity = authenticity + 1
+        (Just a few days ago I was begging for even just one more person to listen to my music...)
+        (And suddenly...everything fell into my lap...)
+        (I don't even know what to do with myself...)
+        "What do you mean?"
+        (Nova's tone is almost lighthearted...?)
+        ***"I thought 
+    **"It should be fine if I follow what they say, right?"
+    ~compliance = compliance + 1
+        "Oh...well, if you take on that perspective, I suppose your uncertainty is to be expected." //nova
+        (Yeah...this industry is complicated.)
+        "Just be careful, Cherie...they don't always have your best interest in mind."
+        ***What does she mean?
+            ->regret
+    **"It's 
+       
+ ==regret==
+ (There's something about Nova's expression...she has more to say...)
+ *"Are you happy at Altair?"
+    (...!)
+    
+ *"Do you regret becoming an idol?"
+    (...)
+    
+ *"Have you ever thought about leaving?"
+    "...leaving?"
+    (...)
+    (I can't read her expression...)
+ 
+    
     
 -
 ->split
@@ -228,14 +284,14 @@ VAR affectionBool = true
     {authenticity >=3: (...but she's already a famous soloist...what is she talking about?)}
     ~ affectionBool = true
     
-    **"What do you mean?"
+*"What do you mean?"
         {rivalBool: "If you're going to suck up to the director, you could do it more tastefully. I can see now why he's drastically switching concepts."} //nova
         {rivalBool: (Suck up...?)} # CLASS: innerThoughts
         {rivalBool: "I don't blame you. Hell, I did the exact same thing when I was in your position."}
-        {compliance >=4: "But this is how it goes, Cherie."}
-        {compliance >=4: "Artistry and personal taste have no place in this industry."}
-        {compliance >=4: "You're just another cog in Altair's machine. And so am I."}
-        {compliance >=4: (She's not looking at me anymore...)}
+        {rivalBool: "But this is how it goes, Cherie."}
+        {rivalBool: "Artistry and personal taste have no place in this industry."}
+        {rivalBool: "You're just another cog in Altair's machine. And so am I."}
+        {rivalBool: (She's not looking at me anymore...)}
      
         
         {authenticity >=3: "Let me tell you something, Cherie..."}
@@ -246,7 +302,7 @@ VAR affectionBool = true
         {authenticity >=3: "It reminded me of when I was a trainee."}
         {authenticity >=3: (She's looking at me now...I see a glimmer in her eyes...!)}
         "Cherie..."
-        ***"Yes?"
+    **"Yes?"
             {compliance >=4: "You'd better put on a damn good debut stage, you hear me?"}
             {compliance >=4: (...what?)}
             {compliance >=4: "I }
@@ -260,7 +316,7 @@ VAR affectionBool = true
             {authenticity >=3: "You should write a song for us, then.}
             {authenticity >=3: (Nova wants me to write a song?)}
             {authenticity >=3: (not just for her, but for <i>us</i>...)}
-            ****"Okay."
+        ***"Okay."
                 (I hope she doesn't hear the way my voice shakes...)
 
 - I'm just gonna put this here.

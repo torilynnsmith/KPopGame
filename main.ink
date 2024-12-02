@@ -7,6 +7,7 @@ INCLUDE Day4.ink
 
 VAR compliance = 0
 VAR authenticity = 0
+VAR novAffection = 0
 //scene establishing paragraph
 
 ...I've been hunched over my desk for the past four hours. The sun has begun to slip past the city line entirely, but the only thing I can see in front of me is the little blips and beats of the music software pulled up on my desktop.

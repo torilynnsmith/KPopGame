@@ -1,5 +1,8 @@
 ==Day4Start==
-something something 
+(...!)
+(I'm too nervous to try and go back to sleep.)
+(Today's the day.)
+{rivalBool: Nova }
 
 
 
