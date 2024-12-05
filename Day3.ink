@@ -344,7 +344,9 @@ Calm down, it's just a rehearsal...
         ***"Okay."
                 (I hope she doesn't hear the way my voice shakes...)
 
-- 
+- "I have to go now, Cherie, but I'll be watching your debut stage."
+"Oh, alright."
+
 
 
 (This is it...)
