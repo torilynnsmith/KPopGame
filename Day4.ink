@@ -1,8 +1,9 @@
 ==Day4Start==
 ...!
-(I'm too nervous to try and go back to sleep.)
-(Today's the day.)
-{rivalBool: Nova }
+I'm too nervous to try and go back to sleep.
+Today's the day.
+Nova's waiting for me backstage...
+{rivalBool: "}
 
 ->backstage
 
@@ -17,6 +18,9 @@ Her expression reads...
 
 I can hear the crowd roaring...
 "It's showtime, Cherie...!"
+The tick tick tick of the metronome in my earpiece.. 
+It's echoing in my ears like a heartbeat...
+
 # CLEAR
 ->debutStageDance
 
@@ -39,6 +43,9 @@ I can hear the crowd roaring...
 text.
 
 ->results
+
+
+
 
 ==results==
 

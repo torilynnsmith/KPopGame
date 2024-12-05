@@ -148,10 +148,11 @@ I think I see it...a shiny bag sitting on a chair in front of the mirror.
 ==danceMemory==
 "Alright. We're going to start with hands. Raise your arms up high, and hit this pose."
 ...okay...
-"Good. Next, move your feet like this.
-aaaah
+"Good. Next, move your feet like this."
+...like this? 
+
 "Right. Now, swing your hips this way."
-!
+...alright! 
 
 "Okay, Cherie. You do it this time."
 ...okay, how did that go again?
@@ -169,13 +170,14 @@ aaaah
     ->danceMemory1
 +[hands, feet, hips]
     "Good! You got it."
-    
+
+
+
 
 "Let's do a water break. I'll meet you back here in a little." //nova
 I'm so relieved to hear her say that...even with the clothes that make me a dance goddess, my body still feels the burn... # CLASS: innerThoughts
 Urgh...water sounds nice. How the hell do people do this???
 I guess Ivy was right..
-*drinking water noises intensify* //let's not keep this in. i'm just off my rocker rn
 Phew...
 ->NovaChat1
 
@@ -198,8 +200,8 @@ Phew...
 -"I'm glad you're being honest."
 There's no sense of anger in her voice. What's going on?
 
-"I'm a little surprised, though, Cherie. I thought you liked your debut song, but it seems like it's not vibing with you/you don't like it/idk 
-*...she's right.
+"I'm a little surprised, though, Cherie. I thought you didn't really care about what your debut song sounded like. It seems like you're not a fan of it now."
+*...she's right. 
     Ever since I learned yesterday that my debut was a bubbly pop song...
     I've been in a weird mood.
     If this is what'll get the public to pay attention to me, I guess that's one thing...
@@ -212,7 +214,7 @@ There's no sense of anger in her voice. What's going on?
     "Even with a concept you don't like?" //nova
     "Well...if the director knows the industry best...who am I to say I shouldn't go with his plan?"//cherie
     It's true...I've been trying to break into the industry on my own for so long... //cherie innerThoughts
-    I'm starting to think my own artistic voice won't get me anywhere... //cherie innerThoughts
+    I'm starting to think my own artistic voice won't get me anywhere... // # CLASS: innerThoughts
     Maybe it would be better to pander to the audience... //cherie innerThoughts
     "...well, I guess I'm not one to argue with that." //nova
     Nova's expression is strange...I can't quite place it.
@@ -303,9 +305,9 @@ I could <i>tell</i> her, but I can also show her...
 "Sure."
 "Do you know where I can get a guitar?"
 "A guitar? Here, let me show you."
-Woah...I never realized the glowing light on my wrist had more functions!
-...! Wow!
-I've got a guitar in my hands! The weight feels...different. I'm not holding wood and string-- my fingers are ghosting over light projections. # CLASS: innerThoughts
+Woah...I never realized the glowing light on my wrist had more functions...
+Wow!
+A guitar materialized from thin air! The weight feels...different. I'm not holding wood and string-- my fingers are ghosting over light projections. # CLASS: innerThoughts
 It's unfamiliar...ALL of this is unfamiliar.
 But my hands...the way my fingers curl around the neck of this holographic guitar...
 It's as natural as breathing.
@@ -336,6 +338,7 @@ It's as natural as breathing.
 *"Really?"
     "Of course. For most of your trainee period you seemed to only care about looks."
     ...right...
+    I don't know who "Cherie" was before me...
     
 
 *"It's not all that impressive..."
