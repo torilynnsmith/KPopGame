@@ -334,19 +334,22 @@ It's as natural as breathing.
     To have a famous artist tell me that...man, that feels good.
     If only I could harness that to get more Soundcloud monthly listeners...
     Sigh.
+    "I'm glad you 
 
 *"Really?"
     "Of course. For most of your trainee period you seemed to only care about looks."
     ...right...
     I don't know who "Cherie" was before me...
-    
+    But I'm determined to change my fate!
 
 *"It's not all that impressive..."
     I do ditties like this all the time back home...
     I could probably write something more complicated in my sleep.
     Still.
     It's nice to hear someone enjoying my music.
-    
+    "Don't downplay yourself. You're an idol. You need to have confidence!"
+    Confidence...
+-
     
     //write more here
     

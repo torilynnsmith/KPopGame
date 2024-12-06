@@ -277,7 +277,7 @@ It's Nova...what is she doing here? # CLASS: innerThoughts
     She's really thinking about it...
     "I am grateful for the many opportunities I have because of Altair, but..."
     **"Opportunities?"
-    **"But?"
+    **"...but?"
     **
  *"Do you regret becoming an idol?"
     ...

@@ -1,8 +1,8 @@
 ==Day4Start==
 ...!
-I'm too nervous to try and go back to sleep.
+...I can't believe I woke up before my alarm...
+...
 Today's the day.
-Nova's waiting for me backstage...
 {rivalBool: "}
 
 ->backstage
@@ -42,13 +42,46 @@ It's echoing in my ears like a heartbeat...
 
 text.
 
+->finishStage
+
+==finishStage==
+# CLEAR
+...
+...
+...I did it...!
+Phew!
+The crowd is so loud!
+Are they cheering for me?
+I can't believe it...
+
+# CLEAR 
+//change background to hallway or somewthing that is not the stage...
+
+
+
+
 ->results
-
-
-
-
 ==results==
+"And the winner is..."
+...
+"Cherie!"
+Oh my god...
 
+
+->encore
+==encore==
+They hand me a microphone...
+*["I'd like to thank Altair Entertainment..."]
+    "I'd like to thank Altair Entertainment for 
+    ~ compliance = compliance + 1
+*["Thank you to the fans for supporting me..."]
+    
+*["I'd like to thank Nova..."]
+    "I'd like to thank Nova, for being such a wonderful senior idol..."
+    "She 
+    ~ authenticity = authenticity + 1
+    ~ novAffection = novAffection + 1
+-
 
 ->finalConfrontation
 
