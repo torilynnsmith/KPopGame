@@ -307,12 +307,12 @@ I could <i>tell</i> her, but I can also show her...
 "A guitar? Here, let me show you."
 Woah...I never realized the glowing light on my wrist had more functions...
 Wow!
-A guitar materialized from thin air! The weight feels...different. I'm not holding wood and string-- my fingers are ghosting over light projections. # CLASS: innerThoughts
+This isn't like holding wood and string-- my fingers are ghosting over light projections! # CLASS: innerThoughts
 It's unfamiliar...ALL of this is unfamiliar.
 But my hands...the way my fingers curl around the neck of this holographic guitar...
 It's as natural as breathing.
     **[Play] # CLASS: action
-    The notes ring out clear! I've still got it, even in this new body...
+   I've still got it, even in this new body...
     I don't even know what I was set out on playing...
     But...the music flows out of me regardless.
         ***All of my worries are melting away...
@@ -324,17 +324,21 @@ It's as natural as breathing.
             "...wow..." //nova
             Nova's watching my every move...
             "Cherie...I didn't know you could play lke that."
-                *****Woah...is she...impressed?
+                *****Woah...did she like it?
                     ->musicTalk
                 
                 
 ==musicTalk==
-"You never seemed to show interest in playing instruments. To know you had that talent in you this whole time...I'm very impressed."
+"I'm impressed. You never seemed to show interest in playing instruments. I didn't know you had it in you."
 *"Thank you."
     To have a famous artist tell me that...man, that feels good.
     If only I could harness that to get more Soundcloud monthly listeners...
     Sigh.
-    "I'm glad you 
+    "I'm glad you've found your passion for music. I was worried you didn't have any at all."
+    Oh, right...
+    The person who was "Cherie" before me...
+    She didn't have any passion. 
+    But I do!
 
 *"Really?"
     "Of course. For most of your trainee period you seemed to only care about looks."
@@ -349,17 +353,24 @@ It's as natural as breathing.
     It's nice to hear someone enjoying my music.
     "Don't downplay yourself. You're an idol. You need to have confidence!"
     Confidence...
--
     
-    //write more here
-    
--
+-"Thank you for playing that for me, Cherie."
+"It was...inspiring."
+Inspiring...?
+"I hope you don't lose your passion for music...that's the biggest tragedy for people like us, isn't it?"
+...
+The vibe suddenly shifted...
+"I have to go to a recording session, but just go down the hall for singing rehearsal. I'll see you tomorrow."
+*"See you."
 ->endDay2
+*"Good luck!"
+    "Thanks."
+    ->endDay2
 
 ==endDay2==
 
-I bid goodbye to Nova and head over to singing practice...
-Thankfully that goes a lot smoother than dancing...
+I head over to singing practice...
+Thankfully it goes a lot smoother than dancing...
 The singing coach says I sound much better than earlier...!
 Shit, is this really happening?
 Am I really about to become a real singer...a kpop soloist?

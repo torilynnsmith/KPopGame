@@ -18,8 +18,6 @@ How annoying. I guess I have go get up now...
 ==debutRehearsal==
 # CLEAR
 "Music...CUE!"
-The stage is dim...
-Everyone is holding their breaths...
 Shit! My hands are sweating...
 Calm down, it's just a rehearsal...
 Nevermind that I've never played music for more than ten people at one time...
@@ -120,7 +118,7 @@ He's pointing to a reference picture...that arch is so unnatural! This dress is 
     It bothers me... # CLASS: innerThoughts
     ~ authenticity = authenticity + 1
 
-- The photoshoot goes on for another hour or so...
+- "That's a wrap on the photoshoot. Good job everyone!"
 I'm exhausted.
 I didn't realize how much effort it would be to pose.
 The lights are hot...
@@ -154,11 +152,22 @@ That's the director!
         ...sounds like he hung up.
         Shit...those footsteps are coming closer!
         ****[Walk away]
-                -> guitar2
-
+                
+-   I don't know what to think anymore...
+How can they treat them like that...
+Fuck...
+What have I gotten myself into...?
+I can't keep still...
+I need to do something..             
+-> guitar2
 ==guitar2==
-
-        
+*[Scream]
+    
+*[Cry]
+    
++[Play guitar]
+    I can't keep still...
+    I don't know where to put 
 ->novaChat2
 
 ==novaChat2==
@@ -171,7 +180,6 @@ It's Nova...what is she doing here? # CLASS: innerThoughts
     Ugh...right... # CLASS: innerThoughts
     "What's wrong? Stage fright?"
     Shit, she saw through me!
-    There's a certain looseness in her expression.
     **[Tell her about the director]
         "Nova...I overheard the director on the phone today. He was...talking about me."
         "What was he saying? Was it something serious?"
@@ -270,21 +278,29 @@ It's Nova...what is she doing here? # CLASS: innerThoughts
  ==regret==
  There's something about Nova's expression...she has more to say...
  *"Are you happy at Altair?"
-    ...!
     "What an interesting question."
     "Hm..."
     "Happy..."
     She's really thinking about it...
     "I am grateful for the many opportunities I have because of Altair, but..."
     **"Opportunities?"
+        "Yes, lots of brand ambassador and modeling gigs. Altair has an abundance of connections to many well-known companies. I would not have access to these if I weren't an artist here."
+                ***"We should be grateful for these opportunities, then..."
+                    "You're right. We worked hard to be here, didn't we?"
     **"...but?"
-    **
+        "I won't deny the hardships that come with being part of such a large company. The pressure. The hate. The expectations. You hardly feel human at some point."
+            
+    **"Can't you get opportunities elsewhere?"
+        "Not with the same ease of being part of a large company. What brand would want to work with an artist no one knows?"
+        Ouch! That one cuts deep!
+        
  *"Do you regret becoming an idol?"
-    ...
     "I don't. This is my passion. I want to sing and perform for the rest of my life. The stage is where I belong."
     There's a fire in her eyes...just like in her performance!
     "Altair has many problems, but..."
     "I'm just happy to do what I love for a living."
+    "I can deal with working overtime. I can deal with my body and soul being exhausted. With all of Altair's technical advancements...hopefully those will become a thing of the past..."
+        **"
     
  *"Have you ever thought about leaving?"
     "...leaving?"
