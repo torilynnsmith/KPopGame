@@ -88,21 +88,26 @@ Shit, I didn't think I'd need to give a speech!!! I wasn't expecting to win in t
 *["Thank you to the fans for supporting me..."]
     "Thank you so much for my fans for supporting me..."
     "I know I'm new...so I appreciate you putting faith in me."
-    
+
+
 *["I'd like to thank Nova..."]
     "I'd like to thank Nova, for being such a wonderful senior idol..."
     "I wouldn't have put on a performance like this without her help..."
     "So thank you, Nova. And thank you to everyone who listened to me!"
     ~ authenticity = authenticity + 1
     ~ novAffection = novAffection + 1
--I can't believe that just happened...
 
-{rivalBool: ->rivalEnding}
-{affectionBool: ->affectionEnding}
+# CLEAR
+-My debut stage is done...
+I can't believe that just happened...
+That was such a blur...
+I don't even know where to go from here.
+*[Find Nova]
+    gotta find nova!
+    {rivalBool: ->rivalEnding}
+    {affectionBool: ->affectionEnding}
 
 
-
-==finalConfrontation==
 
 
 

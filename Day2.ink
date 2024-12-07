@@ -43,7 +43,7 @@ Maybe I should do a little digging...
     "Altair you haven't disappointed us yet..."
     so far so good...
     **[Keep looking]
-        "She's alright...doesn't have same star power as Nova or Korviid..."
+        "She's alright...doesn't have same star power as Nova or Verit4s..."
         "Am I the only one who thinks she looks bored..."
         "She looks like a robot! Another trainee should have the chance to debut over her!"
         ...what the hell?
@@ -138,7 +138,7 @@ I think I see it...a shiny bag sitting on a chair in front of the mirror.
     The clothing seems to be made up of gleaming threads. I wonder what they're made of...
     Eek! It's cold to the touch!
     
--i'm putting stuff here so ink doesn't shout at me
+-I hope Nova doesn't see how awkward I feel in these...
 
 "Alright. Something something . The enhancement apparel will do a lot of heavy lifting, but you still need to memorize your moves. The apparel will be useless if you can't tell it what to do. Are you ready, Cherie?"
 *"Yes."

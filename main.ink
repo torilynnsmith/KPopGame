@@ -51,7 +51,6 @@ Now all that's left is to upload this onto Soundcloud. With all the time spent o
 ->music_purist
 
 ==music_purist==
-*"uh huh."
 *"who are you calling a music purist????"
     I have to withold any mean comments that bubble up as I wait for the response.
     "you laughed at me bc i didn't know what a diet tonic scale was." //ivy
@@ -63,13 +62,13 @@ Now all that's left is to upload this onto Soundcloud. With all the time spent o
 ->hardwork
 
 ==hardwork==
-I squint at the blurry thumbnail of the video Ivy just sent. It looks...plastic. Completely manufactured. 
-"they're hot i guess...but is that all there is to them?"
-Immediately Ivy shoots back. "idk...is this really necessary?"
-"wdym?"
-"i'm just saying...they work hard to be where they're at."
-*["work hard?"]
-    Ivy's typing fast. "yes they work hard!! wtf!! they train for years and years, they give up their childhoods, they go on diets and have to work under terrible conditions to learn how to perform!!!"
+The video's thumbnail looks...plastic. Completely manufactured. 
+"they're hot i guess...but is that all there is to them?" # CLASS: cherieText
+"idk...is this really necessary?" # CLASS: ivyText
+"wdym?" # CLASS: cherieText
+"i'm just saying...they work hard to be where they're at." # CLASS: ivyText
+*["work hard?"] # CLASS: cherieText
+    "yes they work hard!! wtf!! they train for years and years, they give up their childhoods, they go on diets and have to work under terrible conditions to learn how to perform!!!" # CLASS: ivyText
     I can't help but scoff. 
     "kpop is a fucking factory...they pluck the prettiest faces and force them into greatness. looks are more important than actual talent."
     My phone pings again after a minute.
@@ -89,15 +88,16 @@ These idols... if only I had their luck...or their beauty...
 ->upload
 
 ==upload==
-Ugh! What am I thinking? I'd never be a slave to a corporation like that. It's complete creative freedom or bust. I lean forward to see that the audio is done compiling, ready to upload.
+Ugh! What am I thinking? I'd never be a slave to a corporation like that. It's complete creative freedom or bust. 
 *[Upload song]
-    I hit upload, nervousness and pride flooding through my system. I watch the wheel spin...and spin... and spin...
-    "What the hell?" I mumble. "Why's it...stuck?"
+The wheel spins...and spins... and spins...
+    "What the hell? Why's it...stuck?"
     **[Cancel upload]
-        The upload bar freezes. 
+        The upload bar's frozen... 
     ->isekai
     **[Reboot computer]
-        My computer freezes and suddenly goes dark. 
+        The computer...what??
+        It froze...and went completely dark!
     ->isekai
 
 

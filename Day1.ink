@@ -4,11 +4,11 @@ What's happening????
 
 [insert isekai bullshit here]
 
-(...) //cherie innerThoughts
-(...urgh.. my head is pounding...) //cherie innerThoughts
-(Did my computer explode?) //cherie innerThoughts
-(Where am I...) //cherie innerThoughts
-(This...isn't my bathroom. How did I get here?) //cherie innerThoughts
+... //cherie innerThoughts
+...urgh.. my head is pounding... //cherie innerThoughts
+Did my computer explode? //cherie innerThoughts
+Where am I... //cherie innerThoughts
+This...isn't my bathroom. How did I get here? //cherie innerThoughts
 *[Open the door]
     Swimming through the brain fog, I reach out a hand to unlock the door. As soon as I step out, someone catches me off guard.
     "Hiding in the bathroom again, really?" A voice, sharp and exasperated, cuts through my haze. //nova 
@@ -24,15 +24,15 @@ What's happening????
 ->identity
 
 ==identity==
-(Staff? Debut?) "O-Okay..." //cherie
+Staff? Debut? "O-Okay..." //cherie
 "I really shouldn't be covering for you, but I'll tell them that you were feeling dizzy. Don't make me regret helping you." //nova
 ->director
 
 ==director==
 "Cherie! There you are. Thank you for finding her, Nova." //npc
-(Nova...is that...?) //cherie innerThoughts
+Nova...is that...? //cherie innerThoughts
 "Of course, Mr. Director. Cherie, here, take a look at this." //nova
-(Nova...I guess that's her name. It seems fitting for her.) //cherie innerThoughts
+Nova...I guess that's her name. It seems fitting for her. //cherie innerThoughts
 *"What's that?" //cherie
     "Your debut packet. You've got a lot of catching up to do if you want to be ready." //nova
     ...it's...a hologram...in the shape of a manila folder. Maybe I'll try tapping it...
@@ -40,30 +40,30 @@ What's happening????
 
 ==debutFolder== //cherie innerThoughts
 *[Stage Name/ID]
-    (...hmm...) 
-    (..."legal name: Kwon Miyoung"...)
-    (..."stage name: Cherie"...)
-    (...“DOB: February 13….2309”????)
-    (What in the world??? I’m…in the future?) 
-    (What is this new identity I have...?)
-    (I'm completely different!)
-    (And also…)
-    (REALLY PRETTY!!!!)
-    (...maybe this won't be so bad after all...)
+    ...hmm... 
+    ..."legal name: Kwon Miyoung"...
+    ..."stage name: Cherie"...
+    ...“DOB: February 13….2309”????
+    What in the world??? I’m…in the future? 
+    What is this new identity I have...?
+    I'm completely different!
+    And also…
+    REALLY PRETTY!!!!
+    ...maybe this won't be so bad after all...
    ->debutFolder
     
 *[Debut Song] //cherie innerThoughts
-    (...let’s see…)
-    (debut song… “Cherie Love”...?)
-    (“Cherie’s debut song ‘Cherie Love’ is a cute and bubbly pop song about the innocence of first love.”)
-    (...)
-    (That’s sickening.)
-    (Cute? Bubbly? That’s…so…not my style…)
+    ...let’s see…
+    debut song… “Cherie Love”...?
+    “Cherie’s debut song ‘Cherie Love’ is a cute and bubbly pop song about the innocence of first love.”
+    ...
+    That’s sickening.
+    Cute? Bubbly? That’s…so…not my style…
    "You want to listen to your debut song again?" //nova
    ->debutFolder
    
 *[Debut Choreography]
-    (...uh oh...choreography?? I can't dance for shit!) //cherie innerThoughts
+    ...uh oh...choreography?? I can't dance for shit! //cherie innerThoughts
     "Um...do I have to do this? I'm more comfortable with singing..." //cherie dialogue
     "Great that you asked, actually! Your enhancement apparel will be ready by tomorrow." //npc
     **"Enhancement apparel?" //cherie
@@ -71,37 +71,37 @@ What's happening????
         "...yes, that's right." //nova
     **"Awesome!" //cherie {
         "...I'm glad you think so." //nova
-        (Custom apparel that somehow enhances body features and functions? Maybe the future isn't so bad after all!) //cherie innerThoughts 
+        Custom apparel that somehow enhances body features and functions? Maybe the future isn't so bad after all! //cherie innerThoughts 
         ~ compliance = compliance + 1
 - "How do you feel, Cherie? You've almost made it! Your debut stage will be nothing like anyone has ever seen!" //director
-(Debut stage...that means I'll be singing and dancing in front of a huge audience! I've never had more than 10 people listening to me play in live venues... this is huge!) //cherie innerThoughts
+Debut stage...that means I'll be singing and dancing in front of a huge audience! I've never had more than 10 people listening to me play in live venues... this is huge! //cherie innerThoughts
 ->endDay1
 
 ==endDay1==
 *"Excited!"
     "That's my girl! I just know the public will eat up your image like fresh cherries. I always know how to pick the sweetest of the bunch..." //director
    ~ compliance = compliance + 1
-    (Why is he leaning up close to me...eek! He patted me on the head!) //cherie innerThoughts
-    (He's looking at me so intently...his expression, it's--)//cherie innerThoughts
+    Why is he leaning up close to me...eek! He patted me on the head! //cherie innerThoughts
+    He's looking at me so intently...his expression, it's--//cherie innerThoughts
     "I'll be off now! Make sure to practice, practice, practice! Wouldn't want our newest star to make a...bad impression on her debut stage, would we?" //director
-    (...bad...impression?) // cherie innerThoughts + director goes offscreen
+    ...bad...impression? // cherie innerThoughts + director goes offscreen
     "The director doesn't know how to respect personal space. But what's new?" //nova
     **"That was strange..."
         "I know. Try to stay out of his way if you can."
-        (She looks...concerned?)
+        She looks...concerned?
         "// nova
     **"I didn't mind."
         "...well. If you're sure about that. He can be a real piece of work sometimes." //nova
-        (She turned away...?)
+        She turned away...?
         
     
     
 *"Nervous..."
-    (This is all so overwhelming! What do you MEAN I'm debuting? Shit, I didn't even watch that music video Ivy sent me earlier today!! I'm so out of my depth!!!) //cherie innerThoughts
+    This is all so overwhelming! What do you MEAN I'm debuting? Shit, I didn't even watch that music video Ivy sent me earlier today!! I'm so out of my depth!!! //cherie innerThoughts
     "Cherie, love, you'll do great! I hand-selected you from the trainee pool to debut because you have a certain...star factor about you. You're a sweet girl, and the public LOVES that!" //director
     "R..Really?"
     "Of course! Now, I'll be off. Be sure to listen to your song and practice, practice, practice! Your debut will cement Altair Entertainment as the best in the industry. You don't want to tarnish that, do you?" //director + director goes offscreen
-    (...he left...Nova looks tense.)
+    ...he left...Nova looks tense.
     **"Tarnish...?"
         "He's so dramatic. But Altair's a big company. You have a lot of eyes on you for your debut."
         "...right."
@@ -110,25 +110,25 @@ What's happening????
         "Look over your folder tonight before heading off to your room. You're going to be in for a tough day tomorrow." //nova
         "...okay..." //cherie
         "You're gonna have a lot of work to do. Serves you right for slacking off so much the past few weeks." //nova
-        (...what kind of a person was Cherie before I took over??? Wow, thanks a lot...) //cherie innerThoughts
+        ...what kind of a person was Cherie before I took over??? Wow, thanks a lot... //cherie innerThoughts
         
 -"Cherie, I don't know what's up with you today, but I need to tell you this while you're still being reasonable."
-(Reasonable? What does she mean by that?)
+Reasonable? What does she mean by that?
 *"Okay, tell me."
     "You cannot take your debut opportunity for granted. Do you know how many other trainees would slaughter each other alive for this chance? I don't want to see you fail, but I want to see you working hard. You can't get by on looks alone, Cherie."
-    (Her expression is so intense...I feel like I'm staring straight into the sun!)
+    Her expression is so intense...I feel like I'm staring straight into the sun!
     "...understood."
     
  -"I'm heading back to my dorm now. Text me if you need anything. Good night, Cherie."
 *"Oh, good night, Nova..."
-(She's gone...)
-(...)
-(...what do I do?)
-(...how did I get here?)
-(No...that doesn't matter right now...)
-(I've been given an opportunity to show my talent on a huge stage!)
-(I can't mess this up.)
-(...)
+She's gone...
+...
+...what do I do?
+...how did I get here?
+No...that doesn't matter right now...
+I've been given an opportunity to show my talent on a huge stage!
+I can't mess this up.
+...
 -This is too much to process for one day. I should probably head to bed...
 *[Sleep]
 ->Day2Start
