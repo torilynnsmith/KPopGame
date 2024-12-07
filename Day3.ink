@@ -208,38 +208,45 @@ It's Nova...what is she doing here? # CLASS: innerThoughts
     Ugh...right... # CLASS: innerThoughts
     "What's wrong? Stage fright?"
     Shit, she saw through me!
+    
     **[Tell her about the director]
-        "Nova...I overheard the director on the phone today. He was...talking about me."
-        "What was he saying? Was it something serious?"
-        ...should I tell her the truth?
-        ***(adAstra)"He mentioned Ad Astra..."
-            "What about them?"
-            "...I think one of the members isn't able to perform, but he's making her do it anyways."
-            "...of course he is."
-            Nova... # CLASS: innerThoughts
-            "He pulled shit like that all the time when I was training with them. Whenever we got injured or sick, he told us to keep going. It was never serious enough for him."
-            I don't think I've ever seen her this angry...
-            "I never understood it and I don't think I ever will. We're human. No matter what they're trying to make us think...but what does Ad Astra have to do with you?" 
-                ****"He said I'd drown out controversy..."
-                    ->debutWorry
-        ***(pawn)"Either outcome is optimal..."
-            "What?"
-            I can't decipher what the director meant by that...
-            "That's what he said on the phone. He was talking about my debut."
-            "What outcomes?"
-            "Whether I do well or not...it doesn't matter."
-            Her expression falls...
-            "That's...that's just like him. That's just like this damn company. We're just pawns to them..."
-                ****[...Pawns?]
-                    ->debutWorry
+    "Nova...I overheard the director on the phone today. He was...talking about me."
+    "What was he saying? Was it something serious?"
+    ...should I tell her the truth?
+    ->teaSpill
+    
+ ==teaSpill==
+*(adAstra)"He mentioned Ad Astra..."
+        "What about them?"
+        "...I think one of the members isn't able to perform, but he's making her do it anyways."
+        "...of course he is."
+        Nova... # CLASS: innerThoughts
+        "He pulled shit like that all the time when I was training with them. Whenever we got injured or sick, he told us to keep going. It was never serious enough for him."
+        I don't think I've ever seen her this angry...
+        "I never understood it and I don't think I ever will. We're human. No matter what they're trying to make us think...but what does Ad Astra have to do with you?" 
+            ***"He said I'd drown out controversy..."
+                ->debutWorry
+*(pawn)"Either outcome is optimal..."
+        "What?"
+        I can't decipher what the director meant by that...
+        "That's what he said on the phone. He was talking about my debut."
+        "What outcomes?"
+        "Whether I do well or not...it doesn't matter."
+        Her expression falls...
+        "That's...that's just like him. That's just like this damn company. We're just pawns to them..."
+            ***[...Pawns?]
+                ->debutWorry
                 
-        ***"Nothing, nevermind..."
-            Nova's expression tightens.
-            "Are you sure, Cherie? You can be honest..." 
-            -
+*"Nothing, nevermind..."
+    Nova's expression tightens.
+    "Are you sure, Cherie? You can be honest..." 
+        **"Actually.."
+            ->teaSpill
+        **"...it's alright."
+            ->debutWorry
 
-    **[Tell her about debut]
-        ->debutWorry
+*[Tell her about debut]
+    ->debutWorry
 
         
 ==debutWorry==
@@ -249,7 +256,7 @@ It's Nova...what is she doing here? # CLASS: innerThoughts
     "That's understandable. I was nervous about my debut too."
     Really? But she seemed so confident on her debut stage!
     ~ authenticity = authenticity + 1
-    {novaChat2.adAstra:"I'm sorry the director is pushing you like this. He should have let the Ad Astra member rest instead of using you to deflect the public's attention. You don't deserve this, and neither do they. I wonder who it is...maybe I should message them..." }
+    {teaSpill.adAstra:"I'm sorry the director is pushing you like this. He should have let the Ad Astra member rest instead of using you to deflect the public's attention. You don't deserve this, and neither do they. I wonder who it is...maybe I should message them..." }
     **"I think she would like that."
         "...Yeah. It's been some time since I've talked with them."
         ~novAffection = novAffection + 1
@@ -260,7 +267,7 @@ It's Nova...what is she doing here? # CLASS: innerThoughts
     **"Do you think she's okay?"
         "I'm not sure...I can only hope it's not too serious. If Altair is treating Ad Astra, of all people, like this...then..."
             ->regret
-    {novaChat2.pawn: "I'm sorry you had to learn the truth so early on in your career...but maybe that's for the best."}
+    {teaSpill.pawn: "I'm sorry you had to learn the truth so early on in your career...but maybe that's for the best."}
         ->regret
 *"Not really."
     "...really?"
@@ -315,6 +322,9 @@ It's Nova...what is she doing here? # CLASS: innerThoughts
         "Yes, lots of brand ambassador and modeling gigs. Altair has an abundance of connections to many well-known companies. I would not have access to these if I weren't an artist here."
                 ***"We should be grateful for these opportunities, then..."
                     "You're right. We worked hard to be here, didn't we?"
+                    "Yes."
+                    "I don't intend to waste my hard work."
+                    ~ compliance = compliance + 1
     **"...but?"
         "I won't deny the hardships that come with being part of such a large company. The pressure. The hate. The expectations. You hardly feel human at some point."
             
@@ -330,7 +340,7 @@ It's Nova...what is she doing here? # CLASS: innerThoughts
     "I can deal with working overtime. I can deal with my body and soul being exhausted. With all of Altair's technical advancements...hopefully those will become a thing of the past..."
         **"
     
- *"Have you ever thought about leaving?"
+ *(leaving)"Have you ever thought about leaving?"
     "...leaving?"
     ...
     I can't read her expression...
@@ -340,13 +350,7 @@ It's Nova...what is she doing here? # CLASS: innerThoughts
     "I consider it."
     "It would be incredibly risky..."
     "I don't know what would become of me..."
-    
 
-    
-    
- 
-    
-    
 -
 ->split
 

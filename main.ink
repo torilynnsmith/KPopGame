@@ -2,6 +2,10 @@ INCLUDE Day1.ink
 INCLUDE Day2.ink
 INCLUDE Day3.ink
 INCLUDE Day4.ink
+INCLUDE RivalEnding.ink
+INCLUDE AffectionEnding.ink
+
+
 
 
 
@@ -11,10 +15,9 @@ VAR novAffection = 0
 //scene establishing paragraph
 
 ...I've been hunched over my desk for the past four hours. The sun has begun to slip past the city line entirely, but the only thing I can see in front of me is the little blips and beats of the music software pulled up on my desktop.
-I adjust the audio of the drums and correct the pitch of my vocals. Almost there. Just need to tweak the audio levels one more time.
+ Almost there. Just need to tweak the audio levels one more time.
     *...! 
-    Done!
--I breathe a victorious sigh as I lay back in my chair, the hours and hours of recording the vocals and instrumentals, the even more hours of stitching them altogether finally amounting to something big.
+   - Done!
 
 ->soundcloud
 
@@ -23,13 +26,13 @@ I adjust the audio of the drums and correct the pitch of my vocals. Almost there
 Now all that's left is to upload this onto Soundcloud. With all the time spent on this newest song…I can hope it receives some recognition.
 
 -A sudden buzzing from my phone catches my attention.
-    *[Check Phone] A notification pops up on my phone.
+    *[Check Phone]
     ->text
 
 ==text==
 ...it's a text from my friend Ivy.
 
-<i>"omg did you see INSERT KPOP GROUP’s newest comeback?"</i> //friend
+<i>"omg did you see ’s newest comeback?"</i> //friend
 
 *<i>["uh...no."]</i> //MC
      <i>"i’m abt to upload a new song rn."</i> 
@@ -81,8 +84,8 @@ She texts back.
 "ugh, fine! i'll listen later, i have to go."
 I bid her goodbye and lean back in my chair once more, my eyes drifting over to the Soundcloud tab that's open on my other monitor. My monthly listeners number has grown in painstakingly long increments...I wonder, is my work really that bad? 
 I scroll through my messages to find the music video friend sent. The girls in the thumbnail are wearing sparkly outfits and heavy makeup. I can't help but let out a laugh.
-These idols... if only I had their luck...or their beauty...maybe I can become someone big...
-*[dream...]
+These idols... if only I had their luck...or their beauty...
+*[Maybe I can become someone big...]
 ->upload
 
 ==upload==

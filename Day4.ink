@@ -21,6 +21,14 @@ I can hear the crowd roaring...
 The tick tick tick of the metronome in my earpiece.. 
 It's echoing in my ears like a heartbeat...
 
+"Positions! Positions!"
+
+
+<i>tick tick tick tick </i>
+"Track: 'Cherie Love.'"
+"Artist: In Position."
+"Intro, 2, 3, 4..."
+
 # CLEAR
 ->debutStageDance
 
@@ -39,8 +47,9 @@ It's echoing in my ears like a heartbeat...
     ->debutStageSing
 
 ==debutStageSing
+Time to sing my heart out!
 
-text.
+
 
 ->finishStage
 
@@ -68,14 +77,13 @@ I can't believe it...
 Oh my god...
 What? I...won?
 I can't believe it...!
-
-
 ->encore
+
 ==encore==
 "Cherie! Congratulations on your first win! Do you have any words for the audience?"
 Shit, I didn't think I'd need to give a speech!!! I wasn't expecting to win in the first place! 
 *["I'd like to thank Altair Entertainment..."]
-    "I'd like to thank Altair Entertainment for 
+    "I'd like to thank Altair Entertainment
     ~ compliance = compliance + 1
 *["Thank you to the fans for supporting me..."]
     "Thank you so much for my fans for supporting me..."
@@ -84,14 +92,15 @@ Shit, I didn't think I'd need to give a speech!!! I wasn't expecting to win in t
 *["I'd like to thank Nova..."]
     "I'd like to thank Nova, for being such a wonderful senior idol..."
     "I wouldn't have put on a performance like this without her help..."
-    "So thank you, Nova"
+    "So thank you, Nova. And thank you to everyone who listened to me!"
     ~ authenticity = authenticity + 1
     ~ novAffection = novAffection + 1
--I can't believe that just happened.
+-I can't believe that just happened...
+
+{rivalBool: ->rivalEnding}
+{affectionBool: ->affectionEnding}
 
 
-
-->finalConfrontation
 
 ==finalConfrontation==
 
