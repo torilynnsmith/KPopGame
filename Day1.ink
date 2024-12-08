@@ -89,6 +89,7 @@ Debut stage...that means I'll be singing and dancing in front of a huge audience
     **"That was strange..."
         "I know. Try to stay out of his way if you can."
         She looks...concerned?
+        ~ authenticity = authenticity + 1
         "// nova
     **"I didn't mind."
         "...well. If you're sure about that. He can be a real piece of work sometimes." //nova

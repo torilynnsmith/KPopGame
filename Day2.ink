@@ -105,7 +105,7 @@ Maybe I should do a little digging...
     ->groups
 
 *[TimeL00p]
-    "TimeL00p is a seven-member boy group under Altair Entertainment. They were created from the survival show 'Turn Back Time.' TimeL00p 
+    "TimeL00p is a seven-member boy group under Altair Entertainment. They were created from the survival show 'Turn Back Time.' 
     ->groups
 *[back to altair]
     ->altair

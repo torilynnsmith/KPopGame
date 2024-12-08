@@ -6,7 +6,6 @@
     "I'm sure. You've put in a lot of work over the past few days."
     It feels good to finally be recognized...
     There were so many lightsticks in the crowd!
-    But there's something nagging at me...
     
 *"I'm not sure..."
     "What do you mean?"
@@ -25,12 +24,47 @@
             All of this is a little much...
             "It's overwhelming for sure. But you did great out there."
     
-- 
-
+- There's something nagging me though...
+Even after winning...even after the success...
 "What's the matter?"
 I guess I can't get much past her...
 *"I just wish I didn't have to be someone I'm not."
-"I know. I know."
+    "Would I have won with a song I made?"
+    "Is this all I'm good for?"
+    "Cherie..."
+    <b>"Am I really a musician if I'm just Altair's puppet?"</b>
+    Jeez...I didn't mean to let that all tumble out of me...
+    "I know. I know." //nova
+    "The success...the opportunities...sometimes it feels superficial..." //nova
+    {regret.leaving:"Do you remember when you asked me if I ever thought about leaving? The truth is...I have. And...watching you reminded me of why I wanted to become a musician.} //nova
+    
+->glitch
+
+==glitch==
+"I...I don't want to be tied down like this. I want to make music in the ways I love."
+"I want people to listen to the real me."
+I don't know how I got here...
+I dont know how I got into this world and into this body...
+But I can't be Cherie.
+...
+"Let me come with you." //nova
+*"What?"
+    "I'm fed up with all of it. Altair. Ad Astra's mistreatment. The concept that I was forced into."
+    What is she saying?
+    "You figured it out, right? The glitch?"
+    **[The...what?"]
+        "I saw it last night before we talked. When you played your guitar, it glitched."
+        That's right...I thought it was just a faulty hologram.
+        "What about it?" //cherie
+        "The same thing happened one night when I was singing. My microphone started glitching."
+        ***[What is she getting at?]
+            "I don't understand..." // cherie dialogue
+            "It's attached to our emotions. It's an Altair prototype. Our musical passion keeps the lights on here. If we're angry and bitter..."
+            That's right... the lights in the practice room dimmed when I was playing that one time!
+            
+            
+        
+        
 
 
     
