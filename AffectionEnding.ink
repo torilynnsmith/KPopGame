@@ -66,10 +66,34 @@ But I can't be Cherie.
                 ****"Let's do it!"
                     ->breakout
                 ****"I'm not sure about this..."
-                    "We'll be fine. 
+                    "We'll be fine. You'r 
                     ->breakout
 
 ==breakout==
+"Come on, I know a practice room nobody uses."
+...she's fast! I need to sprint to keep up with her.
+"There...now...let's make some music!"
+She's holding her microphone already.
+*[Pull out guitar]
+    It still feels strange to play music on holograms...
+    "What should we play?"
+    "Play whatever you feel like playing. Just let the music speak to you."
+    **[Strum!]
+        My fingers are moving like they have a mind of their own...!
+        Nova's voice sounds so raw and powerful!
+        It's weird...
+        Somehow our songs don't clash completely...
+        Instead...
+        They seem to phase in and out of each other.
+        "Cherie, look!"
+            ***[Look]
+                Our instruments are glitching!
+                The lights are sparking!
+                Ack!
+                Everything's gone dark!
+                "Perfect. Let's go!"
+                I don't have time to think... all I can do is follow her!
+                
 
 
 ->final
@@ -77,6 +101,10 @@ But I can't be Cherie.
 ==final==
 
 We're running, and we're running, and we're running...
+# CLEAR
+
+// new location !
+
 "Nova...where do we go now?"
 {novAffection >=2: "Please. Call me Yuna."}
     ~realNamebool = true

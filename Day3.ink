@@ -387,7 +387,8 @@ It's Nova...what is she doing here? # CLASS: innerThoughts
     **"Yes?"
             {rivalBool: "You'd better put on a damn good debut stage, you hear me?"}
             {rivalBool: ...what?}
-            {rivalBool: "I  }
+            {rivalBool: "I know what you're capable of now. I like my competition fierce.}
+            {rivalBool: Competition??? She's not even promoting anything right now!}
             
             {affectionBool: "You go out there tomorrow and put on the best performance of your life, got that?"}
             {affectionBool: ...she says that like it's simple...}
@@ -403,12 +404,11 @@ It's Nova...what is she doing here? # CLASS: innerThoughts
 
 - "I have to go now, Cherie, but I'll be watching your debut stage."
 "Oh, alright."
-
-
+# CLEAR
 
 This is it...
 My debut's tomorrow...
-Everyone's eyes will be on me.
+Everyone's eyes will be on me, just like I've always wanted.
 *[Sleep]
 ->Day4Start
                 

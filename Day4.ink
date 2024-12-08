@@ -33,11 +33,11 @@ At this point, I've done all I can...
 
 I can hear the crowd roaring...
 "It's showtime, Cherie...!"
-
-
-
+It's a blur...
+Rushing onto stage...
+Taking my place...
 The tick tick tick of the metronome in my earpiece.. 
-It's echoing in my ears like a heartbeat...
+It's echoing in my ears like a heartbeat.
 
 "Positions! Positions!"
 
@@ -100,7 +100,7 @@ I can't believe it...!
 "Cherie! Congratulations on your first win! Do you have any words for the audience?"
 Shit, I didn't think I'd need to give a speech!!! I wasn't expecting to win in the first place! 
 *["I'd like to thank Altair Entertainment..."]
-    "I'd like to thank Altair Entertainment
+    "I'd like to thank Altair Entertainment...the staff have all been so nice...thank you for your hard work!"
     ~ compliance = compliance + 1
 *["Thank you to the fans for supporting me..."]
     "Thank you so much for my fans for supporting me..."
@@ -119,44 +119,11 @@ Shit, I didn't think I'd need to give a speech!!! I wasn't expecting to win in t
 I can't believe that just happened...
 That was such a blur...
 I don't even know where to go from here.
+Well...
+There's one person I know I can talk to...
 *[Find Nova]
-    gotta find nova!
-
-->afterStage
-
-==afterStage==
-
-"Cherie! There you are, I've been looking for you."
-"Nova!"
-{rivalBool:"Getting your first win on your debut stage? I'm glad we're playing on the same field now."}
-{rivalBool: Of course she managed to do that too...}
-{rivalBool: "How does it feel?"}
-{affectionBool: "I'm...wow...you were great out there. How do you feel?"}
-*"Good..."
-    "I'm sure. You've put in a lot of work over the past few days."
-    It feels good to finally be recognized...
-    There were so many lightsticks in the crowd!
-    But there's something nagging at me...
-*"I'm not sure..."
-    "What do you mean?"
-        **"It doesn't feel deserved..."
-            How much of it was me, really? 
-            The clothes helped me dance.
-            I didn't write the song.
-            "You worked so hard over the past few days. Of course you deserve it."
-            I know, but...
-            
-            
-        **"This wasn't what I was expecting."
-            The lights...the glamour...
-            The photoshoots and the choreography...
-            I was just a Soundcloud artist a few days ago...
-            All of this is a little much...
-            "It's overwhelming for sure. But you did great out there."
-
--
-{rivalBool: ->rivalEnding}
-{affectionBool: ->affectionEnding}
+    {rivalBool: ->rivalEnding}
+    {affectionBool: ->affectionEnding}
 
 
 
