@@ -14,8 +14,10 @@ VAR authenticity = 0
 VAR novAffection = 0
 //scene establishing paragraph
 
-...I've been hunched over my desk for the past four hours. The sun has begun to slip past the city line entirely, but the only thing I can see in front of me is the little blips and beats of the music software pulled up on my desktop.
- Almost there. Just need to tweak the audio levels one more time.
+...ugh...how long have I been sitting here?
+The sun's gone down...?
+I've been staring at this audio for hours...
+But I'm almost there. Just need to tweak the audio levels one more time.
     *...! 
    - Done!
 
@@ -23,7 +25,9 @@ VAR novAffection = 0
 
 
 ==soundcloud==
-Now all that's left is to upload this onto Soundcloud. With all the time spent on this newest song…I can hope it receives some recognition.
+Now to upload this to Soundcloud.
+With all the time spent on this newest song…
+I really hope it receives some recognition.
 
 -A sudden buzzing from my phone catches my attention.
     *[Check Phone]

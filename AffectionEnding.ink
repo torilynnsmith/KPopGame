@@ -1,3 +1,4 @@
+VAR realNamebool = false
 ==affectionEnding==
 "Cherie! There you are, I've been looking for you."
 "Nova!"
@@ -61,7 +62,40 @@ But I can't be Cherie.
             "I don't understand..." // cherie dialogue
             "It's attached to our emotions. It's an Altair prototype. Our musical passion keeps the lights on here. If we're angry and bitter..."
             That's right... the lights in the practice room dimmed when I was playing that one time!
+                
+
+
+->final
+
+==final==
+
+We're running, and we're running, and we're running...
+"Nova...where do we go now?"
+{novAffection >=2: "Please. Call me Yuna."}
+    ~realNamebool = true
+{realNamebool: Yuna...that must be her birth name...}
+{realNamebool: It suits her.}
+"Since we're no longer under Altair, we don't need stage names." //nova
+"So, what can I call you?" //nova
+*"Miyoung." //cherie
+    "Miyoung. What a pretty name." //nova 
+    "So, Miyoung..."
+    "What do you say about writing that song for the both of us? Do you mind if I help?"
+    She's smiling...I can't help but smile, too...
+        **"Let's do it."
+            ->DONE
             
+            
+            
+            
+            
+            
+
+
+
+
+
+
             
         
         
