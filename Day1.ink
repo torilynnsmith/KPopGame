@@ -1,8 +1,10 @@
 ==isekai==
-The computer flashes red, green, blue, black, pink... it didn't do the trick at all!
+What the hell is my computer doing...??
+It's sparking???
 What's happening????
+AAAACK!
 
-[insert isekai bullshit here]
+//hard transition to black?
 
 ... //cherie innerThoughts
 ...urgh.. my head is pounding... //cherie innerThoughts

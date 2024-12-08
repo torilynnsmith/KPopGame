@@ -37,7 +37,7 @@ I guess I can't get much past her...
     Jeez...I didn't mean to let that all tumble out of me...
     "I know. I know." //nova
     "The success...the opportunities...sometimes it feels superficial..." //nova
-    {regret.leaving:"Do you remember when you asked me if I ever thought about leaving? The truth is...I have. And...watching you reminded me of why I wanted to become a musician.} //nova
+    {regret.leaving:"Do you remember when you asked me if I ever thought about leaving? The truth is...I have. And...watching you reminded me of why I wanted to become a musician."} //nova
     
 ->glitch
 
@@ -62,7 +62,14 @@ But I can't be Cherie.
             "I don't understand..." // cherie dialogue
             "It's attached to our emotions. It's an Altair prototype. Our musical passion keeps the lights on here. If we're angry and bitter..."
             That's right... the lights in the practice room dimmed when I was playing that one time!
-                
+            "If we play our hearts out... we'll give ourselves an opening. What do you say?"
+                ****"Let's do it!"
+                    ->breakout
+                ****"I'm not sure about this..."
+                    "We'll be fine. 
+                    ->breakout
+
+==breakout==
 
 
 ->final

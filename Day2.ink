@@ -287,12 +287,24 @@ There's no sense of anger in her voice. What's going on?
     This tone of hers...it sounds so...rehearsed?
     
     **"What kind of music <i>do</i> you like?"
+        There's a small spark in her eyes...
+        "Well...I'm fond of a few genres. Rock and RnB are some of my favorites."
+        I love rock and RnB!
+        "Don't tell anyone, but I've always wanted to try being a trot singer..."
         ...!
-        
+        "Don't give me that look! Trot has a special place in my heart..."
+        She sounds angry, but she's smiling a little.
+        Trot music...I'd never expect that from someone with her concept...
+        ~authenticity = authenticity + 1
+        ~novAffection = novAffection + 1
     **"What do you mean by ''make' is a stretch'?"
         "Cherie..."
         She's...laughing?
-        "I didn't know you were so old-fashioned!"
+        "Altair would never trust us to make our own music. We perform what they give us...for better or for worse."
+        "What do you mean?"
+        "Why would they risk promoting an artist-made song when they can engineer the catchiest and most thoughtful music in the blink of an eye?"
+            ***"I guess you're right..."
+            ***"Isn't that the point of music?"
         
         
 - 
@@ -319,7 +331,7 @@ It's as natural as breathing.
             Yes...this is what I do, this is what I love.
             The fire, the passion...
             It's everything I ever hope to do and be.
-            ****Finish
+            ****[Finish]
             Phew...that was fun.
             "...wow..." //nova
             Nova's watching my every move...

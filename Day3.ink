@@ -387,7 +387,7 @@ It's Nova...what is she doing here? # CLASS: innerThoughts
     **"Yes?"
             {rivalBool: "You'd better put on a damn good debut stage, you hear me?"}
             {rivalBool: ...what?}
-            {rivalBool: "I }
+            {rivalBool: "I  }
             
             {affectionBool: "You go out there tomorrow and put on the best performance of your life, got that?"}
             {affectionBool: ...she says that like it's simple...}
