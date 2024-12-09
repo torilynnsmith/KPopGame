@@ -14,16 +14,18 @@ Did my computer explode? //cherie innerThoughts
 Where am I... //cherie innerThoughts
 This...isn't my bathroom. How did I get here? //cherie innerThoughts
 *[Open the door]
-    Swimming through the brain fog, I reach out a hand to unlock the door. As soon as I step out, someone catches me off guard.
-    "Hiding in the bathroom again, really?" A voice, sharp and exasperated, cuts through my haze. //nova 
+    I should get out. Wait...why does this stall look...techy??
+    This doorknob looks like it's straight out of a movie...
+    "Hiding in the bathroom again, really?" //nova 
     "If you're going to slack off, do it AFTER your promotions are over!" //nova
     This girl...she doesn't look familiar...
     **"Who are you?" //cherie
-        "You dare disrespect your senior?" she yells. "First you skip rehearsals 3 days before your debut, and now you're just pretending to forget who I am?" She huffs. "You should have been let go from this company a long time ago, Cherie. We don't have time for this." //nova
+        "You dare disrespect your senior?"
+        "First you skip rehearsals 3 days before your debut, and now you're just pretending to forget who I am?" 
+        "You should have been let go from this company a long time ago, Cherie. We don't have time for this." //nova
     **"What are you talking about?" //cherie
     "Don't tell me you've forgotten, Cherie!" she cries. "Seriously, this girl! Your debut is 3 days away! Did you hit your head and suddenly forget everything?" //nova
-- I open my mouth to say something, but she cuts me off.
-"Come on. The staff are calling us back, let's go." //nova
+- "Come on. The staff are calling us back, let's go." //nova
 *[Follow her]
 ->identity
 
