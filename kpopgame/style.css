@@ -295,7 +295,7 @@ body.dark {
 }
 
 .dark #controls [disabled] {
-    color: #444;
+    color: ##3c339a;
 }
 
 .dark .end {
