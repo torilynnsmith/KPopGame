@@ -312,9 +312,9 @@ body.dark {
 
 
 .text {
-    background-image: url("text.png");
+    background-image: url("images/text.png");
 }
 
 .friendText {
-    background-image: url("textgray.png");
+    background-image: url("images/textgray.png");
 }
