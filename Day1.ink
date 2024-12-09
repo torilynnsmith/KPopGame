@@ -6,6 +6,8 @@ AAAACK!
 
 //hard transition to black?
 
+# CLEAR
+
 ... //cherie innerThoughts
 ...urgh.. my head is pounding... //cherie innerThoughts
 Did my computer explode? //cherie innerThoughts
