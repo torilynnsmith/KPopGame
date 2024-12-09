@@ -105,6 +105,7 @@ h2 {
     padding: 20px;
     padding-top: 4em;
     background: white;
+    margin-left: 50px;
 }
 
 @media screen and (prefers-reduced-motion: no-preference) {
