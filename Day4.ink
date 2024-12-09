@@ -49,8 +49,10 @@ It's echoing in my ears like a heartbeat.
 "Intro, 2, 3, 4..."
 
 # CLEAR
-->debutStageDance1
-==debutStageDance1==
+->debutStageDance
+
+
+==debutStageDance==
 
 *[hands, hips, feet]
     That doesn't feel right...oh well...I'll keep dancing!
@@ -62,7 +64,6 @@ It's echoing in my ears like a heartbeat.
 *[feet, hands, hips]
     Nope, nope, that's definitely not it...it's fine...just keep pushing!
     ->debutStageSing
-    
 
 ==debutStageSing==
 Time to sing my heart out!

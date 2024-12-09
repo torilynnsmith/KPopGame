@@ -10,11 +10,20 @@ My wrist is glowing...? Hm.
     ...it stopped! And a hologram popped out!
     It looks like a phone interface.
     ...technology is wild...
--What is this place? Who are these people...?
+        **[Check "phone"]
+            Let's see... a message from the director and a text from Nova...
+                ***[Check director's message]
+                    "Cherie!! 
+                ***[Check Nova's text]
+                    "Hi Cherie. 
+    
+-"Whew..."
+Yesterday was such a whirlwind...
+What is this place? Who are these people...?
 ...
 Maybe I should do a little digging...
 *[Open social media]
-What should I look for...
+...what should I look up...?
     ->socMed
 
 ==socMed==
@@ -23,7 +32,7 @@ What should I look for...
     Hm...which one should I watch?
     ->novaPerformances
 *[Altair Entertainment]
-    I'm bound to find some more information there.
+    Let's look up the entertainment company. I'm bound to find some more information there.
     Looks like they're managing multiple talents...
     ->altair
 *[Cherie]
@@ -56,7 +65,8 @@ What should I look for...
         This song is...not the most musically interesting...
         ...but it <i>is</i> kind of catchy...
         Dammit, Ivy, you got me.
-            ->socMed
+        What else does she have?
+            ->novaPerformances
     
 *["Penumbra"]
     ...I'm sensing an astronomy theme here...I guess that's her concept?
@@ -70,8 +80,10 @@ What should I look for...
         The autotune...
         ...either way, Nova's a master at performance...
         She knows how to be a star.
-        ->socMed
+        ->novaPerformances
     
+*[back to social media] # CLASS: action
+    ->socMed
 -
 ->novaPerformances
 ==altair==
@@ -90,22 +102,26 @@ What should I look for...
     Let's see...
     "Ad Astra is a five-member girl group under Altair Entertainment. They won multiple 'Rookie of the Year' awards, 'Girl Group of the Year' awards, and have smashed charts since debut. They are currently touring Southeast Asia."
     Wow...they're so famous!!!
-    ->socMed
+    ->groups
 
 *[TimeL00p]
     "TimeL00p is a seven-member boy group under Altair Entertainment. They were created from the survival show 'Turn Back Time.' 
-    ->socMed
-
+    ->groups
+*[back to altair]
+    ->altair
 
  ==soloists==
 *[Nova]
     "Nova is a female soloist under Altair Entertainment. Her debut song 'Borealis' trended on the charts for 3 months after her debut."
-        Wow! That's impressive.
-        ->socMed
+    
+        ->soloists
 *[Verit4s]
     "Verit4s is a male soloist under Altair Entertainment. Along with his idol career, he produces music for film and TV."
     I guess idols can do more than just idol work, huh...
-->socMed
+->soloists
+
+*[back to social media]
+    ->socMed
 
 ==danceTraining==
 # CLEAR
@@ -124,12 +140,12 @@ I think I see it...a shiny bag sitting on a chair in front of the mirror.
     
 -I hope Nova doesn't see how awkward I feel in these...
 
-"Alright. It's time to get to work, Cherie. The enhancement apparel will do a lot of heavy lifting, but you still need to memorize your moves. The apparel will be useless if you can't tell it what to do. Are you ready?"
+"Alright. Something something . The enhancement apparel will do a lot of heavy lifting, but you still need to memorize your moves. The apparel will be useless if you can't tell it what to do. Are you ready, Cherie?"
 *"Yes."
     "Good. Let's start. You need to brush up on the choreography."
-    ->choreo1
+    ->danceMemory
 
-==choreo1==
+==danceMemory==
 "Alright. We're going to start with hands. Raise your arms up high, and hit this pose."
 ...okay...
 "Good. Next, move your feet like this."
@@ -139,7 +155,7 @@ I think I see it...a shiny bag sitting on a chair in front of the mirror.
 ...alright! 
 
 "Okay, Cherie. You do it this time."
-*[...okay, how did that go again?]
+...okay, how did that go again?
 
 # CLEAR
 
@@ -154,64 +170,12 @@ I think I see it...a shiny bag sitting on a chair in front of the mirror.
     ->danceMemory1
 +[hands, feet, hips]
     "Good! You got it."
-    ->choreo2
 
-==choreo2==
-"Next...you skip across the stage like this."
-..got it.
-"Now, do a twirl, and end up in this position here."
-...okay!
-"Good. Now, blow a kiss to the audience."
-...really?????
-...I guess I have no choice.
 
-"Alright Cherie, let's try that again."
-*[...here goes nothing.]
-# CLEAR
-->danceMemory2
 
-==danceMemory2==
-+ [twirl, skip, kiss]
-    "Nope. Again."
-    ->danceMemory2
-+ [skip, twirl, kiss]
-    "Nice, Cherie. You're getting it."
-    ->choreo3
-+ [kiss, skip, twirl]
-    "That's not it. Go again."
-    ->danceMemory2
 
-==choreo3==
-"Alright Cherie, last bit for now. Shuffle your feet like this."
-...yikes! Even with the enhancement apparel it's difficult!
-"Now point, like this!"
-...that's easy.
-"And lastly... make a heart with your hands like so."
-... okay.
-
-"Think you can do that?"
-*[...I'll give it my best shot..*!]
-    ->danceMemory3
-# CLEAR
-
-==danceMemory3==
-+ [shuffle, point, heart]
-    "You got it!"
-    ->rehearsal
-+ [point, heart, shuffle]
-    "Almost. Try again."
-    ->danceMemory3
-+ [kiss, hips, point]
-    "You're getting the different parts mixed up. Try again."
-        ->danceMemory3
-
-==rehearsal==
-...
-...Nova's relentless...
-How many run-throughs are we going to do?
-We've gone through the dance more times than I can count...
 "Let's do a water break. I'll meet you back here in a little." //nova
-Thank goodness...even with the clothes that make me a dance goddess, my body still feels the burn... # CLASS: innerThoughts
+I'm so relieved to hear her say that...even with the clothes that make me a dance goddess, my body still feels the burn... # CLASS: innerThoughts
 Urgh...water sounds nice. How the hell do people do this???
 I guess Ivy was right..
 Phew...
@@ -340,28 +304,7 @@ There's no sense of anger in her voice. What's going on?
         "What do you mean?"
         "Why would they risk promoting an artist-made song when they can engineer the catchiest and most thoughtful music in the blink of an eye?"
             ***"I guess you're right..."
-                    "Yeah. The company knows best...that's what they always say."
-                    "They would only be wasting time and resources in the long run."
-                    Yeah, I suppose that's true...they're the ones with thousands of fans...
-                    ...and here I am with a measly number of monthly listeners.
-                    ~ compliance = compliance + 1
             ***"Isn't that the point of music?"
-                    "...it should be, shouldn't it?" //
-                    "Maybe one day I can try my hand at making music..."
-                    "Although I don't know if it would be any good..."
-                    ...I had those exact same feelings when I first started out...
-                    ...I still don't know if my own music is good...
-                    ...but it's my goal to keep pushing...keep improving...
-                    ~ authenticity = authenticity + 1
-            ***"Have you ever tried to make your own music?"
-                "Make my own?"
-                "...never."
-                "Would you ever try it?" //cherie
-                "Maybe. I'm not sure if it would produce anything of worth..."
-                ...I understand the feeling...
-                ...but still!
-                
-                    
         
         
 - 
@@ -434,7 +377,6 @@ The vibe suddenly shifted...
 ->endDay2
 *"Good luck!"
     "Thanks."
-
     ->endDay2
 
 ==endDay2==

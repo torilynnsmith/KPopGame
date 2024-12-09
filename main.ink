@@ -11,6 +11,9 @@ VAR authenticity = 0
 VAR novAffection = 0
 
 # DARK THEME
+
+# CLASS: pc
+
 ...ugh...how long have I been sitting here?
 The sun's gone down...?
 I've been staring at this audio for hours...
