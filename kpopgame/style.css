@@ -311,8 +311,6 @@ body.dark {
 
 
 .text {
-    background-image: url("text.png");
-    size: 50px;
     color: blue;
 }
 
