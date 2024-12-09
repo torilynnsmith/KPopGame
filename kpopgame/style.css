@@ -104,7 +104,6 @@ h2 {
     margin: 0 auto;
     padding: 20px;
     padding-top: 4em;
-    margin-left: 50px;
     background: white;
 }
 
@@ -223,7 +222,7 @@ img {
     right: 14px;
     top: 4px;
     user-select: none;
-    background: #3c339a;
+    background: white;
 }
 
 @media screen and (prefers-reduced-motion: no-preference) {
@@ -256,8 +255,8 @@ img {
 */
 
 body.dark {
-    background: #5a79c8;
-    color: #5a79c8;
+    background: black;
+    color: white;
 }
 
 .dark h2 {
@@ -265,16 +264,15 @@ body.dark {
 }
 
 .dark .container {
-    background: #eeeeee;
-    padding-bottom: 50px;
+    background: black;
 }
 
 .dark .written-in-ink {
-    background: #3c339a;
-{
+    background: black;
+}
 
 .dark a {
-    color: #3c339a;
+    color: #cc8f1a;
 }
 .dark .unclickable{
     color: #c4af87;
@@ -307,24 +305,24 @@ body.dark {
     background: black;
 }
 
+/*INK TAGGED CUSTOM CLASSES*/
 
-/* classes */
-
+.testClass
+{
+    color: #FB1AEA;
+    font-style: italic;
+}
 
 .text {
-    background-image: url("image/text.png");
+    background-image: url("images/text.png");
     color: darkblue;
 }
 
 .friendText {
-    background-image: url("textgray.png");
+    background-image: url("images/textgray.png");
 }
 
 
 .pc {
     background-image: url("images/desk.jpeg");
 }
-
-
-
-

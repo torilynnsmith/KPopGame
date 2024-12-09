@@ -1,5 +1,3 @@
-# theme: dark
-
 INCLUDE Day1.ink
 INCLUDE Day2.ink
 INCLUDE Day3.ink
@@ -7,10 +5,10 @@ INCLUDE Day4.ink
 INCLUDE RivalEnding.ink
 INCLUDE AffectionEnding.ink
 
-
 VAR compliance = 0
 VAR authenticity = 0
 VAR novAffection = 0
+THIS IS A TEST # CLASS : testClass
 
 YIPEEEE # CLASS: pc
 
