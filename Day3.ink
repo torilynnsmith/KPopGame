@@ -17,6 +17,8 @@ How annoying. I guess I have go get up now...
 
 ==debutRehearsal==
 # CLEAR
+...chaos!
+
 "Music...CUE!"
 Shit! My hands are sweating...
 Calm down, it's just a rehearsal...
@@ -46,16 +48,14 @@ The music starts...
 
 Wow...
 This set looks so professional!
-"
-
+Clean backdrops! Fancy lights! So many staff members!
+The hustle and bustle is so--
 Eek! Someone shoved something into my arms!
 "Cherie, please put this on."
-*"I...okay..."
+*"I...what...?"
    It looks like a dress of some kind... # CLASS: innerThoughts
    I'd better change fast... # CLASS: innerThoughts
     "Cherie, it's time to do your makeup."
-*"Oh, this? But it's a little short..."
-    The staff's face...they're shocked!
         **"Oh, o-okay..."  
             They're dragging me over to a mirror! # CLASS: innerThoughts
             Ouch! Someone stabbed me in the eye! # CLASS: innerThoughts
@@ -107,7 +107,7 @@ He's pointing to a reference picture...that arch is so unnatural! This dress is 
             ->photoOptions
             
     
-+defiance[Ask for a different pose] # CLASS: action
++(defiance)[Ask for a different pose] # CLASS: action
     "Um...sorry, can I try something else?"
     He doesn't look too happy with that... # CLASS: innerThoughts
     "Cherie, if you please, I'm the creative director. Please follow my lead."
@@ -356,14 +356,17 @@ It's Nova...what is she doing here? # CLASS: innerThoughts
 
 ==split==
 
+//compliance counter: 9
+//authenticity counter: 7
+
     Something seems different about her... # CLASS: innerThoughts
-    {compliance >=4: She has a determined look on her face...she almost looks angry at me.}
-    {compliance >=4:"I can tell you're not pulling any punches, Cherie. If you're determined to dethrone me, I won't let you do that so easily."}
+    {compliance >=6: She has a determined look on her face...she almost looks angry at me.}
+    {compliance >=6:"I can tell you're not pulling any punches, Cherie. If you're determined to dethrone me, I won't let you do that so easily."}
     ~ rivalBool = true
    
-    {authenticity >=3: She has a determined look on her face...but she's smiling.}
-    {authenticity >=3:"I wanted to get some practice in. Seeing you work hard made me want to work hard, too."}
-    {authenticity >=3: ...but she's already a famous soloist...what is she talking about?}
+    {authenticity >=5: She has a determined look on her face...but she's smiling.}
+    {authenticity >=5:"I wanted to get some practice in. Seeing you work hard made me want to work hard, too."}
+    {authenticity >=5: ...but she's already a famous soloist...what is she talking about?}
     ~ affectionBool = true
     
 *"What do you mean?"
