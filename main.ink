@@ -36,7 +36,7 @@ I really hope it resonates with someone...
 <i>"omg did you see COSMIX’s newest comeback?"</i> # CLASS: friendText
 //friend
 
-*["uh...no."]# CLASS: text
+*"uh...no." # CLASS: text
      <i>"i’m abt to upload a new song rn."</i> # CLASS: text
     I see Ivy furiously typing in the chat. 
     <i>"you should check them out !!"</i> # CLASS: friendText
