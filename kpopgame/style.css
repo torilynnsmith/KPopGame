@@ -310,6 +310,12 @@ body.dark {
 /* classes */
 
 
-.text{
+.text {
     background-image: url("text.png");
+    size: 50px;
+    color: blue;
+}
+
+.friendText {
+    background-image: url("textgray.png");
 }
