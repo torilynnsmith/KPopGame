@@ -258,8 +258,8 @@ img {
 */
 
 body.dark {
-    background: black;
-    color: white;
+    background: #5a79c8;
+    color: #5a79c8;
 }
 
 .dark h2 {
@@ -267,7 +267,7 @@ body.dark {
 }
 
 .dark .container {
-    background: black;
+    background: #eeeeee;
 }
 
 .dark .written-in-ink {
