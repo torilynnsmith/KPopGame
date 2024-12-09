@@ -313,7 +313,7 @@ body.dark {
 
 .text {
     background-image: url("image/text.png");
-    color: blue;
+    color: darkblue;
 }
 
 .friendText {
