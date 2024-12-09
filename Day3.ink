@@ -18,13 +18,17 @@ How annoying. I guess I have go get up now...
 ==debutRehearsal==
 # CLEAR
 ...chaos!
+...I can't even put my thoughts together!
+So many people are poking and prodding at me...
+Rushing me all over the place...
+Ah! How did I get on stage all of a sudden?
 
 "Music...CUE!"
 Shit! My hands are sweating...
 Calm down, it's just a rehearsal...
 Nevermind that I've never played music for more than ten people at one time...
 The music starts...
-*The lights go up... # CLASS: action
+*[The lights go up...] # CLASS: action
     ACK!!!!! 
     The lights are so bright! I can't see a damn thing!
     Shit, the music started!!!
@@ -33,12 +37,8 @@ The music starts...
     **"Sorry."
         ...oops.
         Focus! Your career's at stake!
-        "...Cherie!"
-        What was that?
-        "Cherie!!!"
-        That sound...it's coming from stage left.
-        "Just do it like how we rehearsed!"
-        That's Nova's voice...
+        
+        
     
     
 ->photoshoot

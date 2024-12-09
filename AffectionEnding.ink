@@ -53,7 +53,7 @@ But I can't be Cherie.
     "I'm fed up with all of it. Altair. Ad Astra's mistreatment. The concept that I was forced into."
     What is she saying?
     "You figured it out, right? The glitch?"
-    **[The...what?"]
+    **"The...what?"
         "I saw it last night before we talked. When you played your guitar, it glitched."
         That's right...I thought it was just a faulty hologram.
         "What about it?" //cherie
@@ -66,12 +66,13 @@ But I can't be Cherie.
                 ****"Let's do it!"
                     ->breakout
                 ****"I'm not sure about this..."
-                    "We'll be fine. You'r 
+                    "Cherie...please. We can do this. Together."
                     ->breakout
 
 ==breakout==
 "Come on, I know a practice room nobody uses."
 ...she's fast! I need to sprint to keep up with her.
+// change to different room
 "There...now...let's make some music!"
 She's holding her microphone already.
 *[Pull out guitar]
@@ -86,7 +87,7 @@ She's holding her microphone already.
         Instead...
         They seem to phase in and out of each other.
         "Cherie, look!"
-            ***[Look]
+            ***[Huh?]
                 Our instruments are glitching!
                 The lights are sparking!
                 Ack!
@@ -111,13 +112,18 @@ We're running, and we're running, and we're running...
 {realNamebool: Yuna...that must be her birth name...}
 {realNamebool: It suits her.}
 "Since we're no longer under Altair, we don't need stage names." //nova
+That's right...
+Cherie was just a stage name for me...
+A persona...
+One I can let go of.
 "So, what can I call you?" //nova
 *"Miyoung." //cherie
     "Miyoung. What a pretty name." //nova 
+    ...my heart skipped a beat...!
     "So, Miyoung..."
     "What do you say about writing that song for the both of us? Do you mind if I help?"
     She's smiling...I can't help but smile, too...
-        **"Let's do it."
+        **"Let's do it!"
             ->DONE
             
             
