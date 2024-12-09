@@ -33,18 +33,19 @@ I really hope it resonates with someone...
 ==text==
 ...it's a text from Ivy.
 
-<i>"omg did you see COSMIX’s newest comeback?"</i> //friend
+<i>"omg did you see COSMIX’s newest comeback?"</i> # CLASS: friendText
+//friend
 
-*<i>["uh...no."]</i> //MC
-     <i>"i’m abt to upload a new song rn."</i> 
-    I see Ivy furiously typing in the chat.
-    <i>"you should check them out !!"</i> //friend
-    **<i>"no thanks."</i> //mc
-       <i>"not my kind of music."</i>
-        "ok i know you have some sorta hate boner against kpop but you gotta admit... the songs are catchy (/0-0)/"
-        ***"it's all poison"
-            "there’s no such thing as artistry there. it’s like junk food."
-           "lol have you ever actually listened to any"
+*<i>["uh...no."]</i> # CLASS: text
+     <i>"i’m abt to upload a new song rn."</i> # CLASS: text
+    I see Ivy furiously typing in the chat. 
+    <i>"you should check them out !!"</i> # CLASS: friendText
+    **<i>"no thanks."</i> # CLASS: friendText
+       <i>"not my kind of music."</i> # CLASS: text
+        "ok i know you have some sorta hate boner against kpop but you gotta admit... the songs are catchy (/0-0)/" # CLASS: friendText
+        ***"it's all poison" # CLASS: text
+            "there’s no such thing as artistry there. it’s like junk food." # CLASS: text
+           "lol have you ever actually listened to any" #CLASS: friendText
         ***["are they really, though?"]
             "are they really, though? the songs sound kind of similar...a little uninspired."
 -"and besides...not everyone is a hard-ass music purist like you!" //ivy
