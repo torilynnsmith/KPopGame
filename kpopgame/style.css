@@ -113,6 +113,7 @@ h2 {
     }
 }
 
+/*PARAGRAPH FORMATTING, DEFAULT*/
 p {
     font-size: 13pt;
     color: #888;
@@ -120,6 +121,7 @@ p {
     font-weight: lighter;
 }
 
+/*HYPERLINK FORMATTING, DEFAULT*/
 a {
     font-weight: 700;
     color: #b97c2c;
