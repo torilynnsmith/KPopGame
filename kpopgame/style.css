@@ -305,3 +305,11 @@ body.dark {
 .dark #controls {
     background: black;
 }
+
+
+/* classes */
+
+
+.text{
+    background-image: url("text.png");
+}
