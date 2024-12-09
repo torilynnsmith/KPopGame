@@ -104,6 +104,7 @@ h2 {
     margin: 0 auto;
     padding: 20px;
     padding-top: 4em;
+    margin-left: 50px;
     background: white;
 }
 
@@ -222,7 +223,7 @@ img {
     right: 14px;
     top: 4px;
     user-select: none;
-    background: white;
+    background: #3c339a;
 }
 
 @media screen and (prefers-reduced-motion: no-preference) {
@@ -255,8 +256,8 @@ img {
 */
 
 body.dark {
-    background: #8c92ff;
-    color: white;
+    background: #5a79c8;
+    color: #5a79c8;
 }
 
 .dark h2 {
@@ -264,23 +265,23 @@ body.dark {
 }
 
 .dark .container {
-    background: black;
+    background: eeeeee;
 }
 
 .dark .written-in-ink {
-    background: black;
-}
+    background: #3c339a;
+{
 
 .dark a {
-    color: #cc8f1a;
+    color: #3c339a;
 }
 .dark .unclickable{
-    color: #c4af87;
+    color: #3c339a;
     cursor:not-allowed;
 }
 
 .dark a:hover {
-    color: white;
+    color: #3c339a;
 }
 
 @media screen and (prefers-reduced-motion: no-preference) {
