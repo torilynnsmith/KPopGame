@@ -49,7 +49,7 @@ The music starts...
 
 ==photoshoot==
 # CLEAR
-
+. # CLASS: practice
 Wow...this set looks so...professional!
 Eek! Someone shoved something into my arms!
 "Cherie, please put this on." # CLASS: director
@@ -108,7 +108,7 @@ He's pointing to a reference picture...that arch is so unnatural! This dress is 
             ->photoOptions
             
     
-+defiance[Ask for a different pose] # CLASS: action
++ [Ask for a different pose] # CLASS: action
     "Um...sorry, can I try something else?" # CLASS: cherie
     He doesn't look too happy with that... # CLASS: innerThoughts
     "Cherie, if you please, I'm the creative director. Please follow my lead." # CLASS: director
@@ -121,6 +121,7 @@ He's pointing to a reference picture...that arch is so unnatural! This dress is 
 
 - "That's a wrap on the photoshoot. Good job everyone!" # CLASS: director
 I'm exhausted.
+# IMAGE: characters/cherieshock.png
 I didn't realize how much effort it would be to pose.
 The lights are hot...
 I need to step outside for a moment...
@@ -130,6 +131,7 @@ I need to step outside for a moment...
 
 ==eavesdrop==
 # CLEAR
+. # CLASS: office
 "Hello? Yes. This is Altair Entertainment." # CLASS: director
 That's the director!
 *[I'd better hide...]
@@ -149,13 +151,14 @@ That's the director!
         "Or her performance is so abysmal that fans will turn on her instead." # CLASS: director
         "Either outcome is optimal." # CLASS: director
          ...what the hell?
+         # IMAGE: characters/cheriesad.png
         "Alright. Thank you for informing me. Tell the members they will participate in their activities according to plan." # CLASS: director
         ...sounds like he hung up.
         Shit...those footsteps are coming closer!
         ****[Walk away]
         
 # CLEAR
-                
+. # CLASS: practice
 -   I don't know what to think anymore...
 How can they treat them like that...
 Fuck...
@@ -171,12 +174,14 @@ I need to do something..
     Shit! Someone heard me...
     "Y...Yeah, sorry..." # CLASS: cherie
     That was embarrassing.
+    # IMAGES: characters/cherieshock.png
     ->guitar2
 *[Cry]
     Fuck...I can't stop the tears...
     The makeup artists will be so angry...
     Come on, Cherie...
     There's got to be a better way to deal with this...
+    # IMAGE: characters/cheriesad.png
     ->guitar2
 +[Play guitar]
     I can't keep still...
@@ -185,6 +190,7 @@ I need to do something..
     Strumming...
     I don't know where to put all of these thoughts!
     I can't even tell what I'm playing...
+    # IMAGE: characters/cheriesad.png
     This holographic guitar bullshit isn't nearly as--
     AAACK!
     The guitar....
@@ -196,12 +202,16 @@ I need to do something..
             And maybe it's just my imagination...but as soon as that happened...
             The lights in the practice room started to dim... huh.
             That's weird...
+                -> novaChatclear
     
-->novaChat2
+==novaChatclear==
+# CLEAR
+-> novaChat2
 
 ==novaChat2==
-# CLEAR
+. # CLASS: pratice
 "Cherie...you're up late." # CLASS: nova
+# IMAGE: characters/novaneutral.png
 It's Nova...? # CLASS: innerThoughts
 *"What are you doing here?" # CLASS: cherie
     "I could ask you the same thing.You should be resting. Tomorrow's a big day for you." # CLASS: nova
@@ -222,6 +232,7 @@ It's Nova...? # CLASS: innerThoughts
         "...of course he is." # CLASS: nova
         Nova... # CLASS: innerThoughts
         "He pulled shit like that all the time when I was training with them. Whenever we got injured or sick, he told us to keep going. It was never serious enough for him." # CLASS: nova
+        # IMAGE: characters/novamad.png
         I don't think I've ever seen her this angry... 
         "I never understood it and I don't think I ever will. We're human. No matter what they're trying to make us think...but what does Ad Astra have to do with you?" # CLASS: nova
             ***"He said I'd drown out controversy..." # CLASS: cherie
@@ -234,6 +245,7 @@ It's Nova...? # CLASS: innerThoughts
         "Whether I do well or not...it doesn't matter." # CLASS: cherie
         Her expression falls...
         "That's...that's just like him. That's just like this damn company. We're just pawns to them..." # CLASS: nova
+        # IMAGE: characters/novasad.png
             ***[...Pawns?]
                 ->debutWorry
                 
@@ -252,6 +264,7 @@ It's Nova...? # CLASS: innerThoughts
 ==debutWorry==
 "You must be feeling a lot of pressure, huh?" # CLASS: nova
 *"I am..." # CLASS: cherie
+# IMAGE: characters/cheriesad.png
     "A lot" is an understatement. I feel like my life's on the line! 
     "That's understandable. I was nervous about my debut too." # CLASS: nova
     Really? But she seemed so confident on her debut stage!
@@ -280,6 +293,7 @@ It's Nova...? # CLASS: innerThoughts
         "Well, it won't feel like that when you're on stage!" # CLASS: nova
         ...I suppose not.
         "Ah...sometimes I wish I could go back to that time...things were simpler back then, when I was new..." # CLASS: nova
+        # IMAGE: characters/novahappy.png
             ->regret
     **"It should be fine if I follow what they say, right?" # CLASS: cherie
     ~compliance = compliance + 1
@@ -323,7 +337,7 @@ It's Nova...? # CLASS: innerThoughts
                 ***"We should be grateful for these opportunities, then..." # CLASS: cherie
                     "You're right. We worked hard to be here, didn't we?" # CLASS: nova
                     "Yes." # CLASS: cherie
-                    "I don't intend to waste my hard work." 
+                    "I don't intend to waste my hard work."  # CLASS: cherie
                     ~ compliance = compliance + 1
     **"...but?" # CLASS: cherie
         "I won't deny the hardships that come with being part of such a large company. The pressure. The hate. The expectations. You hardly feel human at some point." # CLASS: nova
@@ -357,6 +371,7 @@ It's Nova...? # CLASS: innerThoughts
 ==split==
 
     Something seems different about her... # CLASS: innerThoughts
+    # IMAGE: characters/novaneutral.png
     {compliance >=5: She has a determined look on her face...she almost looks angry at me.}
     {compliance >=5:"I can tell you're not pulling any punches, Cherie. If you're determined to dethrone me, I won't let you do that so easily."} # CLASS: nova
     ~ rivalBool = true
@@ -367,6 +382,7 @@ It's Nova...? # CLASS: innerThoughts
     ~ affectionBool = true
     
 *"What do you mean?"
+# IMAGE: characters/novamad.png
         {rivalBool: "If you're going to suck up to the director, you could do it more tastefully. I can see now why he's drastically switching concepts."} # CLASS: nova
         {rivalBool: Suck up...?} # CLASS: innerThoughts
         {rivalBool: "I don't blame you. Hell, I did the exact same thing when I was in your position."} # CLASS: nova
@@ -385,11 +401,12 @@ It's Nova...? # CLASS: innerThoughts
         {affectionBool: She's looking at me now...I see a glimmer in her eyes...!}
         "Cherie..." # CLASS: nova
     **"Yes?" # CLASS: cherie
+    # IMAGE: characters/novamad.png
             {rivalBool: "You'd better put on a damn good debut stage, you hear me?"} # CLASS: nova
             {rivalBool: ...what?}
             {rivalBool: "I know what you're capable of now. I like my competition fierce.} # CLASS: nova
             {rivalBool: Competition??? She's not even promoting anything right now!}
-            
+            # IMAGE: characters/ cherieshock.png
             {affectionBool: "You go out there tomorrow and put on the best performance of your life, got that?"} # CLASS: nova
             {affectionBool: ...she says that like it's simple...}
             {affectionBool: "And don't stop speaking up when things make you uncomfortable."} # CLASS: nova
