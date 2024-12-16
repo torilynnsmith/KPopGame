@@ -121,7 +121,7 @@ Maybe I should do a little digging...
 # CLEAR
 . # CLASS: practice
 "You're here." # CLASS: nova
-# IMAGE: characters/novahappy.png
+# IMAGE: characters/novaneutral.png
 Why does she look so surprised...? # CLASS: innerThoughts
 "That's good. It's time to warm up now. Oh, and your enhancement apparel came in." # CLASS: nova
 I think I see it...a shiny bag sitting on a chair in front of the mirror.
@@ -160,7 +160,7 @@ I think I see it...a shiny bag sitting on a chair in front of the mirror.
 
 * "Could we go over that again?" # CLASS: cherie
 
--> danceclear
+-> danceMemory
     
 
 ==danceclear ==
@@ -186,7 +186,6 @@ I think I see it...a shiny bag sitting on a chair in front of the mirror.
 -We drill the dance over and over...
 Eek! Nova's giving me a strange look...have I been messing up too much?
 "Let's do a water break. I'll meet you back here in a little." # CLASS: nova
-# IMAGE: characters/novaneutral.png
 I'm so relieved to hear her say that...even with the clothes that make me a dance goddess, my body still feels the burn... # CLASS: innerThoughts
 Urgh...water sounds nice. How the hell do people do this???
 I guess Ivy was right..
