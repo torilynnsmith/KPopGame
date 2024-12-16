@@ -25,11 +25,11 @@ This...isn't my bathroom. How did I get here?
     "Hiding in the bathroom again, really?" # CLASS: nova
     "If you're going to slack off, do it AFTER your promotions are over!" # CLASS: nova
     This girl...she doesn't look familiar... # IMAGE: characters/novamad.png
-    **"Who are you?" //cherie
+    **"Who are you?" # CLASS: cherie
         "You dare disrespect your senior?" # CLASS: nova
         "First you skip rehearsals 3 days before your debut, and now you're just pretending to forget who I am?" # CLASS: nova
         "You should have been let go from this company a long time ago, Cherie. We don't have time for this." # CLASS: nova
-    **"What are you talking about?" //cherie
+    **"What are you talking about?" # CLASS: cherie
     "Don't tell me you've forgotten, Cherie! Seriously, this girl! Your debut is 3 days away! Did you hit your head and suddenly forget everything?" # CLASS: nova
 - "Come on. The staff are calling us back, let's go." # CLASS: nova
 *[Follow her]
@@ -46,7 +46,7 @@ Staff? Debut? "O-Okay..." # CLASS: cherie
 ->director
 
 ==director==
-"Cherie! There you are. Thank you for finding her, Nova." //npc
+"Cherie! There you are. Thank you for finding her, Nova." # CLASS: director
 Nova...is that...? //cherie innerThoughts
 "Of course, Mr. Director. Cherie, here, take a look at this." # CLASS: nova
 Nova...I guess that's her name. It seems fitting for her. //cherie innerThoughts
@@ -82,9 +82,9 @@ Nova...I guess that's her name. It seems fitting for her. //cherie innerThoughts
 *[Debut Choreography]
     ...uh oh...choreography?? I can't dance for shit! //cherie innerThoughts
     "Um...do I have to do this? I'm more comfortable with singing..." # CLASS: cherie
-    "Great that you asked, actually! Your enhancement apparel will be ready by tomorrow." //npc
+    "Great that you asked, actually! Your enhancement apparel will be ready by tomorrow." # CLASS: director
     **"Enhancement apparel?" # CLASS: cherie
-        "Yes! Yes! We have calculated the best dance-enhancing boots, tights, and tops to ensure you look fabulous on stage! Tailor-made to suit your existing skill level and to bring you up to speed. Very impressive technology. It’s why Altair Entertainment is on top of the industry, isn’t that right, Nova?" //director
+        "Yes! Yes! We have calculated the best dance-enhancing boots, tights, and tops to ensure you look fabulous on stage! Tailor-made to suit your existing skill level and to bring you up to speed. Very impressive technology. It’s why Altair Entertainment is on top of the industry, isn’t that right, Nova?" # CLASS: director
         "...yes, that's right." # CLASS: nova
     **"Awesome!" # CLASS: cherie
         "...I'm glad you think so." # CLASS: nova
@@ -96,18 +96,17 @@ Debut stage...that means I'll be singing and dancing in front of a huge audience
 
 ==endDay1==
 *"Excited!" # CLASS: cherie
-    "That's my girl! I just know the public will eat up your image like fresh cherries. I always know how to pick the sweetest of the bunch..." //director
+    "That's my girl! I just know the public will eat up your image like fresh cherries. I always know how to pick the sweetest of the bunch..." # CLASS: director
    ~ compliance = compliance + 1
     Why is he leaning up close to me...eek! He patted me on the head! //cherie innerThoughts
     He's looking at me so intently...his expression, it's--//cherie innerThoughts
-    "I'll be off now! Make sure to practice, practice, practice! Wouldn't want our newest star to make a...bad impression on her debut stage, would we?" //director
+    "I'll be off now! Make sure to practice, practice, practice! Wouldn't want our newest star to make a...bad impression on her debut stage, would we?" # CLASS: director
     ...bad...impression? // cherie innerThoughts + director goes offscreen
     "The director doesn't know how to respect personal space. But what's new?" # CLASS: nova
     **"That was strange..." # CLASS: cherie
         "I know. Try to stay out of his way if you can." # CLASS: nova
         She looks...concerned?
         ~ authenticity = authenticity + 1
-        "// nova
     **"I didn't mind." # CLASS: cherie
         "...well. If you're sure about that. He can be a real piece of work sometimes." # CLASS: nova
         She turned away...?
@@ -116,9 +115,9 @@ Debut stage...that means I'll be singing and dancing in front of a huge audience
     
 *"Nervous..." # CLASS: cherie
     This is all so overwhelming! What do you MEAN I'm debuting? Shit, I didn't even watch that music video Ivy sent me earlier today!! I'm so out of my depth!!! //cherie innerThoughts
-    "Cherie, love, you'll do great! I hand-selected you from the trainee pool to debut because you have a certain...star factor about you. You're a sweet girl, and the public LOVES that!" //director
+    "Cherie, love, you'll do great! I hand-selected you from the trainee pool to debut because you have a certain...star factor about you. You're a sweet girl, and the public LOVES that!" # CLASS: director
     "R..Really?" # CLASS: cherie
-    "Of course! Now, I'll be off. Be sure to listen to your song and practice, practice, practice! Your debut will cement Altair Entertainment as the best in the industry. You don't want to tarnish that, do you?" //director + director goes offscreen
+    "Of course! Now, I'll be off. Be sure to listen to your song and practice, practice, practice! Your debut will cement Altair Entertainment as the best in the industry. You don't want to tarnish that, do you?" # CLASS: director
     ...he left...Nova looks tense.
     **"Tarnish...?" # CLASS: cherie
         "He's so dramatic. But Altair's a big company. You have a lot of eyes on you for your debut." # CLASS: nova
