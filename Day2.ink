@@ -156,11 +156,10 @@ I think I see it...a shiny bag sitting on a chair in front of the mirror.
 
 "Let's rehearse. You ready?" # CLASS: nova
 * "Let's go!" # CLASS: cherie
--> danceclear
+    -> danceclear
 
 * "Could we go over that again?" # CLASS: cherie
-
--> danceMemory
+    -> danceMemory
     
 
 ==danceclear ==
