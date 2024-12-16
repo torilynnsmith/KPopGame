@@ -135,7 +135,7 @@ I think I see it...a shiny bag sitting on a chair in front of the mirror.
 -I hope Nova doesn't see how awkward I feel in these...
 
 "Alright. The enhancement apparel will do a lot of heavy lifting, but you still need to memorize your moves. The apparel will be useless if you can't tell it what to do. Are you ready, Cherie?" # CLASS: nova
-*"Yes."
+*"Yes." # CLASS: cherie
     "Good. Let's start. You need to brush up on the choreography." # CLASS: nova
     ->danceMemory
 
@@ -176,19 +176,19 @@ Phew...
 
 ==NovaChat1==
 "So, Cherie, how are you feeling?" # CLASS: nova
-"About what?" //cherie
+"About what?" # CLASS: cherie
 "The choreography." # CLASS: nova
-*["I think I'm getting the hang of it."]
-    "I think I'm getting the hang of it, mostly...the apparel really helps."
-    "That's good. You're in better shape than you were a few days ago."
+*["I think I'm getting the hang of it."] 
+    "I think I'm getting the hang of it, mostly...the apparel really helps." # CLASS: cherie
+    "That's good. You're in better shape than you were a few days ago." # CLASS: nova
     She looks a little relieved.
-    "I still have a ways to go..." //cherie
+    "I still have a ways to go..." # CLASS: cherie
     
 *["I'm still having trouble..."]
-    "I'm still having trouble...sorry."
+    "I'm still having trouble...sorry." # CLASS: cherie
     "It's to be expected. You got casted because of your singing skills, not your dancing." # CLASS: nova
     That checks out, I guess.
-    "I still have a long way to go..." //cherie
+    "I still have a long way to go..." # CLASS: cherie
     
 -"I'm glad you're being honest." # CLASS: nova
 There's no sense of anger in her voice. What's going on?
@@ -203,9 +203,9 @@ There's no sense of anger in her voice. What's going on?
     
 ==honesty==
 *["I like it."]
-    "I'm sure the director knows what's best, so I like it." //cherie
+    "I'm sure the director knows what's best, so I like it." # CLASS: cherie
     "Even with a concept you don't like?" # CLASS: nova
-    "Well...if the director knows the industry best...who am I to say I shouldn't go with his plan?"//cherie
+    "Well...if the director knows the industry best...who am I to say I shouldn't go with his plan?"# CLASS: cherie
     It's true...I've been trying to break into the industry on my own for so long... //cherie innerThoughts
     I'm starting to think my own artistic voice won't get me anywhere... // # CLASS: innerThoughts
     Maybe it would be better to pander to the audience... //cherie innerThoughts
@@ -214,17 +214,17 @@ There's no sense of anger in her voice. What's going on?
     ~ compliance = compliance + 1
     
 *["I don't like it."]
-    "To be honest...this type of music isn't really my style." //cherie
+    "To be honest...this type of music isn't really my style." # CLASS: cherie
     Being truthful feels risky here...but I don't want to lie to her. # CLASS: innerThoughts
     "I could tell." # CLASS: nova
-    "Really? How?" //cherie
+    "Really? How?" # CLASS: cherie
     "When the best performers are on stage, and are really giving it their all...they sparkle. They shine. They draw you in with a presence so consuming you can't tear your eyes away." # CLASS: nova
-    "Wow...!" //cherie
+    "Wow...!" # CLASS: cherie
     Is she telling me that I-- # CLASS: innerThoughts
     "Don't get me wrong, Cherie. You're nowhere near there." # CLASS: nova
     ...oh... //cherie innerThoughts
     "During your past rehearsals, you performed so...soullsessly. You were hitting the moves but there was no passion behind it. But today...I could tell there was something fueling you." # CLASS: nova
-    **"Something...fueling me...?"
+    **"Something...fueling me...?" # CLASS: cherie
         Nova's looking at me intently...why does this feel like an interrogation? # CLASS: innerThoughts
         "Maybe you <i>did</i> hit your head yesterday...I could have sworn you never cared about any of it." # CLASS: nova
         The expression on Nova's face... 
@@ -236,50 +236,50 @@ There's no sense of anger in her voice. What's going on?
 
 ==NovaChat2==
 *[ask about concept]
-    "Nova, the director chose your concept, right?"
+    "Nova, the director chose your concept, right?" # CLASS: cherie
     "Yes." # CLASS: nova
-    "You didn't have any say in it?"
+    "You didn't have any say in it?" # CLASS: cherie
     "No...idols usually never do." # CLASS: nova
     Her face is clouding over... # CLASS: innerThoughts
-    **"Do you like your concept?"
+    **"Do you like your concept?" # CLASS: cherie
         "Whether or not I like my concept doesn't matter." # CLASS: nova
-        ***"Oh...right."
+        ***"Oh...right." # CLASS: cherie
             I guess it's not my place to say anything.
             "Let me tell you this, Cherie...you'll have a much easier time in the industry if you follow what Altair has in mind. Sometimes I feel like they know me better than I do myself..." # CLASS: nova
             ~ compliance = compliance + 1
-        ***"But won't you be happier making music you enjoy?"
+        ***"But won't you be happier making music you enjoy?" # CLASS: cherie
             There's a spark in her eyes...!
             "Hah...I suppose. But I got this far on Altair's wings. It's risky to change concepts now." # CLASS: nova
             ~ authenticity = authenticity + 1
 *[ask about career]
-    "You're a soloist, right? Like me?"
+    "You're a soloist, right? Like me?" # CLASS: cherie
     "That's right." # CLASS: nova
-    **"Do you ever wish you were in a group?"
+    **"Do you ever wish you were in a group?" # CLASS: cherie
         "Hah...no. Not anymore. Being a soloist means you don't have to share the spotlight. When I'm on stage...I want all eyes on me." # CLASS: nova
         Her gaze...it's fiery! If I were in the audience, I wouldn't be able to look away, either! # CLASS: innerThoughts
-        ***"Not anymore?" //cherie
+        ***"Not anymore?" # CLASS: cherie
             "Ah...well..." # CLASS: nova
             She has a wistful look on her face, but I sense some bitterness underneath. # CLASS: innerThoughts
             "I was training to be in a group, but the director felt that it wasn't working out. The group debuted without me and I debuted as a solo artist." # CLASS: nova
             It's hard to read her expression...
-            ****"Which group?"
+            ****"Which group?" # CLASS: cherie
                 "Ad Astra, of course. Their director said I just didn't fit the group. I can't say I disagree, but seeing how successful they are...I can't help but wonder where I'd be." # CLASS: nova
                 That's right...Ad Astra is mega-famous right now.
                 
-            ****"Are you close with them?"
+            ****"Are you close with them?" # CLASS: cherie
                 "Not like we once were, since they spend more time with each other than they do with me. But I'm still close with some of them." # CLASS: nova
                 ...being a soloist must be lonely. # CLASS: innerThoughts
             
             
             
 *[ask about music]
-    "Do you like the music you make?"
+    "Do you like the music you make?" # CLASS: cherie
     "...'make' is a stretch. If you're talking about the music I perform, and that has my name and face on it, then I find it unique." # CLASS: nova
-    "I see..."
+    "I see..." # CLASS: cherie
     "The public seems to enjoy my sound and my persona. The music itself is not in line with my personal artistic practice, but personal opinions are not something that are much value."
     This tone of hers...it sounds so...rehearsed?
     
-    **"What kind of music <i>do</i> you like?"
+    **"What kind of music <i>do</i> you like?" # CLASS: cherie
         There's a small spark in her eyes...
         "Well...I'm fond of a few genres. Rock and RnB are some of my favorites." # CLASS: nova
         I love rock and RnB!
@@ -290,14 +290,14 @@ There's no sense of anger in her voice. What's going on?
         Trot music...I'd never expect that from someone with her concept...
         ~authenticity = authenticity + 1
         ~novAffection = novAffection + 1
-    **"What do you mean by ''make' is a stretch'?"
+    **"What do you mean by ''make' is a stretch'?" # CLASS: cherie
         "Cherie..." # CLASS: nova
         She's...laughing?
         "Altair would never trust us to make our own music. We perform what they give us...for better or for worse." # CLASS: nova
-        "What do you mean?"
+        "What do you mean?" # CLASS: cherie
         "Why would they risk promoting an artist-made song when they can engineer the catchiest and most thoughtful music in the blink of an eye?"# CLASS: nova
-            ***"I guess you're right..."
-            ***"Isn't that the point of music?"
+            ***"I guess you're right..." # CLASS: cherie
+            ***"Isn't that the point of music?" # CLASS: cherie
         
         
 - 
@@ -306,9 +306,9 @@ There's no sense of anger in her voice. What's going on?
 ==guitar1==
 "So, Cherie...if bubbly bright pop isn't your style, what is?" # CLASS: nova
 I could <i>tell</i> her, but I can also show her...
-*"Nova, can I ask you something?"
+*"Nova, can I ask you something?" # CLASS: cherie
 "Sure." # CLASS: nova
-"Do you know where I can get a guitar?"
+"Do you know where I can get a guitar?" # CLASS: cherie
 "A guitar? Here, let me show you." # CLASS: nova
 She...took my hand?
 Woah...I never realized the glowing light on my wrist had more functions...
@@ -327,7 +327,7 @@ It's as natural as breathing.
             It's everything I ever hope to do and be.
             ****[Finish]
             Phew...that was fun.
-            "...wow..." //nova
+            "...wow..." # CLASS: nova
             Nova's watching my every move...
             "Cherie...I didn't know you could play lke that." # CLASS: nova
                 *****Woah...did she like it?
@@ -336,7 +336,7 @@ It's as natural as breathing.
                 
 ==musicTalk==
 "I'm impressed. You never seemed to show interest in playing instruments. I didn't know you had it in you." # CLASS: nova
-*"Thank you."
+*"Thank you." # CLASS: cherie
     To have a famous artist tell me that...man, that feels good.
     If only I could harness that to get more Soundcloud monthly listeners...
     Sigh.
@@ -346,13 +346,13 @@ It's as natural as breathing.
     She didn't have any passion. 
     But I do!
 
-*"Really?"
+*"Really?" # CLASS: cherie
     "Of course. For most of your trainee period you seemed to only care about looks." # CLASS: nova
     ...right...
     I don't know who "Cherie" was before me...
     But I'm determined to change my fate!
 
-*"It's not all that impressive..."
+*"It's not all that impressive..." # CLASS: cherie
     I do ditties like this all the time back home...
     I could probably write something more complicated in my sleep.
     Still.
@@ -367,9 +367,9 @@ Inspiring...?
 ...
 The vibe suddenly shifted...
 "I have to go to a recording session, but just go down the hall for singing rehearsal. I'll see you tomorrow." # CLASS: nova
-*"See you."
+*"See you." # CLASS: cherie
 ->endDay2
-*"Good luck!"
+*"Good luck!" # CLASS: cherie
     "Thanks." # CLASS: nova
     ->endDay2
 
