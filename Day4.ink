@@ -68,9 +68,24 @@ It's echoing in my ears like a heartbeat.
 ==debutStageSing==
 Time to sing my heart out!
 
-
-
-->finishStage
+*[Sing]
+//these are song lyrics
+    "You just need a love like me, a love so sweet!"
+    "So sweet, a dream, I'm your love, Cherie!"
+    "Cherie Love, Cherie Love..."
+    "Cherish me, I'm your only one!"
+    "Cherie Love, Cherie Love..."
+    "Hey! Open your heart, stop acting so tough!"
+//these are not song lyrics
+    My mind...it's so clear...
+    The stage lights are so bright, I can barely see what's in front of me..
+    This surge of adrenaline rushing through me...
+    It's something I've never felt before...!
+    It's...amazing!
+    Oh...the end of the song is coming...
+    Time to close it out with a bang!
+        **"Cherie Love, Cherie Love...Hey! Open your heart, you're my only one!"
+            ->finishStage
 
 ==finishStage==
 # CLEAR
@@ -88,6 +103,15 @@ I can't believe it...
 
 ->results
 ==results==
+Waiting...waiting...
+The director said that the winner will be announced at the end of broadcasting...
+It's almost time.
+I'm so nervous...
+What if I don't win?
+What if I look like a fool? And tarnish Altair Entertainment's name?
+Oh! They're calling me back onstage...
+My palms are sweaty all over again...
+
 "And the winner is..."
 ...
 "Cherie!"

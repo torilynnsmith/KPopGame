@@ -98,7 +98,8 @@ Maybe I should do a little digging...
     ->groups
 
 *[TimeL00p]
-    "TimeL00p is a seven-member boy group under Altair Entertainment. They were created from the survival show 'Turn Back Time.' 
+    "TimeL00p is a seven-member boy group under Altair Entertainment. They were created from the survival show 'Turn Back Time.' They won 'Best Survival Show Group' two years ago and are continuing to win the hearts of fans worldwide."
+    ...Survival show? Sounds harsh...
     ->groups
 *[back to altair]
     ->altair
@@ -164,9 +165,8 @@ I think I see it...a shiny bag sitting on a chair in front of the mirror.
 +[hands, feet, hips]
     "Good! You got it."
 
-
-
-
+-We drill the dance over and over...
+Eek! Nova's giving me a strange look...have I been messing up too much?
 "Let's do a water break. I'll meet you back here in a little." //nova
 I'm so relieved to hear her say that...even with the clothes that make me a dance goddess, my body still feels the burn... # CLASS: innerThoughts
 Urgh...water sounds nice. How the hell do people do this???

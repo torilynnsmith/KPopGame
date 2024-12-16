@@ -17,7 +17,10 @@ How annoying. I guess I have go get up now...
 
 ==debutRehearsal==
 # CLEAR
-"Music...CUE!"
+I didn't realize how hectic everything is...
+Everyone's shuffling me this way and that!
+This stage is massive...
+"Music...CUE!" //director
 Shit! My hands are sweating...
 Calm down, it's just a rehearsal...
 Nevermind that I've never played music for more than ten people at one time...
@@ -31,12 +34,13 @@ The music starts...
     **"Sorry."
         ...oops.
         Focus! Your career's at stake!
-        "...Cherie!"
-        What was that?
-        "Cherie!!!"
-        That sound...it's coming from stage left.
-        "Just do it like how we rehearsed!"
-        That's Nova's voice...
+        "You're nervous... I get it. But let's try to be professional here..."
+        His patience seems to be stretched thin...
+
+-Thankfully the next run-through goes well...but I can barely take a breath before I'm shuffled off to do something else!
+
+"Time for your photoshoot, Cherie. We have to hurry."
+*"...okay..."
     
     
 ->photoshoot
@@ -44,18 +48,13 @@ The music starts...
 ==photoshoot==
 # CLEAR
 
-Wow...
-This set looks so professional!
-"
-
+Wow...this set looks so...professional!
 Eek! Someone shoved something into my arms!
 "Cherie, please put this on."
 *"I...okay..."
    It looks like a dress of some kind... # CLASS: innerThoughts
    I'd better change fast... # CLASS: innerThoughts
     "Cherie, it's time to do your makeup."
-*"Oh, this? But it's a little short..."
-    The staff's face...they're shocked!
         **"Oh, o-okay..."  
             They're dragging me over to a mirror! # CLASS: innerThoughts
             Ouch! Someone stabbed me in the eye! # CLASS: innerThoughts
