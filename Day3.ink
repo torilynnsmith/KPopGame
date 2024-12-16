@@ -174,7 +174,7 @@ I need to do something..
     Shit! Someone heard me...
     "Y...Yeah, sorry..." # CLASS: cherie
     That was embarrassing.
-    # IMAGES: characters/cherieshock.png
+    # IMAGE: characters/cherieshock.png
     ->guitar2
 *[Cry]
     Fuck...I can't stop the tears...
@@ -209,7 +209,7 @@ I need to do something..
 -> novaChat2
 
 ==novaChat2==
-. # CLASS: pratice
+. # CLASS: practice
 "Cherie...you're up late." # CLASS: nova
 # IMAGE: characters/novaneutral.png
 It's Nova...? # CLASS: innerThoughts
@@ -406,7 +406,7 @@ It's Nova...? # CLASS: innerThoughts
             {rivalBool: ...what?}
             {rivalBool: "I know what you're capable of now. I like my competition fierce.} # CLASS: nova
             {rivalBool: Competition??? She's not even promoting anything right now!}
-            # IMAGE: characters/ cherieshock.png
+            # IMAGE: characters/cherieshock.png
             {affectionBool: "You go out there tomorrow and put on the best performance of your life, got that?"} # CLASS: nova
             {affectionBool: ...she says that like it's simple...}
             {affectionBool: "And don't stop speaking up when things make you uncomfortable."} # CLASS: nova
@@ -421,7 +421,7 @@ It's Nova...? # CLASS: innerThoughts
 - "I have to go now, Cherie, but I'll be watching your debut stage." # CLASS: nova
 "Oh, alright." # CLASS: cherie
 # CLEAR
-
+. # CLASS: bedroom
 This is it...
 My debut's tomorrow...
 Everyone's eyes will be on me, just like I've always wanted.

@@ -7,15 +7,17 @@
 Today's the day.
 The director said to head to the broadcasting station as soon as possible.
 I'm too jittery to try and defy his word...
-*[Go to station]
-    Everything's a blur...
-    Hair...makeup...outfits...
-    The hustle and bustle of all the other artists waiting to perform...
-    "Cherie! You're up after this act. Please wait backstage."
-        ->backstage
+    *[Go to station] Everything's a blur...
+       Hair...makeup...outfits...
+       The hustle and bustle of all the other artists waiting to perform...
+       "Cherie! You're up after this act. Please wait backstage."
+        ->day4clear
 
-==backstage==
+==day4clear==
 # CLEAR
+->backstage
+==backstage==
+
 . # CLASS: stage
 Waiting in the wings is so terrifying...but kind of exhilirating too...
 At this point, I've done all I can...
@@ -64,7 +66,7 @@ It's echoing in my ears like a heartbeat.
 
 
 ==debutStageDance==
-
+. # CLASS: stage
 *[hands, hips, feet]
     That doesn't feel right...oh well...I'll keep dancing!
     ->debutStageSing

@@ -407,3 +407,13 @@ body.dark {
     background-size: cover;
 
 }
+
+.city{
+    position:fixed;
+    background-image: url("images/city.jpg");
+    bottom:50px;
+    right:90px;
+    width:600px;
+    height:500px;
+    background-size: cover;
+}
