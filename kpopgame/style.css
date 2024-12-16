@@ -311,26 +311,30 @@ body.dark {
 /*INK TAGGED CUSTOM CLASSES*/
 
 
+/* characters */
+
 .text {
     color: blue;
 
 }
 
 .friend {
-    color: darkgreen;
+    color: plum;
 }
 
-.cherie{
+.cherie {
     color:deeppink;
 }
 
-.nova{
+.nova {
     color: forestgreen;
 }
 
-.director{
-    color: darkkhaki;
+.director {
+    color: orangered;
 }
+
+/* bg */
 
 .deskimg {
     position:fixed;
@@ -355,15 +359,6 @@ body.dark {
 .bathroom {
     position:fixed;
     background-image: url("images/bathroom.jpg");
-    bottom:50px;
-    right:90px;
-    width:600px;
-    height:500px;
-    background-size: cover;
-}
-
-.nova {
-    background-image: url("characters/novamad.png");
     bottom:50px;
     right:90px;
     width:600px;

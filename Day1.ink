@@ -90,7 +90,7 @@ Nova...I guess that's her name. It seems fitting for her. //cherie innerThoughts
         "...I'm glad you think so." # CLASS: nova
         Custom apparel that somehow enhances body features and functions? Maybe the future isn't so bad after all! //cherie innerThoughts 
         ~ compliance = compliance + 1
-- "How do you feel, Cherie? You've almost made it! Your debut stage will be nothing like anyone has ever seen!" //director
+- "How do you feel, Cherie? You've almost made it! Your debut stage will be nothing like anyone has ever seen!" # CLASS: director
 Debut stage...that means I'll be singing and dancing in front of a huge audience! I've never had more than 10 people listening to me play in live venues... this is huge! //cherie innerThoughts
 ->endDay1
 
@@ -129,8 +129,8 @@ Debut stage...that means I'll be singing and dancing in front of a huge audience
         "You're gonna have a lot of work to do. Serves you right for slacking off so much the past few weeks." # CLASS: nova
         ...what kind of a person was Cherie before I took over??? Wow, thanks a lot... //cherie innerThoughts
         
--"Cherie, I don't know what's up with you today, but I need to tell you this while you're still being reasonable."
-Reasonable? What does she mean by that? # CLASS: nova
+-"Cherie, I don't know what's up with you today, but I need to tell you this while you're still being reasonable." # CLASS: nova
+Reasonable? What does she mean by that? 
 *"Okay, tell me." # CLASS: cherie
     "You cannot take your debut opportunity for granted. Do you know how many other trainees would slaughter each other alive for this chance? I don't want to see you fail, but I want to see you working hard. You can't get by on looks alone, Cherie." # CLASS: nova
     Her expression is so intense...I feel like I'm staring straight into the sun!
