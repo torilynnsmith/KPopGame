@@ -1,5 +1,5 @@
 VAR rivalBool = false
-VAR affectionBool = true
+VAR affectionBool = false
 
 ==Day3Start==
 # CLEAR
