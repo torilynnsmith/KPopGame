@@ -271,11 +271,11 @@ body.dark {
 }
 
 .dark .written-in-ink {
-    background: black;
+    background: #CCCCFF;
 }
 
 .dark a {
-    color:#30106B;
+    color: darkblue;
 }
 .dark .unclickable{
     color: #c4af87;
@@ -305,7 +305,7 @@ body.dark {
 }
 
 .dark #controls {
-    background: black;
+    background: #CCCCFF;
 }
 
 /*INK TAGGED CUSTOM CLASSES*/
@@ -317,18 +317,12 @@ body.dark {
 }
 
 .text {
-    background-image: url("images/text.png");
-    height:50%;
-    width: 100%;
-    color: darkblue;
+    color: blue;
 
 }
 
 .friend {
-    background-image: url("images/friendtext.png");
-    height:50%;
-    width:100%;
-    color:red;
+    color: darkgreen;
 }
 
 
