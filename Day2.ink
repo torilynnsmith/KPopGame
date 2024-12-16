@@ -249,6 +249,7 @@ There's no sense of anger in her voice. What's going on?
     **"Something...fueling me...?" # CLASS: cherie
         Nova's looking at me intently...why does this feel like an interrogation? # CLASS: innerThoughts
         "Maybe you <i>did</i> hit your head yesterday...I could have sworn you never cared about any of it." # CLASS: nova
+        # IMAGE: characters/novahappy.png
         The expression on Nova's face... 
         "I'm glad you're finding your voice, Cherie...maybe I was wrong about you." # CLASS: nova
          ~ authenticity = authenticity + 1
@@ -257,6 +258,7 @@ There's no sense of anger in her voice. What's going on?
 ->NovaChat2
 
 ==NovaChat2==
+. # CLASS: practice
 *[ask about concept]
     "Nova, the director chose your concept, right?" # CLASS: cherie
     "Yes." # CLASS: nova
@@ -308,12 +310,14 @@ There's no sense of anger in her voice. What's going on?
         "Don't tell anyone, but I've always wanted to try being a trot singer..." # CLASS: nova
         ...!
         "Don't give me that look! Trot has a special place in my heart..." # CLASS: nova
+        # IMAGE: characters/novahappy.png
         She sounds angry, but she's smiling a little.
         Trot music...I'd never expect that from someone with her concept...
         ~authenticity = authenticity + 1
         ~novAffection = novAffection + 1
     **"What do you mean by ''make' is a stretch'?" # CLASS: cherie
         "Cherie..." # CLASS: nova
+        # IMAGE: characters/novahappy.png
         She's...laughing?
         "Altair would never trust us to make our own music. We perform what they give us...for better or for worse." # CLASS: nova
         "What do you mean?" # CLASS: cherie
@@ -335,6 +339,7 @@ I could <i>tell</i> her, but I can also show her...
 She...took my hand?
 Woah...I never realized the glowing light on my wrist had more functions...
 Wow!
+# IMAGE: characters/cherieneutral.png
 This isn't like holding wood and string-- my fingers are ghosting over light projections! # CLASS: innerThoughts
 It's unfamiliar...ALL of this is unfamiliar.
 But my hands...the way my fingers curl around the neck of this holographic guitar...
@@ -359,6 +364,7 @@ It's as natural as breathing.
 ==musicTalk==
 "I'm impressed. You never seemed to show interest in playing instruments. I didn't know you had it in you." # CLASS: nova
 *"Thank you." # CLASS: cherie
+# IMAGE: characters/cheriehappy.png
     To have a famous artist tell me that...man, that feels good.
     If only I could harness that to get more Soundcloud monthly listeners...
     Sigh.
@@ -369,12 +375,14 @@ It's as natural as breathing.
     But I do!
 
 *"Really?" # CLASS: cherie
+# IMAGE: characters/cherieshock.png
     "Of course. For most of your trainee period you seemed to only care about looks." # CLASS: nova
     ...right...
     I don't know who "Cherie" was before me...
     But I'm determined to change my fate!
 
 *"It's not all that impressive..." # CLASS: cherie
+# IMAGE: characters/cherieneutral.png
     I do ditties like this all the time back home...
     I could probably write something more complicated in my sleep.
     Still.
@@ -384,6 +392,7 @@ It's as natural as breathing.
     
 -"Thank you for playing that for me, Cherie." # CLASS: nova
 "It was...inspiring." # CLASS: nova
+# IMAGE: characters/novahappy.png
 Inspiring...?
 "I hope you don't lose your passion for music...that's the biggest tragedy for people like us, isn't it?" # CLASS: nova
 ...
