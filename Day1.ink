@@ -12,6 +12,7 @@ AAAACK!
 -> bathroom
 
 == bathroom ==
+. # CLASS: bathroom
 ... //cherie innerThoughts
 ...urgh.. my head is pounding... //cherie innerThoughts
 Did my computer explode? //cherie innerThoughts
@@ -19,12 +20,11 @@ Where am I... //cherie innerThoughts
 This...isn't my bathroom. How did I get here?
 
 *[Open the door]
-. # CLASS: novabathroom
     I should get out. Wait...why does this stall look...techy??
     This doorknob looks like it's straight out of a movie...
     "Hiding in the bathroom again, really?" //nova 
     "If you're going to slack off, do it AFTER your promotions are over!" //nova
-    This girl...she doesn't look familiar...
+    This girl...she doesn't look familiar... # IMAGE: characters/novamad.png
     **"Who are you?" //cherie
         "You dare disrespect your senior?"
         "First you skip rehearsals 3 days before your debut, and now you're just pretending to forget who I am?" 

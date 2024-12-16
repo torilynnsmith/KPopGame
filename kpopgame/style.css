@@ -350,13 +350,11 @@ body.dark {
     background-size: cover;
 }
 
-.novabathroom {
-    position:fixed;
-    background-image: url("images/bathroom.jpg"), url("characters/novamad.png");
-    background-size: cover, contain;
-    background-repeat: no-repeat, no-repeat;bottom:50px;
+.nova {
+    background-image: url("characters/novamad.png");
+    bottom:50px;
     right:90px;
     width:600px;
     height:500px;
-
+    background-size: cover;
 }
