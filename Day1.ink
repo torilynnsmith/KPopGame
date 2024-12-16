@@ -5,17 +5,21 @@ It's sparking???
 What's happening????
 AAAACK!
 *...
-
+-> isekaiclear2
 //hard transition to black?
+==isekaiclear2
 # CLEAR
+-> bathroom
 
+== bathroom ==
 ... //cherie innerThoughts
 ...urgh.. my head is pounding... //cherie innerThoughts
 Did my computer explode? //cherie innerThoughts
 Where am I... //cherie innerThoughts
-This...isn't my bathroom. How did I get here? //cherie innerThoughts
--
+This...isn't my bathroom. How did I get here?
+
 *[Open the door]
+. # CLASS: novabathroom
     I should get out. Wait...why does this stall look...techy??
     This doorknob looks like it's straight out of a movie...
     "Hiding in the bathroom again, really?" //nova 
@@ -29,9 +33,14 @@ This...isn't my bathroom. How did I get here? //cherie innerThoughts
     "Don't tell me you've forgotten, Cherie!" she cries. "Seriously, this girl! Your debut is 3 days away! Did you hit your head and suddenly forget everything?" //nova
 - "Come on. The staff are calling us back, let's go." //nova
 *[Follow her]
-->identity
+->bathroom2clear
+
+==bathroom2clear==
+# CLEAR 
+-> identity
 
 ==identity==
+. # CLASS: practice
 Staff? Debut? "O-Okay..." //cherie
 "I really shouldn't be covering for you, but I'll tell them that you were feeling dizzy. Don't make me regret helping you." //nova
 ->director
