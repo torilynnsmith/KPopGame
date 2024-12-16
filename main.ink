@@ -88,9 +88,10 @@ These idols... if only I had their luck...or their beauty...
 *[Maybe I can become someone big...]
 ->upload
 
+
 ==upload==
 Ugh! What am I thinking? I'd never be a slave to a corporation like that. It's complete creative freedom or bust. 
-. # CLASS: isekai
+
 *[Upload song]
 The wheel spins...and spins... and spins...
     "What the hell? Why's it...stuck?"
@@ -100,7 +101,11 @@ The wheel spins...and spins... and spins...
     **[Reboot computer]
         The computer...what??
         It froze...and went completely dark!
-    ->isekai
+    ->isekaiclear
+    
+    == isekaiclear ==
+# CLEAR 
+-> isekai
 
 
 

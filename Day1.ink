@@ -1,4 +1,5 @@
 ==isekai==
+. # CLASS: isekai
 What the hell is my computer doing...??
 It's sparking???
 What's happening????
