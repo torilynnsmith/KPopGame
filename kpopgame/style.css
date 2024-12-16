@@ -365,3 +365,14 @@ body.dark {
     height:500px;
     background-size: cover;
 }
+
+
+.practice {
+    position:fixed;
+    background-image: url("images/practice.jpg");
+    bottom:50px;
+    right:90px;
+    width:600px;
+    height:500px;
+    background-size: cover;
+}
