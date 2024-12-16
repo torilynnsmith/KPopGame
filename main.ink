@@ -38,7 +38,6 @@ I really hope it resonates with someone...
 
 *"uh...no." # CLASS: text
      <i>"i’m abt to upload a new song rn."</i> # CLASS: text
-    I see Ivy furiously typing in the chat. 
     <i>"you should check them out !!"</i> # CLASS: friend
     **<i>"no thanks."</i>  # CLASS: text
        <i>"not my kind of music."</i> # CLASS: text

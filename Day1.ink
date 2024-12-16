@@ -30,7 +30,7 @@ This...isn't my bathroom. How did I get here?
         "First you skip rehearsals 3 days before your debut, and now you're just pretending to forget who I am?" 
         "You should have been let go from this company a long time ago, Cherie. We don't have time for this." //nova
     **"What are you talking about?" //cherie
-    "Don't tell me you've forgotten, Cherie!" she cries. "Seriously, this girl! Your debut is 3 days away! Did you hit your head and suddenly forget everything?" //nova
+    "Don't tell me you've forgotten, Cherie! Seriously, this girl! Your debut is 3 days away! Did you hit your head and suddenly forget everything?" //nova
 - "Come on. The staff are calling us back, let's go." //nova
 *[Follow her]
 ->bathroom2clear

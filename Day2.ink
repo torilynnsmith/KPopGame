@@ -107,7 +107,7 @@ Maybe I should do a little digging...
  ==soloists==
 *[Nova]
     "Nova is a female soloist under Altair Entertainment. Her debut song 'Borealis' trended on the charts for 3 months after her debut."
-    
+    Incredible!
         ->soloists
 *[Verit4s]
     "Verit4s is a male soloist under Altair Entertainment. Along with his idol career, he produces music for film and TV."
@@ -134,7 +134,7 @@ I think I see it...a shiny bag sitting on a chair in front of the mirror.
     
 -I hope Nova doesn't see how awkward I feel in these...
 
-"Alright. Something something . The enhancement apparel will do a lot of heavy lifting, but you still need to memorize your moves. The apparel will be useless if you can't tell it what to do. Are you ready, Cherie?"
+"Alright. The enhancement apparel will do a lot of heavy lifting, but you still need to memorize your moves. The apparel will be useless if you can't tell it what to do. Are you ready, Cherie?"
 *"Yes."
     "Good. Let's start. You need to brush up on the choreography."
     ->danceMemory
@@ -310,6 +310,7 @@ I could <i>tell</i> her, but I can also show her...
 "Sure."
 "Do you know where I can get a guitar?"
 "A guitar? Here, let me show you."
+She...took my hand?
 Woah...I never realized the glowing light on my wrist had more functions...
 Wow!
 This isn't like holding wood and string-- my fingers are ghosting over light projections! # CLASS: innerThoughts

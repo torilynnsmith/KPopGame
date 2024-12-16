@@ -19,7 +19,7 @@ How annoying. I guess I have go get up now...
 # CLEAR
 I didn't realize how hectic everything is...
 Everyone's shuffling me this way and that!
-This stage is massive...
+This stage is massive...I feel nervous already.
 "Music...CUE!" //director
 Shit! My hands are sweating...
 Calm down, it's just a rehearsal...
@@ -200,10 +200,9 @@ I need to do something..
 ==novaChat2==
 # CLEAR
 "Cherie...you're up late." //nova
-It's Nova...what is she doing here? # CLASS: innerThoughts
+It's Nova...? # CLASS: innerThoughts
 *"What are you doing here?"
-    "I could ask you the same thing." //nova
-    "You should be resting. Tomorrow's a big day for you."
+    "I could ask you the same thing.You should be resting. Tomorrow's a big day for you."
     Ugh...right... # CLASS: innerThoughts
     "What's wrong? Stage fright?"
     Shit, she saw through me!
@@ -356,13 +355,13 @@ It's Nova...what is she doing here? # CLASS: innerThoughts
 ==split==
 
     Something seems different about her... # CLASS: innerThoughts
-    {compliance >=4: She has a determined look on her face...she almost looks angry at me.}
-    {compliance >=4:"I can tell you're not pulling any punches, Cherie. If you're determined to dethrone me, I won't let you do that so easily."}
+    {compliance >=5: She has a determined look on her face...she almost looks angry at me.}
+    {compliance >=5:"I can tell you're not pulling any punches, Cherie. If you're determined to dethrone me, I won't let you do that so easily."}
     ~ rivalBool = true
    
-    {authenticity >=3: She has a determined look on her face...but she's smiling.}
-    {authenticity >=3:"I wanted to get some practice in. Seeing you work hard made me want to work hard, too."}
-    {authenticity >=3: ...but she's already a famous soloist...what is she talking about?}
+    {authenticity >=4: She has a determined look on her face...but she's smiling.}
+    {authenticity >=4:"I wanted to get some practice in. Seeing you work hard made me want to work hard, too."}
+    {authenticity >=4: ...but she's already a famous soloist...what is she talking about?}
     ~ affectionBool = true
     
 *"What do you mean?"
