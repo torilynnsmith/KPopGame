@@ -339,3 +339,23 @@ body.dark {
     height:500px;
     background-size: cover;
 }
+
+.bathroom {
+    position:fixed;
+    background-image: url("images/bathroom.jpg");
+    bottom:50px;
+    right:90px;
+    width:600px;
+    height:500px;
+}
+
+.novabthroom {
+position:fixed;
+    background-image: url("images/isekai.jpg"), url("novamad.png");
+    bottom:50px;
+    right:90px;
+    width:600px;
+    height:500px;
+    background-repeat: no-repeat;
+
+}
