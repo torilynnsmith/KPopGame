@@ -1,6 +1,6 @@
 ==Day2Start==
 # CLEAR
-...
+... # CLASS: bedroom
 ...
 ...it's so early...
 ...I don't remember setting an alarm...?
@@ -119,6 +119,7 @@ Maybe I should do a little digging...
 
 ==danceTraining==
 # CLEAR
+. # CLASS: practice
 "You're here." # CLASS: nova
 Why does she look so surprised...? # CLASS: innerThoughts
 "That's good. It's time to warm up now. Oh, and your enhancement apparel came in." # CLASS: nova
@@ -151,11 +152,23 @@ I think I see it...a shiny bag sitting on a chair in front of the mirror.
 "Okay, Cherie. You do it this time." # CLASS: nova
 ...okay, how did that go again?
 
+"Let's rehearse. You ready?" # CLASS: nova
+* "Let's go!" # CLASS: cherie
+-> danceclear
+
+* "Could we go over that again?" # CLASS: cherie
+
+-> danceclear
+    
+
+==danceclear ==
 # CLEAR
+-> danceMemory1
 
 ->danceMemory1
 
 ==danceMemory1==
+. # CLASS: pratice
 +[hands, hips, feet]
     "No, try again." # CLASS: nova
     ->danceMemory1
