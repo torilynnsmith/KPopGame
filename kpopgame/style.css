@@ -283,7 +283,7 @@ body.dark {
 }
 
 .dark a:hover {
-    color: white;
+    color: skyblue;
 }
 
 @media screen and (prefers-reduced-motion: no-preference) {
@@ -329,4 +329,14 @@ body.dark {
     width:600px;
     height:500px;
 
+}
+
+.isekai {
+    position:fixed;
+    background-image: url("images/isekai.jpg");
+    bottom:50px;
+    right:90px;
+    width:600px;
+    height:500px;
+    background-size: cover;
 }

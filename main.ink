@@ -40,7 +40,7 @@ I really hope it resonates with someone...
      <i>"i’m abt to upload a new song rn."</i> # CLASS: text
     I see Ivy furiously typing in the chat. 
     <i>"you should check them out !!"</i> # CLASS: friend
-    **<i>"no thanks."</i> # CLASS: friend
+    **<i>"no thanks."</i>  # CLASS: text
        <i>"not my kind of music."</i> # CLASS: text
         "ok i know you have some sorta hate boner against kpop but you gotta admit... the songs are catchy (/0-0)/" # CLASS: friend
         ***"it's all poison" # CLASS: text
@@ -75,9 +75,9 @@ The video's thumbnail looks...plastic. Completely manufactured.
 *["i'm sure they do, but..."] # CLASS: text
     "i'm sure they do, but you gotta admit their vocals sound corporate." # CLASS: text
     "and you can always fix bad vocals with autotune...so how hard are they working, really? do they even write their own music??" # CLASS: text
-    "sometimes!"
+    "sometimes!"# CLASS: friend
 -"...anyways, i'm uploading a new song. go listen when you have the chance." # CLASS: text
-"ugh, fine! i'll listen later, i have to go." 
+"ugh, fine! i'll listen later, i have to go." # CLASS: friend
 ...She's gone.
 Time to finish uploading that song...
 My monthly listeners number barely squeaks above 15...
@@ -90,6 +90,7 @@ These idols... if only I had their luck...or their beauty...
 
 ==upload==
 Ugh! What am I thinking? I'd never be a slave to a corporation like that. It's complete creative freedom or bust. 
+. # CLASS: isekai
 *[Upload song]
 The wheel spins...and spins... and spins...
     "What the hell? Why's it...stuck?"
