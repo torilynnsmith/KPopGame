@@ -168,7 +168,7 @@ I think I see it...a shiny bag sitting on a chair in front of the mirror.
 ->danceMemory1
 
 ==danceMemory1==
-. # CLASS: pratice
+. # CLASS: practice
 +[hands, hips, feet]
     "No, try again." # CLASS: nova
     ->danceMemory1
