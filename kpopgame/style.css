@@ -354,7 +354,8 @@ body.dark {
     position:fixed;
     background-image: url("images/bathroom.jpg"), url("characters/novamad.png");
     background-size: cover, contain;
-    background-repeat: no-repeat, no-repeat;bottom:50px;
+    background-repeat: no-repeat, no-repeat;
+    bottom:50px;
     right:90px;
     width:600px;
     height:500px;
