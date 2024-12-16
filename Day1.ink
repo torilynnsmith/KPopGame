@@ -3,9 +3,9 @@ What the hell is my computer doing...??
 It's sparking???
 What's happening????
 AAAACK!
+*...
 
 //hard transition to black?
-
 # CLEAR
 
 ... //cherie innerThoughts
@@ -13,6 +13,7 @@ AAAACK!
 Did my computer explode? //cherie innerThoughts
 Where am I... //cherie innerThoughts
 This...isn't my bathroom. How did I get here? //cherie innerThoughts
+-
 *[Open the door]
     I should get out. Wait...why does this stall look...techy??
     This doorknob looks like it's straight out of a movie...
