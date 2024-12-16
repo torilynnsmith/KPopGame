@@ -9,7 +9,7 @@ VAR compliance = 0
 VAR authenticity = 0
 VAR novAffection = 0
 
-# CLASS: deskimg
+. # CLASS: deskimg
 
 ...ugh...how long have I been sitting here?
 The sun's gone down...?

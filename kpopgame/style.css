@@ -310,11 +310,6 @@ body.dark {
 
 /*INK TAGGED CUSTOM CLASSES*/
 
-.testClass
-{
-    color: #FB1AEA;
-    font-style: italic;
-}
 
 .text {
     color: blue;
@@ -326,6 +321,7 @@ body.dark {
 }
 
 
-.pc {
+.deskimg {
     background-image: url("images/desk.jpeg");
+    background-size: 50%;
 }
