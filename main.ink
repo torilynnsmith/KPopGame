@@ -8,9 +8,8 @@ INCLUDE AffectionEnding.ink
 VAR compliance = 0
 VAR authenticity = 0
 VAR novAffection = 0
-THIS IS A TEST # CLASS : testClass
 
-YIPEEEE # CLASS: pc
+# CLASS: deskimg
 
 ...ugh...how long have I been sitting here?
 The sun's gone down...?
