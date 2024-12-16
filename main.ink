@@ -46,38 +46,38 @@ I really hope it resonates with someone...
         ***"it's all poison" # CLASS: text
             "there’s no such thing as artistry there. it’s like junk food." # CLASS: text
            "lol have you ever actually listened to any" #CLASS: friend
-        ***["are they really, though?"]
-            "are they really, though? the songs sound kind of similar...a little uninspired."
--"and besides...not everyone is a hard-ass music purist like you!" //ivy
+        ***["are they really, though?"] # CLASS: text
+            "are they really, though? the songs sound kind of similar...a little uninspired." # CLASS: text
+-"and besides...not everyone is a hard-ass music purist like you!" # CLASS: friend
 ->music_purist
 
 ==music_purist==
-*"who are you calling a music purist????"
-    "you laughed at me bc i didn't know what a diet tonic scale was." //ivy
+*"who are you calling a music purist????" # CLASS: text
+    "you laughed at me bc i didn't know what a diet tonic scale was." # CLASS: friend
     Heh...she's still wrong.
-        **["diatonic."]
-            <i>"do you mean 'diatonic' scale?"</i>
-            <i>"SEE WHAT I FUCKING MEAN??? ahem. anyways..."</i>
--<i>"look at this group that's blowing up right now!! They're only two years into their career but they're so good!"</i>
+        **["diatonic."] # CLASS: text
+            <i>"do you mean 'diatonic' scale?"</i> # CLASS: text
+            <i>"SEE WHAT I FUCKING MEAN??? ahem. anyways..."</i> # CLASS: friend
+-<i>"look at this group that's blowing up right now!! They're only two years into their career but they're so good!"</i> # CLASS: friend
 ->hardwork
 
 ==hardwork==
 The video's thumbnail looks...plastic. Completely manufactured. 
-"they're hot i guess...but is that all there is to them?" # CLASS: cherieText
-"idk...is this really necessary?" # CLASS: ivyText
-"wdym?" # CLASS: cherieText
-"i'm just saying...they work hard to be where they're at." # CLASS: ivyText
-*["work hard?"] # CLASS: cherieText
-    "yes they work hard!! wtf!! they train for years and years, they give up their childhoods, they go on diets and have to work under terrible conditions to learn how to perform!!!" # CLASS: ivyText
-    "kpop is a fucking factory...they pluck the prettiest faces and force them into greatness. looks are more important than actual talent."
-    "...respectfully, get off of Twitter." //ivy
-    "I'm not on twitter." //cherie
-*["i'm sure they do, but..."]
-    "i'm sure they do, but you gotta admit their vocals sound corporate."
-    "and you can always fix bad vocals with autotune...so how hard are they working, really? do they even write their own music??"
+"they're hot i guess...but is that all there is to them?" # CLASS: text
+"idk...is this really necessary?" # CLASS: friend
+"wdym?" # CLASS: text
+"i'm just saying...they work hard to be where they're at." # CLASS: friend
+*["work hard?"] # CLASS: text
+    "yes they work hard!! wtf!! they train for years and years, they give up their childhoods, they go on diets and have to work under terrible conditions to learn how to perform!!!" # CLASS: friend
+    "kpop is a fucking factory...they pluck the prettiest faces and force them into greatness. looks are more important than actual talent." # CLASS: text
+    "...respectfully, get off of Twitter." # CLASS: friend
+    "I'm not on twitter." # CLASS: text
+*["i'm sure they do, but..."] # CLASS: text
+    "i'm sure they do, but you gotta admit their vocals sound corporate." # CLASS: text
+    "and you can always fix bad vocals with autotune...so how hard are they working, really? do they even write their own music??" # CLASS: text
     "sometimes!"
--"...anyways, i'm uploading a new song. go listen when you have the chance."
-"ugh, fine! i'll listen later, i have to go."
+-"...anyways, i'm uploading a new song. go listen when you have the chance." # CLASS: text
+"ugh, fine! i'll listen later, i have to go." 
 ...She's gone.
 Time to finish uploading that song...
 My monthly listeners number barely squeaks above 15...
