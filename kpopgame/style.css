@@ -324,8 +324,11 @@ body.dark {
 
 }
 
-.friendText {
-    background-image: url("images/textgray.png");
+.friend {
+    background-image: url("images/friendtext.png");
+    height:50%;
+    width:100%;
+    color:red;
 }
 
 
