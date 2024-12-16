@@ -66,7 +66,6 @@ Nova...I guess that's her name. It seems fitting for her. //cherie innerThoughts
     ...
     That’s sickening.
     Cute? Bubbly? That’s…so…not my style…
-   "You want to listen to your debut song again?" //nova
    ->debutFolder
    
 *[Debut Choreography]
