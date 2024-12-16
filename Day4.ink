@@ -1,5 +1,6 @@
 ==Day4Start==
 # CLEAR
+. # CLASS: bedroom
 ...!
 ...I can't believe I woke up before my alarm...
 ...
@@ -14,32 +15,34 @@ I'm too jittery to try and defy his word...
         ->backstage
 
 ==backstage==
+# CLEAR
+. # CLASS: stage
 Waiting in the wings is so terrifying...but kind of exhilirating too...
 At this point, I've done all I can...
 ...
-"Cherie."
+"Cherie." # CLASS: nova
 ...Nova?
 
-{affectionBool: "Good luck out there, okay? You've got this."}
+{affectionBool: "Good luck out there, okay? You've got this."} # CLASS: nova
 {affectionBool: Seeing her here to give me encouragement...}
 {affectionBool: ...I suddenly feel a lot better.}
-{affectionBool: "Thanks, Nova."}
+{affectionBool: "Thanks, Nova."} # CLASS: cherie
 
-{rivalBool: "Break a leg out there."}
-{rivalBool: "Altair Entertainment is only made of the best of the best."}
-{rivalBool: "You've got a lot of people watching. Give them a good first impression."}
+{rivalBool: "Break a leg out there."} # CLASS: nova
+{rivalBool: "Altair Entertainment is only made of the best of the best."} # CLASS: nova
+{rivalBool: "You've got a lot of people watching. Give them a good first impression."} # CLASS: nova
 {rivalBool: Her tone is sharp, but there's a gleam in her eyes...}
-{rivalBool: "I will."}
+{rivalBool: "I will."} # CLASS: cherie
 
 I can hear the crowd roaring...
-"It's showtime, Cherie...!"
+"It's showtime, Cherie...!" # CLASS: director
 It's a blur...
 Rushing onto stage...
 Taking my place...
 The tick tick tick of the metronome in my earpiece.. 
 It's echoing in my ears like a heartbeat.
 
-"Positions! Positions!"
+"Positions! Positions!" # CLASS: director
 
 //this section below is the in-ear monitor audio
 
@@ -47,6 +50,14 @@ It's echoing in my ears like a heartbeat.
 "Track: 'Cherie Love.'"
 "Artist: In Position."
 "Intro, 2, 3, 4..."
+
+
+* It's showtime.
+
+
+-> backstageclear
+
+== backstageclear ==
 
 # CLEAR
 ->debutStageDance
@@ -67,15 +78,16 @@ It's echoing in my ears like a heartbeat.
 
 ==debutStageSing==
 Time to sing my heart out!
+# IMAGE: characters/cheriestage.png 
 
 *[Sing]
 //these are song lyrics
-    "You just need a love like me, a love so sweet!"
-    "So sweet, a dream, I'm your love, Cherie!"
-    "Cherie Love, Cherie Love..."
-    "Cherish me, I'm your only one!"
-    "Cherie Love, Cherie Love..."
-    "Hey! Open your heart, stop acting so tough!"
+    "You just need a love like me, a love so sweet!" # CLASS: cherie
+    "So sweet, a dream, I'm your love, Cherie!" # CLASS: cherie
+    "Cherie Love, Cherie Love..." # CLASS: cherie
+    "Cherish me, I'm your only one!" # CLASS: cherie
+    "Cherie Love, Cherie Love..." # CLASS: cherie
+    "Hey! Open your heart, stop acting so tough!" # CLASS: cherie
 //these are not song lyrics
     My mind...it's so clear...
     The stage lights are so bright, I can barely see what's in front of me..
@@ -84,11 +96,12 @@ Time to sing my heart out!
     It's...amazing!
     Oh...the end of the song is coming...
     Time to close it out with a bang!
-        **"Cherie Love, Cherie Love...Hey! Open your heart, you're my only one!"
+        **["Cherie Love..."] "Cherie Love, Cherie Love...Hey! Open your heart, you're my only one!" # CLASS: cherie
             ->finishStage
 
 ==finishStage==
 # CLEAR
+. # CLASS: stage
 ...
 ...
 ...I did it...!
@@ -123,22 +136,21 @@ I can't believe it...!
 "Cherie! Congratulations on your first win! Do you have any words for the audience?"
 Shit, I didn't think I'd need to give a speech!!! I wasn't expecting to win in the first place! 
 *["I'd like to thank Altair Entertainment..."]
-    "I'd like to thank Altair Entertainment...the staff have all been so nice...thank you for your hard work!"
+    "I'd like to thank Altair Entertainment...the staff have all been so nice...thank you for your hard work!" # CLASS: cherie
     ~ compliance = compliance + 1
 *["Thank you to the fans for supporting me..."]
-    "Thank you so much for my fans for supporting me..."
-    "I know I'm new...so I appreciate you putting faith in me."
+    "Thank you so much for my fans for supporting me..." # CLASS: cherie
+    "I know I'm new...so I appreciate you putting faith in me." # CLASS: cherie
 
 
 *["I'd like to thank Nova..."]
-    "I'd like to thank Nova, for being such a wonderful senior idol..."
-    "I wouldn't have put on a performance like this without her help..."
-    "So thank you, Nova. And thank you to everyone who listened to me!"
+    "I'd like to thank Nova, for being such a wonderful senior idol..." # CLASS: cherie
+    "I wouldn't have put on a performance like this without her help..." # CLASS: cherie
+    "So thank you, Nova. And thank you to everyone who listened to me!" # CLASS: cherie
     ~ authenticity = authenticity + 1
     ~ novAffection = novAffection + 1
 -...
 *I can't believe it...
-# CLEAR
 -My debut stage is done...
 I can't believe that just happened...
 That was such a blur...
