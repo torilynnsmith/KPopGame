@@ -121,6 +121,7 @@ Maybe I should do a little digging...
 # CLEAR
 . # CLASS: practice
 "You're here." # CLASS: nova
+# IMAGE: characters/novahappy.png
 Why does she look so surprised...? # CLASS: innerThoughts
 "That's good. It's time to warm up now. Oh, and your enhancement apparel came in." # CLASS: nova
 I think I see it...a shiny bag sitting on a chair in front of the mirror.
@@ -132,6 +133,7 @@ I think I see it...a shiny bag sitting on a chair in front of the mirror.
     **[Change]
     The clothing seems to be made up of gleaming threads. I wonder what they're made of...
     Eek! It's cold to the touch!
+    # IMAGE: characters/cherieshock.png
     
 -I hope Nova doesn't see how awkward I feel in these...
 
@@ -171,16 +173,20 @@ I think I see it...a shiny bag sitting on a chair in front of the mirror.
 . # CLASS: practice
 +[hands, hips, feet]
     "No, try again." # CLASS: nova
+    # IMAGE: characters/cheriesad.png
     ->danceMemory1
 +[feet, hands, hips]
     "Not quite. Try again." # CLASS: nova
+    # IMAGE: characters/cheriesad.png
     ->danceMemory1
 +[hands, feet, hips]
     "Good! You got it." # CLASS: nova
+    # IMAGE: characters/cheriehappy.png
 
 -We drill the dance over and over...
 Eek! Nova's giving me a strange look...have I been messing up too much?
 "Let's do a water break. I'll meet you back here in a little." # CLASS: nova
+# IMAGE: characters/novaneutral.png
 I'm so relieved to hear her say that...even with the clothes that make me a dance goddess, my body still feels the burn... # CLASS: innerThoughts
 Urgh...water sounds nice. How the hell do people do this???
 I guess Ivy was right..
@@ -199,11 +205,13 @@ Phew...
     
 *["I'm still having trouble..."]
     "I'm still having trouble...sorry." # CLASS: cherie
+    # IMAGE: characters/cherieshock.png
     "It's to be expected. You got casted because of your singing skills, not your dancing." # CLASS: nova
     That checks out, I guess.
     "I still have a long way to go..." # CLASS: cherie
     
 -"I'm glad you're being honest." # CLASS: nova
+# IMAGE: characters/novahappy.png
 There's no sense of anger in her voice. What's going on?
 
 "I'm a little surprised, though, Cherie. I thought you didn't really care about what your debut song sounded like. It seems like you're not a fan of it now." # CLASS: nova
@@ -236,6 +244,7 @@ There's no sense of anger in her voice. What's going on?
     Is she telling me that I-- # CLASS: innerThoughts
     "Don't get me wrong, Cherie. You're nowhere near there." # CLASS: nova
     ...oh... //cherie innerThoughts
+    # IMAGE: characters/cheriemad.png
     "During your past rehearsals, you performed so...soullsessly. You were hitting the moves but there was no passion behind it. But today...I could tell there was something fueling you." # CLASS: nova
     **"Something...fueling me...?" # CLASS: cherie
         Nova's looking at me intently...why does this feel like an interrogation? # CLASS: innerThoughts
