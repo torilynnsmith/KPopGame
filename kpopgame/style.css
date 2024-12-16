@@ -320,6 +320,18 @@ body.dark {
     color: darkgreen;
 }
 
+.cherie{
+    color:deeppink;
+}
+
+.nova{
+    color: forestgreen;
+}
+
+.director{
+    color: darkkhaki;
+}
+
 .deskimg {
     position:fixed;
     background-image: url("images/desk.jpeg");
