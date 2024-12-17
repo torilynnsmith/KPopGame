@@ -202,7 +202,7 @@ I need to do something..
             And maybe it's just my imagination...but as soon as that happened...
             The lights in the practice room started to dim... huh.
             That's weird...
-                -> novaChatclear
+                *** ...-> novaChatclear
     
 ==novaChatclear==
 # CLEAR
